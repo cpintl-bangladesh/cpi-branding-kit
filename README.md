@@ -52,33 +52,41 @@ Community Partners International — Bangladesh Mission
 ```
 CPI_BRANDING_KIT/
 │
-├── SKILL.md                              ← Master skill reference
-├── AI_AGENT_QUICKSTART.md                ← AI agent routing guide
-├── README.md                             ← This file
+├── SKILL.md                              ← Master reference (START HERE)
+├── AI_AGENT_QUICKSTART.md                ← This file
 │
 ├── core/
-│   ├── brand-colors.json                 ← Complete color system (hex/RGB/CMYK/Pantone)
-│   ├── typography.md                     ← Raleway + Arial font system
-│   └── logo-rules.md                     ← Logo variations, placement, misuse rules
+│   ├── brand-colors.json                 ← ALL color values (hex/RGB/CMYK)
+│   ├── typography.md                     ← Fonts, sizes, weights
+│   └── logo-rules.md                     ← Logo usage, placement, misuse
 │
 ├── guidelines/
-│   ├── tone-of-voice.md                  ← Official copy, messaging, language standards
-│   ├── design-elements.md                ← Shapes, overlays, watermarks, photography
+│   ├── tone-of-voice.md                  ← Language, messaging, copy standards
+│   ├── design-elements.md                ← Shapes, overlays, watermarks, photos
 │   └── stationery-specs.md               ← Name card, letterhead, envelopes, folder
 │
 ├── templates/
-│   ├── document-template-guide.md        ← Word/PDF/Google Docs structure
-│   ├── presentation-template-guide.md    ← PowerPoint/Google Slides templates
+│   ├── document-template-guide.md        ← Word/PDF/Google Docs
+│   ├── presentation-template-guide.md    ← PowerPoint/Google Slides
 │   ├── social-media-guide.md             ← Social posts, email newsletters
-│   └── report-template-guide.md         ← Monthly, quarterly, annual, SitRep reports
+│   └── report-template-guide.md         ← Program/donor/field reports
 │
 ├── assets/
-│   ├── copy-blocks.md                    ← Ready-to-use approved text blocks
-│   └── icon-descriptions.md             ← Icon system and usage guide
+│   ├── copy-blocks.md                    ← Ready-to-use text and copy
+│   ├── icon-descriptions.md             ← Icon system and usage
+│   ├── CPI_LOGO_CIRCLE.png
+│   ├── CPI_logo_h_r_CMYK__negative black_transparent.ai
+│   ├── CPI_logo_h_RGB.png
+│   ├── CPI_logo_white.svg
+│   ├── How_to_use_YPSA-Logo.md
+│   ├── YPSA-LOGO.ai
+│   ├── YPSA-LOGO-JPG.jpg
+│   ├── YPSA-LOGO-PNG.png
+│   └── YPSA_logo_white.svg
 │
 └── bangladesh_mission/
-    ├── bangladesh-context.md             ← Programs, population data, field context
-    └── key-contacts.md                   ← Bangladesh mission contacts directory
+    ├── bangladesh-context.md             ← Programs, context, data, messaging
+    └── key-contacts.md                   ← Directory and contacts
 ```
 
 ---

@@ -77,6 +77,15 @@ When asked to create ANY design, document, presentation, poster, report, social 
 | `templates/report-template-guide.md` | Donor/program report templates |
 | `assets/copy-blocks.md` | Ready-to-use organizational copy blocks |
 | `assets/icon-descriptions.md` | Icon usage descriptions |
+| `assets/CPI_LOGO_CIRCLE.png` | CPI Logo |
+| `assets/CPI_logo_h_r_CMYK__negative black_transparent.ai` | CPI Logo |
+| `assets/CPI_logo_h_RGB.png` | CPI Logo |
+| `assets/CPI_logo_white.svg` | CPI Logo |
+| `assets/How_to_use_YPSA-Logo.md` | How to use partner (YPSA) Logo |
+| `assets/YPSA-LOGO.ai` | Partner (YPSA) Logo |
+| `assets/YPSA-LOGO-JPG.jpg` | Partner (YPSA) Logo |
+| `assets/YPSA-LOGO-PNG.png` | Partner (YPSA) Logo |
+| `assets/YPSA_logo_white.svg` | Partner (YPSA) Logo |
 
 ---
 

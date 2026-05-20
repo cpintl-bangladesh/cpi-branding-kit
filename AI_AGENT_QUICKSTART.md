@@ -176,11 +176,20 @@ CPI_BRANDING_KIT/
 │
 ├── assets/
 │   ├── copy-blocks.md                    ← Ready-to-use text and copy
-│   └── icon-descriptions.md             ← Icon system and usage
+│   ├── icon-descriptions.md             ← Icon system and usage
+│   ├── CPI_LOGO_CIRCLE.png
+│   ├── CPI_logo_h_r_CMYK__negative black_transparent.ai
+│   ├── CPI_logo_h_RGB.png
+│   ├── CPI_logo_white.svg
+│   ├── How_to_use_YPSA-Logo.md
+│   ├── YPSA-LOGO.ai
+│   ├── YPSA-LOGO-JPG.jpg
+│   ├── YPSA-LOGO-PNG.png
+│   └── YPSA_logo_white.svg
 │
 └── bangladesh_mission/
     ├── bangladesh-context.md             ← Programs, context, data, messaging
-    └── key-contacts.md                   ← Directory and contacts
+    └── key-contacts.md                   ← Directory and contact
 ```
 
 ---
