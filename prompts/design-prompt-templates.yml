@@ -1,0 +1,174 @@
+prompt_templates:
+  category: Design & Visual Materials
+  version: "1.0.0"
+  purpose: >
+    Ready-to-use AI prompt templates for generating CPI-branded design outputs.
+    Copy, fill in the [BRACKETS], and submit to Claude or any AI tool.
+  maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
+
+templates:
+
+  - id: DESIGN-01
+    name: Report Cover Design
+    use_case: Create a Word/PDF/Canva report cover
+    prompt: |
+      Create a report cover page design for Community Partners International (CPI) Bangladesh Mission.
+
+      Report details:
+      - Report title: [TITLE]
+      - Program: [PROGRAM NAME — e.g., Health Outreach Programme]
+      - Reporting period: [MONTH/QUARTER, YEAR]
+      - Prepared by: Mohammad Ariful Islam, Health Program Manager
+      - Date: [DATE]
+
+      Brand requirements (from CPI Branding Kit):
+      - Primary colors: CPI Red (#D91E4D) and CPI Purple (#41273B)
+      - Font: Arial Bold for titles, Arial Regular for details
+      - CPI logo top-left (use full-color version on white; white-reversed on colored backgrounds)
+      - Tagline: "Empower communities. Transform lives."
+      - Footer: Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh | Tel: +880 15 3420 6479 | healthbgd@cpintl.org | www.cpintl.org
+
+      Layout preference: [e.g., "full-bleed CPI Purple background" OR "white background with CPI Red header band" OR "photo background with overlay"]
+
+      Generate the cover page as [HTML/markdown layout description/Word formatting instructions].
+
+  - id: DESIGN-02
+    name: PowerPoint Slide Deck
+    use_case: Create a CPI-branded presentation
+    prompt: |
+      Create a CPI-branded PowerPoint presentation for Community Partners International Bangladesh Mission.
+
+      Presentation details:
+      - Title: [PRESENTATION TITLE]
+      - Audience: [e.g., donor, health sector coordination, internal team]
+      - Number of slides: [APPROXIMATE]
+      - Content outline: [PROVIDE OUTLINE OR BULLET POINTS]
+      - Presenter: Mohammad Ariful Islam, Health Program Manager, CPI Bangladesh
+
+      Brand requirements (from CPI Branding Kit):
+      - Slide dimensions: 1920 × 1080 px (16:9)
+      - Header bar on content slides: CPI Red (#D91E4D), full-width, 1.5cm, white slide title inside
+      - Cover: CPI Purple (#41273B) background OR full-bleed photo with CPI Red bottom band
+      - Font: Arial Bold for titles, Arial Regular for body (min 16pt for body text)
+      - Charts: use CPI color sequence [#D91E4D, #41273B, #4298B5, #615E9B, #948794]
+      - Footer: thin CPI Purple bar, CPI logo left, www.cpintl.org right
+      - CPI logo: white reversed version on all colored slides
+
+      Output format: Slide-by-slide layout description with exact text, colors, and design notes.
+
+  - id: DESIGN-03
+    name: Social Media Post
+    use_case: Generate a social media graphic and caption
+    prompt: |
+      Create a social media post for Community Partners International (CPI) Bangladesh Mission.
+
+      Post details:
+      - Platform: [Facebook / LinkedIn / WhatsApp]
+      - Theme/message: [e.g., HCV program milestone / CHW recognition / program update]
+      - Key stat or headline: [e.g., "1,200 refugees screened for HCV in Q1 2026"]
+      - Supporting information: [2–3 sentences of context]
+
+      Brand requirements:
+      - Size: 1080×1080 px (square) OR 1200×630 px (landscape)
+      - Colors: CPI Red (#D91E4D) primary, CPI Purple (#41273B) secondary
+      - Font: Raleway Bold for headline, Raleway Regular for body
+      - CPI logo (white reversed) visible on any colored background
+      - Tagline: "Empower communities. Transform lives."
+      - Website: www.cpintl.org
+      - Tone: empowering, not pitying; dignity of communities emphasized
+
+      Generate:
+      1. Design layout description (background, text placement, colors)
+      2. Caption text (brand-aligned, 150–250 words)
+      3. Hashtags (from approved CPI hashtag library)
+
+  - id: DESIGN-04
+    name: Infographic / Data Visualization
+    use_case: Create program data infographic
+    prompt: |
+      Create a program data infographic for Community Partners International (CPI) Bangladesh Mission.
+
+      Data to visualize:
+      - Program: [PROGRAM NAME]
+      - Reporting period: [PERIOD]
+      - Key indicators: [LIST YOUR NUMBERS — e.g., "Screened: 1,200 | Enrolled: 980 | SVR: 850"]
+      - Chart types needed: [e.g., cascade chart for HCV, bar chart for HOP visits]
+
+      Brand requirements:
+      - Format: [A4 landscape / 1080×1080px social / slide (1920×1080)]
+      - Color palette (in order): #D91E4D, #41273B, #4298B5, #615E9B, #948794
+      - Font: Raleway (designed) or Arial (office)
+      - CPI logo and "CPI Bangladesh" label included
+      - Source note: "Source: CPI Bangladesh Health Programs, [Period]"
+      - No 3D charts — flat/2D only
+      - All chart text: Arial Regular 10pt or larger
+
+      Generate the infographic as [HTML / SVG / React component / design instructions].
+
+  - id: DESIGN-05
+    name: Email Signature
+    use_case: Generate a CPI-compliant email signature
+    prompt: |
+      Create a professional email signature for CPI Bangladesh Mission staff.
+
+      Staff details:
+      - Name: [FULL NAME]
+      - Title: [JOB TITLE]
+      - Program/Unit: [e.g., Health Outreach Programme | CPI Bangladesh]
+      - Mobile: +880 [NUMBER]
+      - Email: [name]@cpintl.org
+
+      Brand requirements:
+      - Font: Arial (email system font)
+      - Name: Arial Bold, CPI Purple (#41273B)
+      - Title/details: Arial Regular, CPI Black (#2D2926), 10–11pt
+      - Tagline: "Empower communities. Transform lives." in CPI Red (#D91E4D) or CPI Purple, italics
+      - CPI logo: PNG, max 120px wide, linked to www.cpintl.org
+      - Office address: Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh | +880 15 3420 6479
+
+      Output: HTML email signature code + plain text fallback version.
+
+  - id: DESIGN-06
+    name: Name Card / Business Card
+    use_case: Generate name card layout
+    prompt: |
+      Generate a name card layout for CPI Bangladesh Mission.
+
+      Card holder details:
+      - Name: [FULL NAME]
+      - Title: [JOB TITLE]
+      - Mobile: +880 [NUMBER]
+      - Email: [name]@cpintl.org
+
+      Brand specifications:
+      - Size: W 90 × H 55 mm (standard business card)
+      - Resolution: 300 DPI for print
+      - FRONT: CPI logo top-left, tagline bottom-left, watermark bottom-right (CPI butterfly mark, grey 46% opacity)
+      - BACK: Name (Raleway Bold, 8pt, CPI Purple), Title (Raleway Regular, 6pt), divider line (CPI Red), contact details (Raleway Regular + Semi-Bold, 6pt), CPI Bangladesh address block, CPI logo bottom-right
+      - Colors: CPI Red (#D91E4D), CPI Purple (#41273B), White background
+
+      Output: HTML/CSS layout OR detailed design specification for Canva/InDesign.
+
+  - id: DESIGN-07
+    name: Program Poster / Banner
+    use_case: Field poster, awareness banner, campaign material
+    prompt: |
+      Create a program awareness poster for CPI Bangladesh Mission.
+
+      Poster details:
+      - Purpose: [e.g., HCV screening campaign / MDA campaign / hygiene promotion]
+      - Target audience: [e.g., Rohingya community, CHWs, health sector partners]
+      - Key message: [MAIN MESSAGE IN ONE SENTENCE]
+      - Language(s): [English / Rohingya / Bengali]
+      - Size/format: [A3 print / A4 / banner 2m×1m / social media]
+      - Key visual: [Describe image concept — or note "use abstract CPI design elements"]
+
+      Brand requirements:
+      - Colors: CPI Red (#D91E4D) dominant, CPI Purple (#41273B) supporting
+      - Font: Raleway (or Arial if digital)
+      - CPI logo: mandatory, top-left or bottom-right
+      - Tagline optional (if space allows)
+      - Key shape: use CPI key design shapes (rounded rectangle overlays)
+      - Photography: if used, must show dignity and empowerment (no passive victim imagery)
+
+      Generate: Full design layout description + all copy + color placement.
