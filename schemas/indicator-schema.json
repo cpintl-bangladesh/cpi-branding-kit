@@ -1,0 +1,102 @@
+{
+  "schema_name": "CPI Bangladesh Indicator Data Schema",
+  "version": "2.0.0",
+  "organization": "Community Partners International — Bangladesh Mission",
+  "maintained_by": "Mohammad Ariful Islam (ariful@cpintl.org)",
+  "last_updated": "2026-05-30",
+  "purpose": "Standard data structure for all program indicator reporting",
+
+  "indicator_record": {
+    "metadata": {
+      "indicator_id": "string (e.g., HCV-01)",
+      "indicator_name": "string",
+      "program": "string (e.g., HCV, NCD, HOP, HP, WASH)",
+      "reporting_period": {
+        "year": "integer (e.g., 2026)",
+        "month": "integer (1–12)",
+        "quarter": "string (e.g., Q1)",
+        "period_label": "string (e.g., April 2026)"
+      },
+      "geographic_scope": {
+        "district": "Cox's Bazar",
+        "camps": ["array of camp names"],
+        "blocks": ["array of block names"]
+      },
+      "data_source": "string (e.g., DHIS2, KoboToolbox, registers)",
+      "reported_by": "string (e.g., Mohammad Ariful Islam, HPM)",
+      "report_date": "date (YYYY-MM-DD)"
+    },
+
+    "performance": {
+      "annual_target": "number",
+      "quarterly_target": "number",
+      "monthly_target": "number",
+      "achieved_this_month": "number",
+      "achieved_cumulative": "number",
+      "percent_of_monthly_target": "number (achieved_this_month / monthly_target * 100)",
+      "percent_of_annual_target": "number (achieved_cumulative / annual_target * 100)",
+      "traffic_light": "string (green / yellow / red)",
+      "traffic_light_logic": {
+        "green": ">=90% of monthly target",
+        "yellow": "50–89% of monthly target",
+        "red": "<50% of monthly target"
+      }
+    },
+
+    "disaggregation": {
+      "by_sex": {
+        "male": "number",
+        "female": "number",
+        "other": "number"
+      },
+      "by_age_group": {
+        "under_5": "number",
+        "5_to_17": "number",
+        "18_to_49": "number",
+        "50_plus": "number"
+      },
+      "by_camp": {
+        "camp_key": "count"
+      },
+      "by_block": {
+        "block_key": "count"
+      }
+    },
+
+    "narrative": {
+      "key_achievement": "string (max 200 chars)",
+      "main_challenge": "string (max 200 chars)",
+      "mitigation_action": "string (max 200 chars)",
+      "remarks": "string"
+    }
+  },
+
+  "monthly_report_package": {
+    "report_id": "string (e.g., CPI-BGD-HCV-RPT-202604)",
+    "program": "string",
+    "period": "string",
+    "prepared_by": "Mohammad Ariful Islam",
+    "title": "Health Program Manager",
+    "contact": "ariful@cpintl.org",
+    "indicators": ["array of indicator_record objects"],
+    "field_story": {
+      "title": "string",
+      "narrative": "string (150–300 words)",
+      "photo_attached": "boolean",
+      "photo_credit": "string",
+      "consent_obtained": "boolean"
+    },
+    "next_period_plan": ["array of planned activities"],
+    "submission_date": "date"
+  },
+
+  "traffic_light_dashboard": {
+    "description": "Summary view of all indicator performance",
+    "columns": ["indicator_id", "indicator_name", "target", "achieved", "percent", "traffic_light"],
+    "color_codes": {
+      "green_hex": "#28A745",
+      "yellow_hex": "#FFC107",
+      "red_hex": "#D91E4D"
+    }
+  }
+}

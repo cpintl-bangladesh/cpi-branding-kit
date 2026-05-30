@@ -1,0 +1,89 @@
+{
+  "schema_name": "CPI Bangladesh Report Metadata Schema",
+  "version": "2.0.0",
+  "organization": "Community Partners International — Bangladesh Mission",
+  "maintained_by": "Mohammad Ariful Islam (ariful@cpintl.org)",
+
+  "report_metadata": {
+    "report_id": {
+      "type": "string",
+      "format": "CPI-BGD-[PROGRAM]-[TYPE]-[YYYYMM]-v[n]",
+      "examples": [
+        "CPI-BGD-HCV-MonthlyReport-202604-v1",
+        "CPI-BGD-HOP-Q1Report-2026-v1",
+        "CPI-BGD-NCD-SOP-202601-v2",
+        "CPI-BGD-ALL-AnnualReport-2025-v1"
+      ]
+    },
+    "report_type": {
+      "type": "string",
+      "enum": [
+        "MonthlyReport",
+        "QuarterlyReport",
+        "AnnualReport",
+        "SitRep",
+        "SOP",
+        "ConceptNote",
+        "TrainingReport",
+        "FieldActivityReport",
+        "MeetingMinutes",
+        "AssessmentReport"
+      ]
+    },
+    "program": {
+      "type": "string",
+      "enum": ["HCV", "NCD", "HOP", "HP", "WASH", "Emergency", "ALL"]
+    },
+    "title": { "type": "string" },
+    "reporting_period": {
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "label": "string (e.g., April 2026, Q1 2026, 2025)"
+    },
+    "geographic_scope": {
+      "district": "Cox's Bazar",
+      "camps": ["array"],
+      "blocks": ["array"]
+    },
+    "prepared_by": {
+      "name": "string",
+      "title": "string",
+      "email": "string",
+      "default": {
+        "name": "Mohammad Ariful Islam",
+        "title": "Health Program Manager",
+        "email": "ariful@cpintl.org"
+      }
+    },
+    "reviewed_by": {
+      "name": "string",
+      "title": "string"
+    },
+    "audience": {
+      "type": "string",
+      "enum": ["Internal", "Donor", "Health Sector", "Government", "Public", "Partners"]
+    },
+    "donor": { "type": "string", "nullable": true },
+    "version": { "type": "string", "example": "v1" },
+    "submission_date": { "type": "date", "format": "YYYY-MM-DD" },
+    "confidentiality": {
+      "type": "string",
+      "enum": ["Public", "Internal Only", "Confidential", "Restricted"],
+      "default": "Internal Only"
+    },
+    "filing_path": {
+      "type": "string",
+      "format": "Google Drive: CPI Bangladesh / [Program] / Reports / [Year] / [Month or Quarter]"
+    },
+    "language": {
+      "type": "string",
+      "default": "English"
+    },
+    "cpi_contacts": {
+      "primary": "ariful@cpintl.org",
+      "program": "healthbgd@cpintl.org",
+      "office": "+880 15 3420 6479",
+      "website": "www.cpintl.org"
+    }
+  }
+}
