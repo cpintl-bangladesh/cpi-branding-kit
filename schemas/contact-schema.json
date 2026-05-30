@@ -1,0 +1,83 @@
+{
+  "schema_name": "CPI Bangladesh Contact Directory Schema",
+  "version": "1.0.0",
+
+  "contacts": [
+    {
+      "id": "CPI-BGD-HPM-001",
+      "name": "Mohammad Ariful Islam",
+      "title": "Health Program Manager",
+      "unit": "Health Programs",
+      "organization": "Community Partners International — Bangladesh Mission",
+      "email_personal": "ariful@cpintl.org",
+      "email_program": "healthbgd@cpintl.org",
+      "phone_mobile": "+8801723889843",
+      "phone_office": "+880 15 3420 6479",
+      "location": "Cox's Bazar, Bangladesh",
+      "role_scope": ["HCV Program", "CVD/NCD Program", "Health Outreach Programme", "Health Post", "WASH", "M&E", "ZarishSphere HIS"],
+      "is_primary_contact": true
+    },
+    {
+      "id": "CPI-BGD-OFFICE-001",
+      "name": "CPI Bangladesh Mission Office",
+      "title": "General Office",
+      "organization": "Community Partners International Bangladesh",
+      "email": "info@cpintl.org",
+      "email_health": "healthbgd@cpintl.org",
+      "phone": "+880 15 3420 6479",
+      "address": {
+        "building": "Rabbani Building (4th Floor)",
+        "landmark": "Opposite S.K. Tower",
+        "road": "Kurushkul Bypass Road",
+        "city": "Cox's Bazar",
+        "country": "Bangladesh"
+      },
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-USA-HQ-001",
+      "name": "CPI USA Headquarters",
+      "title": "Global Headquarters",
+      "organization": "Community Partners International USA",
+      "email": "info@cpintl.org",
+      "phone": "+1 510 225 9676",
+      "address": {
+        "street": "2560 Ninth Street, Suite 315 B",
+        "city": "Berkeley",
+        "state": "CA",
+        "zip": "94710",
+        "country": "USA"
+      },
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-MMR-HQ-001",
+      "name": "CPI Myanmar (Asia HQ)",
+      "title": "Asia Regional Headquarters",
+      "organization": "Community Partners International Myanmar",
+      "phone": "+95 1 525 729 / 523 356",
+      "address": {
+        "street": "81 University Avenue Road, Shwe Taung Gyar Ward (1)",
+        "township": "Bahan Township",
+        "city": "Yangon",
+        "country": "Myanmar"
+      }
+    },
+    {
+      "id": "PARTNER-YPSA-001",
+      "name": "YPSA — Young Power in Social Action",
+      "title": "Local Implementing Partner",
+      "organization": "YPSA",
+      "role": "Local implementing partner for CPI Bangladesh programs; DHIS2 system access",
+      "website": "https://www.ypsa.org",
+      "location": "Cox's Bazar, Bangladesh"
+    }
+  ],
+
+  "social_handles": {
+    "facebook": "communitypartnersinternational",
+    "linkedin": "community-partners-international",
+    "website": "www.cpintl.org",
+    "email_general": "info@cpintl.org"
+  }
+}
