@@ -1,0 +1,206 @@
+schema: cpi-typography
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide (Official)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# PRIMARY TYPEFACE — RALEWAY
+# ════════════════════════════════════════════════════════════════════════════
+primary_typeface:
+  name: Raleway
+  type: sans-serif
+  license: Open Font License (free, including commercial)
+  download: "https://fonts.google.com/specimen/Raleway"
+  css_import: "@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap')"
+  use_for: >
+    ALL externally-facing printed and designed communications materials
+    (brochures, reports, posters, presentations, social media graphics)
+    unless a system font is required.
+
+  weights:
+    light:
+      value: 300
+      css: "font-weight: 300"
+      use: Sub-headings, supporting labels, large decorative text
+    regular:
+      value: 400
+      css: "font-weight: 400"
+      use: Body paragraphs, descriptions
+    medium:
+      value: 500
+      css: "font-weight: 500"
+      use: Tagline ("Empower communities. Transform lives."), emphasized labels
+    semibold:
+      value: 600
+      css: "font-weight: 600"
+      use: Section headings, sub-headings, name card contact details
+    bold:
+      value: 700
+      css: "font-weight: 700"
+      use: Primary titles, hero headlines, name card name, highlights in red
+
+  hierarchy:
+    hero_headline:
+      weight: Bold (700)
+      size_pt: "24–48"
+      size_px: "32–64"
+      color: "#41273B"          # or #FFFFFF on dark bg
+      use: Cover titles, poster headlines
+    section_heading:
+      weight: Bold (700)
+      size_pt: "18–24"
+      size_px: "24–32"
+      color: "#D91E4D"
+      use: Major section titles in reports/brochures
+    sub_heading:
+      weight: Semi-Bold (600)
+      size_pt: "13–16"
+      size_px: "17–21"
+      color: "#41273B"
+      use: Sub-sections, card titles
+    small_label:
+      weight: Light (300)
+      size_pt: "10–12"
+      size_px: "13–16"
+      color: "#948794"
+      use: Labels, supporting descriptors
+    body:
+      weight: Regular (400)
+      size_pt: "9–12"
+      size_px: "12–16"
+      color: "#2D2926"
+      line_spacing: "1.4–1.6x"
+      use: All body paragraphs in designed materials
+    highlight:
+      weight: Bold (700)
+      color: "#D91E4D"
+      note: Same size as surrounding body; color change only; never italic
+    tagline:
+      weight: Medium (500)
+      size_pt: "proportional"
+      color_options: ["#41273B", "#D91E4D", "#FFFFFF"]
+      exact_text: "Empower communities. Transform lives."
+    name_card_name:
+      weight: Bold (700)
+      size_pt: 8
+      color: "#41273B"
+    name_card_details:
+      weight: "Regular (400) + Semi-Bold (600)"
+      size_pt: 6
+      color: "#41273B"
+    letterhead_details:
+      weight: "Regular (400) + Semi-Bold (600)"
+      size_pt: 6.5
+      color: "#41273B"
+    folder_details:
+      weight: "Regular (400) + Semi-Bold (600)"
+      size_pt: 9
+      color: "#41273B"
+
+# ════════════════════════════════════════════════════════════════════════════
+# SYSTEM FONT — ARIAL
+# ════════════════════════════════════════════════════════════════════════════
+system_typeface:
+  name: Arial
+  type: sans-serif
+  availability: Pre-installed on Windows, macOS, Linux — no download needed
+  fallback: "Helvetica, sans-serif"
+  css: "font-family: 'Arial', Helvetica, sans-serif"
+  use_for: >
+    Email, Microsoft Word, PowerPoint, Excel, Google Docs, Google Slides,
+    and any application requiring consistent cross-platform display.
+
+  hierarchy:
+    document_title:
+      weight: Bold
+      size_pt: "20–28"
+      color: "#41273B"
+    section_heading_h1:
+      weight: Bold
+      size_pt: "16–18"
+      color: "#D91E4D"
+    section_heading_h2:
+      weight: Bold
+      size_pt: "13–14"
+      color: "#41273B"
+    section_heading_h3:
+      weight: Bold
+      size_pt: 12
+      color: "#41273B"
+    body:
+      weight: Regular
+      size_pt: "11–12"
+      color: "#2D2926"
+      line_spacing: "1.4–1.5x"
+    table_header:
+      weight: Bold
+      size_pt: 10
+      color: "#FFFFFF"
+      background: "#41273B"
+    table_data:
+      weight: Regular
+      size_pt: 10
+      color: "#2D2926"
+    caption:
+      weight: Regular
+      size_pt: 9
+      color: "#948794"
+      style: italic
+    footer:
+      weight: Regular
+      size_pt: 8
+      color: "#948794"
+    hyperlink:
+      weight: Regular
+      size_pt: 11
+      color: "#4298B5"
+      decoration: underline
+    highlight:
+      weight: Bold
+      color: "#D91E4D"
+    presentation_title:
+      weight: Bold
+      size_pt: "28–36"
+      color: "#FFFFFF"
+    presentation_body:
+      weight: Regular
+      size_pt: "16–18"
+      color: "#2D2926"
+
+# ════════════════════════════════════════════════════════════════════════════
+# CSS VARIABLES (for web / digital designers)
+# ════════════════════════════════════════════════════════════════════════════
+css_variables: |
+  :root {
+    --font-primary: 'Raleway', sans-serif;
+    --font-system:  'Arial', Helvetica, sans-serif;
+
+    --color-red:          #D91E4D;
+    --color-purple:       #41273B;
+    --color-grey-mid:     #948794;
+    --color-grey-light:   #D0C4C5;
+    --color-black:        #2D2926;
+    --color-purple-sec:   #615E9B;
+    --color-blue:         #4298B5;
+    --color-white:        #FFFFFF;
+  }
+  h1 { font-family: var(--font-primary); font-weight: 700; color: var(--color-red); }
+  h2 { font-family: var(--font-primary); font-weight: 600; color: var(--color-purple); }
+  h3 { font-family: var(--font-primary); font-weight: 600; color: var(--color-purple); }
+  p  { font-family: var(--font-primary); font-weight: 400; color: var(--color-black); line-height: 1.6; }
+  .tagline    { font-weight: 500; color: var(--color-purple); }
+  .highlight  { font-weight: 700; color: var(--color-red); }
+  .caption    { font-size: 0.8em; color: var(--color-grey-mid); }
+  a           { color: var(--color-blue); text-decoration: underline; }
+
+# ════════════════════════════════════════════════════════════════════════════
+# ABSOLUTE DON'TS
+# ════════════════════════════════════════════════════════════════════════════
+prohibited:
+  - Decorative or script fonts (Comic Sans, Papyrus, Brush Script, etc.)
+  - ALL CAPS for body text
+  - Font sizes below 6pt in print
+  - Raleway Italic for body text
+  - Mixing Raleway and Arial in same designed piece
+  - Changing the logotype font
+  - Bold red highlights on dark backgrounds (use white bold instead)
+  - Using fonts not in the approved system (e.g., Times New Roman for brand materials)
