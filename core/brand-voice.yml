@@ -1,0 +1,169 @@
+brand_voice:
+  name: CPI Brand Voice
+  version: "2.0.0"
+  source: "CPI Brand Identity & Standards + cpintl.org (May 2026)"
+
+official_statements:
+  tagline: "Empower communities. Transform lives."
+
+  mission: >
+    Community Partners International empowers vulnerable communities in Asia
+    affected by conflict, disasters, and poverty to meet their essential
+    health, humanitarian, and sustainable development needs.
+
+  vision: >
+    Communities in Southeast Asia have the resources, capacity and information
+    necessary to meet their own health, learning and development needs.
+
+  mission_short: >
+    Community Partners International empowers vulnerable communities in Asia
+    to meet their essential needs.
+
+  about_short: >
+    Community Partners International (CPI) is a US-based nonprofit that
+    empowers vulnerable communities in Asia through health, humanitarian,
+    and sustainable development programs.
+
+  about_long: >
+    Community Partners International (CPI) empowers vulnerable communities
+    in Asia affected by conflict, disasters, and poverty to meet their essential
+    health, humanitarian, and sustainable development needs. Founded in 1998,
+    CPI works in Myanmar, Bangladesh, and Thailand, serving more than three
+    million people each year through partnerships driven by local organizations.
+    Ninety-seven percent of CPI's workforce is from the countries where we
+    operate, and 95% of our expenses go directly to programs reaching people
+    in need.
+
+  localization_statement: >
+    Empowerment and localization are hardwired into Community Partners
+    International. Ninety-seven percent of our workforce is from the countries
+    where we operate, and more than 98% is based in those countries.
+
+  efficiency_statement: >
+    We invest around 95% of our expenses in programs that directly reach
+    people in need, with just 5% used for administration and fundraising.
+
+thematic_statements:
+  health: >
+    We empower communities to build and strengthen essential health services
+    and access good nutrition to achieve health for all.
+
+  sustainable_development: >
+    We empower communities to sustainably improve their quality of life on
+    their own terms.
+
+  humanitarian_response: >
+    We empower communities to prepare and respond to humanitarian emergencies
+    caused by conflict and natural disasters.
+
+strategic_priorities_2026_2028:
+  authentic_localization: >
+    We believe in a balanced distribution of power in aid systems, centered
+    on those closest to the challenges.
+  mesh_network_health: >
+    We support resilient, decentralized networks led by local organizations
+    that deliver health services even in the most fragile settings.
+  building_trust: >
+    Multidirectional trust among local organizations, communities and donors
+    strengthens collaboration and builds resilience. We nurture the conditions
+    for trust to grow.
+  ambition_2028: >
+    Connect 200 local organizations into coordinated networks reaching
+    7 million people by 2028.
+
+tone_principles:
+  - name: Empowering
+    description: >
+      Center the agency, resilience, and leadership of the communities we serve.
+      Show communities as empowered actors, not passive recipients.
+    do: "Communities in Cox's Bazar are building their own health systems."
+    dont: "We help helpless refugees access healthcare."
+
+  - name: Inspiring
+    description: >
+      Give readers a sense of hope and possibility. Connect them to real impact.
+    do: "Together, we are building systems that will serve communities long into the future."
+    dont: "Without us, everything would collapse."
+
+  - name: Inclusive and Respectful
+    description: >
+      Uphold non-discrimination and individual dignity. Treat every person
+      as an individual, not a category.
+    do: "Rohingya refugees"
+    dont: "the Rohingya" (when referring to individuals)
+
+  - name: Accessible
+    description: >
+      Write in plain language. Explain technical terms. Avoid jargon.
+    do: "community health workers"
+    dont: "CHW cadres" (unless in technical documents)
+
+  - name: Appropriate
+    description: >
+      Match register to audience and context — formal for donors/authorities,
+      accessible for communities, concise for social media.
+
+vocabulary:
+  preferred:
+    - communities
+    - local leaders
+    - local organizations
+    - local partners
+    - empowers / empowering / empowerment
+    - essential services
+    - resilient / resilience
+    - sustainable
+    - equitable access
+    - community-led
+    - partnership of equals
+    - conflict-affected
+    - Rohingya refugees
+    - Cox's Bazar refugee camps
+    - underserved communities
+    - hard-to-reach contexts
+
+  avoid:
+    - beneficiaries: use "communities" or specific terms (refugees, patients)
+    - the poor / the needy: dehumanizing
+    - charity / handout: patronizing
+    - "we saved / we rescued": centers CPI over community
+    - backward / undeveloped: use "underserved"
+    - illegal immigrants: use "refugees" or "displaced persons"
+    - tribal: use specific ethnic group names
+    - the Rohingya (as noun): use "Rohingya refugees" or "Rohingya people"
+
+organization_name_rules:
+  first_mention: "Community Partners International (CPI)"
+  subsequent: "CPI"
+  possessive: "CPI's"
+  never_use:
+    - "the CPI"
+    - "C.P.I."
+    - "community partners" (lowercase)
+
+key_statistics:
+  people_served_annually: "3+ million"
+  countries: 4
+  country_list: "Myanmar, Bangladesh, Thailand, Nepal"
+  local_workforce_percent: 97
+  direct_program_spend_percent: 95
+  years_of_operation: "25+"
+  bangladesh_refugees: "970,000+"
+  bangladesh_operation_since: 2017
+  strategic_target_organizations_2028: 200
+  strategic_target_reach_2028: "7 million"
+
+bangladesh_specific:
+  population_served: "Rohingya refugees + Bangladeshi host communities"
+  location: "Cox's Bazar, Bangladesh"
+  operation_since: 2017
+  camp_focus: "Camp 1W (Blocks A & B), Camp 4 (Blocks D & F)"
+  health_post_daily_patients: "up to 200"
+  local_partner: YPSA
+  programs:
+    - Health Outreach Programme (HOP)
+    - Health Post (HP) Program
+    - Hepatitis C (HCV) Program
+    - CVD/NCD Program
+    - WASH Services
+    - Emergency Preparedness
