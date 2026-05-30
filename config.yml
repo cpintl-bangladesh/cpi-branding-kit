@@ -1,0 +1,113 @@
+skill_id: CPI-BRANDING-KIT
+config_version: "1.0.0"
+
+# ── Behavior settings ─────────────────────────────────────────────────────────
+behavior:
+  always_load_on_trigger: true
+  enforce_brand_compliance: strict
+  fallback_font: Arial            # when Raleway unavailable
+  fallback_color_format: hex      # hex | rgb | cmyk
+  default_language: en
+  warn_on_color_deviation: true
+  warn_on_font_deviation: true
+
+# ── Output defaults ───────────────────────────────────────────────────────────
+output_defaults:
+  document_format: docx
+  presentation_format: pptx
+  image_format: png
+  color_space: rgb                # rgb | cmyk
+  dpi_screen: 72
+  dpi_print: 300
+  page_size_default: A4           # A4 | Letter
+  logo_position_default: top-left
+
+# ── Brand enforcement rules ───────────────────────────────────────────────────
+brand_enforcement:
+  approved_hex_colors:
+    - "#D91E4D"   # CPI Red
+    - "#41273B"   # CPI Purple
+    - "#948794"   # CPI Mid Grey
+    - "#D0C4C5"   # CPI Light Grey
+    - "#2D2926"   # CPI Black
+    - "#615E9B"   # CPI Secondary Purple
+    - "#4298B5"   # CPI Blue/Teal
+    - "#FFFFFF"   # White
+  approved_fonts:
+    designed_print: Raleway
+    office_digital: Arial
+  required_elements_on_all_materials:
+    - cpi_logo
+    - brand_compliant_colors
+  forbidden_on_logo:
+    - rotation
+    - color_change
+    - distortion
+    - busy_background
+    - non_brand_background_color
+    - below_minimum_size
+
+# ── Contact injection ─────────────────────────────────────────────────────────
+auto_inject_contacts:
+  enabled: true
+  bangladesh_hpm:
+    name: Mohammad Ariful Islam
+    title: Health Program Manager
+    email: ariful@cpintl.org
+    phone: "+8801723889843"
+  bangladesh_office:
+    email: healthbgd@cpintl.org
+    phone: "+880 15 3420 6479"
+    address: >
+      Rabbani Building (4th Floor), Opposite S.K. Tower,
+      Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+  cpi_global:
+    website: https://cpintl.org
+    email: info@cpintl.org
+
+# ── File naming patterns ──────────────────────────────────────────────────────
+file_naming:
+  pattern: "CPI-BGD-{ProgramCode}-{DocumentType}-{YYYYMM}-v{Version}.{ext}"
+  program_codes:
+    HOP: Health Outreach Programme
+    HCV: Hepatitis C Virus Program
+    CVD: CVD/NCD Program
+    WASH: WASH Services
+    HP: Health Post
+    EM: Emergency Preparedness
+    ADMIN: Administration
+    ME: Monitoring and Evaluation
+    ZARISH: ZarishSphere HIS
+  document_types:
+    MonthlyReport: Monthly Program Report
+    QReport: Quarterly Donor Report
+    AnnualReport: Annual Program Report
+    SitRep: Situation Report
+    SOP: Standard Operating Procedure
+    TrainingManual: Training Manual
+    ConceptNote: Concept Note
+    MeetingMinutes: Meeting Minutes
+    Presentation: Presentation/Slide Deck
+    FieldReport: Field Activity Report
+
+# ── Integration hints ─────────────────────────────────────────────────────────
+integrations:
+  dhis2:
+    partner: YPSA
+    facility_uid: HF-418
+    note: Use YPSA DHIS2 credentials for data entry
+  kobo_toolbox:
+    use_for: field_data_collection
+    language_options: [en, rohingya]
+  activity_info:
+    use_for: donor_reporting
+  ewars:
+    use_for: disease_surveillance_weekly
+  google_workspace:
+    use_for: [sheets, drive, looker_studio]
+  make_com:
+    use_for: automation_workflows
+  fcn:
+    description: Family Composition Number
+    role: universal_patient_identifier
+    mandatory: true
