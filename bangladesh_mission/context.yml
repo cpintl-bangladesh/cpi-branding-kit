@@ -1,0 +1,226 @@
+schema: cpi-bangladesh-mission-context
+version: "1.0.0"
+maintained_by: "Mohammad Ariful Islam, HPM, ariful@cpintl.org"
+
+# ════════════════════════════════════════════════════════════════════════════
+# MISSION IDENTITY
+# ════════════════════════════════════════════════════════════════════════════
+mission_identity:
+  full_name: "Community Partners International Bangladesh Mission"
+  short_name: "CPI Bangladesh"
+  location: "Cox's Bazar, Bangladesh"
+  operation_since: 2017
+  office_address:
+    building: "Rabbani Building (4th Floor)"
+    street: "Opposite S.K. Tower, Kurushkul Bypass Road"
+    city: "Cox's Bazar"
+    country: Bangladesh
+    phone: "+880 15 3420 6479"
+    email_general: "info@cpintl.org"
+    email_health: "healthbgd@cpintl.org"
+    website: "www.cpintl.org"
+
+# ════════════════════════════════════════════════════════════════════════════
+# KEY PERSONNEL
+# ════════════════════════════════════════════════════════════════════════════
+key_personnel:
+  health_program_manager:
+    name: "Mohammad Ariful Islam"
+    title: "Health Program Manager (HPM)"
+    email_personal: "ariful@cpintl.org"
+    email_program: "healthbgd@cpintl.org"
+    phone: "+8801723889843"
+    roles:
+      - Program management (HCV, CVD/NCD, HOP)
+      - Monitoring & Evaluation oversight
+      - Stakeholder coordination
+      - Research support
+      - Field operations
+      - ZarishSphere HIS development
+
+  field_staff_roles:
+    - Medical Officers
+    - M&E Officers
+    - Field Coordinators
+    - Community Health Workers (CHWs)
+
+# ════════════════════════════════════════════════════════════════════════════
+# OPERATIONAL CONTEXT
+# ════════════════════════════════════════════════════════════════════════════
+operational_context:
+  population_served:
+    primary: "Rohingya refugees (~970,000+ in Cox's Bazar)"
+    secondary: "Bangladeshi host communities, Cox's Bazar District"
+  
+  camp_focus:
+    - camp: "Camp 1W"
+      blocks: ["Block A", "Block B"]
+    - camp: "Camp 4"
+      blocks: ["Block D", "Block F"]
+  
+  total_catchment_population: ~24682    # UNHCR March 2026 block-level data
+  total_catchment_families: ~5188
+
+  camp_context:
+    total_rohingya_bangladesh: "970,000+"
+    arrived_august_2017: "740,000+"
+    camps_count: 33
+    camp_area_km2: ~24
+    population_density_per_km2: "47,000+"
+    children_proportion: ">50%"
+    wfp_monthly_ration_2025_usd: 6
+
+# ════════════════════════════════════════════════════════════════════════════
+# PROGRAMS
+# ════════════════════════════════════════════════════════════════════════════
+programs:
+
+  health_outreach_programme:
+    code: HOP
+    full_name: "Health Outreach Programme"
+    description: >
+      CHW-based household outreach across refugee camps in Cox's Bazar.
+      CHWs serve as first point of contact, providing health education,
+      basic care, and referrals.
+    facility_uid: HF-418
+    partner: YPSA
+
+  health_post:
+    code: HP
+    full_name: "Health Post Program"
+    description: >
+      Static primary health care facility serving up to 200 refugees daily.
+      Services: OPD, chronic disease management, screening, referral.
+    daily_patients: 200
+
+  hcv_program:
+    code: HCV
+    full_name: "Hepatitis C Virus Program"
+    description: >
+      WHO 90-90-90 cascade of care: testing, diagnosis, treatment (DAA),
+      SVR monitoring. CHW-led community mobilization and follow-up.
+    target_cascade:
+      test: "90% of estimated HCV+ population"
+      link_to_treatment: "90% of diagnosed"
+      achieve_svr: "90% of treated"
+
+  cvd_ncd_program:
+    code: CVD
+    full_name: "CVD/NCD Program"
+    description: >
+      Systematic screening, diagnosis, treatment, and follow-up for
+      hypertension, diabetes, and other non-communicable diseases.
+    key_conditions:
+      - Hypertension
+      - Diabetes mellitus type 2
+      - Asthma/COPD
+      - Heart failure
+
+  wash_services:
+    code: WASH
+    full_name: "WASH Services"
+    description: >
+      Water well construction and maintenance, sanitation facility support,
+      hygiene promotion through trained community health and hygiene workers.
+
+  emergency_preparedness:
+    code: EM
+    full_name: "Emergency Preparedness"
+    description: >
+      Community-based disaster response teams trained for rapid response
+      to fires, floods, and cyclones in Cox's Bazar camps.
+
+  zarish_sphere_his:
+    code: ZARISH
+    full_name: "ZarishSphere Health Information System"
+    description: >
+      National-grade HIS being designed for the Rohingya refugee response.
+      FCN as universal patient identifier; DHIS2 integration under YPSA.
+    architecture: "Connect+Extend federated model"
+    universal_patient_id: FCN   # Family Composition Number
+    facility_uid: HF-418
+    dhis2_credentials: YPSA
+    requirements_checklist_items: 390
+    system_domains: 25
+    status: "Design phase (2026)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# LOCAL PARTNER
+# ════════════════════════════════════════════════════════════════════════════
+local_partner:
+  name: "YPSA (Young Power in Social Action)"
+  role: "Implementing partner for CPI Bangladesh programs"
+  dhis2_credentials: true
+  facility_uid: HF-418
+  website: "www.ypsa.org"
+
+# ════════════════════════════════════════════════════════════════════════════
+# INFORMATION SYSTEMS
+# ════════════════════════════════════════════════════════════════════════════
+information_systems:
+  dhis2:
+    purpose: Health data management
+    credentials: YPSA
+    reporting_frequency: Monthly
+  kobo_toolbox:
+    purpose: Field data collection
+    language_options: [English, Rohingya]
+  activity_info:
+    purpose: Donor reporting platform
+  ewars:
+    purpose: Early Warning and Response System (CDC/WHO)
+    reporting_frequency: Weekly
+  make_com:
+    purpose: Automation workflows (Integromat)
+  google_workspace:
+    tools: [Sheets, Drive, Looker Studio]
+  fcn:
+    description: "Family Composition Number"
+    role: Universal patient identifier in all camps
+    mandatory: true
+    issued_by: UNHCR
+
+# ════════════════════════════════════════════════════════════════════════════
+# SECTOR COORDINATION
+# ════════════════════════════════════════════════════════════════════════════
+sector_coordination:
+  - Health Sector (Cox's Bazar)
+  - ISCG 3W/4W (Inter Sector Coordination Group)
+  - WHO/DGHS (Government of Bangladesh health system)
+  - HeRAMS (Health Resources Availability Monitoring System)
+  - EWARS (CDC/WHO early warning)
+  - UNHCR (refugee data, verification, DSA pathway)
+
+# ════════════════════════════════════════════════════════════════════════════
+# DESIGN SPECIFICS FOR BANGLADESH MATERIALS
+# ════════════════════════════════════════════════════════════════════════════
+design_specifics:
+  always_use_full_cpi_brand: true  # No sub-brand colors
+  program_name_format: "[Program Name] | CPI Bangladesh"
+  examples:
+    - "Health Outreach Programme | CPI Bangladesh"
+    - "HCV Program | CPI Bangladesh"
+    - "CVD/NCD Program | CPI Bangladesh"
+  required_contacts_on_official_comms:
+    - ariful@cpintl.org
+    - healthbgd@cpintl.org
+  geographic_reference: "Cox's Bazar, Bangladesh"
+  camp_reference_options:
+    - "Camp 1W"
+    - "Camp 4"
+    - "Kutupalong Refugee Camp"
+    - "Cox's Bazar refugee camps"
+  co_branding_partners:
+    - name: UNHCR
+      note: Follow CPI co-branding rules; equal visual weight
+    - name: Health Sector (WHO)
+      note: Follow CPI co-branding rules
+    - name: YPSA
+      note: Joint materials — equal visual weight, co-branding rules apply
+
+  official_footer_for_documents: |
+    Community Partners International Bangladesh Mission
+    Health Program Manager: Mohammad Ariful Islam | ariful@cpintl.org | +8801723889843
+    Office: healthbgd@cpintl.org | +880 15 3420 6479
+    Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+    www.cpintl.org

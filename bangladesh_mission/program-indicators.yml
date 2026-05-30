@@ -1,371 +1,238 @@
-program_indicators:
-  version: "2.0.0"
-  organization: Community Partners International — Bangladesh Mission
-  maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
-  last_updated: "2026-05-30"
+schema: cpi-bangladesh-program-indicators
+version: "1.0.0"
+maintained_by: "Mohammad Ariful Islam, HPM"
+reference_frameworks:
+  - WHO 90-90-90 HCV targets
+  - Health Sector Cox's Bazar indicator framework
+  - CPI M&E Toolkit v2.0
 
-  hcv_program:
-    name: Hepatitis C Virus (HCV) Program
-    framework: WHO 90-90-90 Cascade of Care
-    reporting_platforms:
-      - DHIS2 (YPSA)
-      - ActivityInfo
-      - Internal monthly reports
-    indicators:
-      - id: HCV-01
-        name: Number of individuals screened for HCV
-        type: output
-        unit: persons
-        frequency: monthly
-        target_logic: "90% of estimated HCV+ population"
-        disaggregation: [sex, age_group, camp, block]
+# ════════════════════════════════════════════════════════════════════════════
+# HCV PROGRAM INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+hcv_indicators:
+  target_cascade: "WHO 90-90-90"
+  reporting_frequency: Monthly / Quarterly
+  dhis2_platform: true
 
-      - id: HCV-02
-        name: Number of individuals testing positive for HCV (RDT/PCR)
-        type: output
-        unit: persons
-        frequency: monthly
-        disaggregation: [sex, age_group, camp]
+  indicators:
+    - id: HCV-01
+      name: "HCV Screening Coverage"
+      definition: "% of estimated HCV+ population tested for HCV"
+      numerator: "Number of individuals tested for HCV (RDT)"
+      denominator: "Estimated HCV+ population in target area"
+      target: "≥90%"
+      cascade_step: "First 90"
 
-      - id: HCV-03
-        name: Positivity rate (%)
-        type: output
-        unit: percent
-        frequency: monthly
-        formula: "(HCV-02 / HCV-01) * 100"
+    - id: HCV-02
+      name: "HCV Diagnosis Rate"
+      definition: "% of screened individuals with confirmed HCV diagnosis"
+      numerator: "Number of HCV RNA/PCR confirmed positive"
+      denominator: "Number screened positive on RDT"
+      target: ">85%"
 
-      - id: HCV-04
-        name: Number of HCV+ individuals linked to treatment
-        type: output
-        unit: persons
-        frequency: monthly
-        target_logic: "90% of HCV-02"
-        disaggregation: [sex, age_group]
+    - id: HCV-03
+      name: "Treatment Linkage Rate"
+      definition: "% of diagnosed patients linked to DAA treatment"
+      numerator: "Number started on DAA treatment"
+      denominator: "Number confirmed HCV positive"
+      target: "≥90%"
+      cascade_step: "Second 90"
 
-      - id: HCV-05
-        name: Treatment enrollment rate (%)
-        type: outcome
-        unit: percent
-        frequency: monthly
-        formula: "(HCV-04 / HCV-02) * 100"
+    - id: HCV-04
+      name: "Treatment Completion Rate"
+      definition: "% of patients completing full course of DAA"
+      numerator: "Number completed DAA course"
+      denominator: "Number started DAA treatment"
+      target: "≥95%"
 
-      - id: HCV-06
-        name: Number completing full treatment course
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: HCV-05
+      name: "SVR Achievement Rate (SVR12)"
+      definition: "% of treated patients achieving Sustained Virological Response at 12 weeks"
+      numerator: "Number achieving SVR12"
+      denominator: "Number completing treatment"
+      target: "≥90%"
+      cascade_step: "Third 90"
 
-      - id: HCV-07
-        name: Number tested for SVR (Sustained Virological Response)
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: HCV-06
+      name: "Lost to Follow-up Rate (LTFU)"
+      definition: "% of enrolled patients lost to follow-up"
+      numerator: "Number LTFU"
+      denominator: "Total enrolled"
+      target: "<10%"
 
-      - id: HCV-08
-        name: Number achieving SVR (treatment success)
-        type: outcome
-        unit: persons
-        frequency: monthly
-        target_logic: "90% of HCV-06"
+    - id: HCV-07
+      name: "Total Patients Enrolled in Care"
+      definition: "Cumulative total enrolled in HCV program"
+      type: cumulative_count
 
-      - id: HCV-09
-        name: SVR rate (%)
-        type: outcome
-        unit: percent
-        frequency: monthly
-        formula: "(HCV-08 / HCV-07) * 100"
+    - id: HCV-08
+      name: "CHW Referral Rate for HCV Screening"
+      definition: "Number of individuals referred for HCV screening by CHWs per month"
+      type: monthly_count
 
-      - id: HCV-10
-        name: Lost to follow-up (LTFU) count
-        type: output
-        unit: persons
-        frequency: monthly
+# ════════════════════════════════════════════════════════════════════════════
+# CVD/NCD PROGRAM INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+cvd_ncd_indicators:
+  reporting_frequency: Monthly / Quarterly
 
-      - id: HCV-11
-        name: LTFU rate (%)
-        type: output
-        unit: percent
-        formula: "(HCV-10 / HCV-04) * 100"
+  indicators:
+    - id: CVD-01
+      name: "Hypertension Screening Coverage"
+      definition: "% of adults (≥18 yrs) screened for hypertension"
+      target: "≥80% of target population"
 
-      - id: HCV-12
-        name: CHW home visits for HCV follow-up
-        type: output
-        unit: visits
-        frequency: monthly
+    - id: CVD-02
+      name: "Diabetes Screening Coverage"
+      definition: "% of adults (≥18 yrs) screened for diabetes (FBG/RBG)"
+      target: "≥70% of target population"
 
-  cvd_ncd_program:
-    name: CVD/NCD Program (Cardiovascular Disease / Non-Communicable Disease)
-    reporting_platforms:
-      - DHIS2 (YPSA)
-      - ActivityInfo
-      - Internal monthly reports
-    indicators:
-      - id: NCD-01
-        name: Number screened for hypertension (BP ≥140/90)
-        type: output
-        unit: persons
-        frequency: monthly
-        disaggregation: [sex, age_group, camp, block]
+    - id: CVD-03
+      name: "New Hypertension Diagnosis Rate"
+      definition: "Number of newly diagnosed hypertensive patients per reporting period"
+      type: monthly_count
 
-      - id: NCD-02
-        name: Number diagnosed with hypertension
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: CVD-04
+      name: "Treatment Enrollment Rate (HTN)"
+      definition: "% of diagnosed hypertensive patients enrolled in treatment"
+      numerator: "Enrolled in antihypertensive treatment"
+      denominator: "Confirmed hypertension diagnosis"
+      target: "≥90%"
 
-      - id: NCD-03
-        name: Number enrolled in hypertension treatment
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: CVD-05
+      name: "Blood Pressure Control Rate"
+      definition: "% of treated hypertensive patients with controlled BP (<140/90 mmHg)"
+      target: "≥60%"
 
-      - id: NCD-04
-        name: Number with controlled blood pressure (<140/90) at follow-up
-        type: outcome
-        unit: persons
-        frequency: monthly
+    - id: CVD-06
+      name: "Medication Adherence Rate"
+      definition: "% of patients collecting medication on schedule"
+      target: "≥80%"
 
-      - id: NCD-05
-        name: BP control rate (%)
-        type: outcome
-        unit: percent
-        formula: "(NCD-04 / NCD-03) * 100"
+    - id: CVD-07
+      name: "Lost to Follow-up Rate (LTFU)"
+      definition: "% of enrolled NCD patients lost to follow-up per reporting period"
+      target: "<15%"
 
-      - id: NCD-06
-        name: Number screened for diabetes (HbA1c/RBS)
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: CVD-08
+      name: "Total Active NCD Patients"
+      definition: "Total patients currently active in CVD/NCD program"
+      type: point_in_time_count
 
-      - id: NCD-07
-        name: Number diagnosed with diabetes
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: CVD-09
+      name: "Referral Rate to Secondary Care"
+      definition: "Number of patients referred to higher-level care per month"
+      type: monthly_count
 
-      - id: NCD-08
-        name: Number enrolled in diabetes management
-        type: output
-        unit: persons
-        frequency: monthly
+# ════════════════════════════════════════════════════════════════════════════
+# COMMUNITY OUTREACH / HOP INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+hop_indicators:
+  reporting_frequency: Weekly / Monthly
 
-      - id: NCD-09
-        name: Medication adherence rate (%)
-        type: outcome
-        unit: percent
-        frequency: monthly
+  indicators:
+    - id: HOP-01
+      name: "Total Household Visits"
+      definition: "Total number of household visits conducted by CHWs per reporting period"
+      type: monthly_count
+      target: "[Per workplan target]"
 
-      - id: NCD-10
-        name: NCD-related referrals to secondary/tertiary care
-        type: output
-        unit: referrals
-        frequency: monthly
+    - id: HOP-02
+      name: "Households Reached"
+      definition: "Number of unique households visited in reporting period"
+      type: monthly_count
 
-      - id: NCD-11
-        name: Lost to follow-up count
-        type: output
-        unit: persons
-        frequency: monthly
+    - id: HOP-03
+      name: "CHW Referrals Made"
+      definition: "Number of referrals made to health post or specialist care by CHWs"
+      type: monthly_count
 
-  health_outreach_programme:
-    name: Health Outreach Programme (HOP)
-    reporting_platforms:
-      - KoboToolbox
-      - DHIS2 (YPSA)
-      - ActivityInfo
-    indicators:
-      - id: HOP-01
-        name: Total household visits by CHWs
-        type: output
-        unit: visits
-        frequency: monthly
-        disaggregation: [camp, block, CHW_name]
+    - id: HOP-04
+      name: "Referral Completion Rate"
+      definition: "% of CHW referrals resulting in facility visit"
+      target: "≥70%"
 
-      - id: HOP-02
-        name: Number of unique households reached
-        type: output
-        unit: households
-        frequency: monthly
+    - id: HOP-05
+      name: "Community Education Sessions"
+      definition: "Number of community health education sessions conducted"
+      type: monthly_count
 
-      - id: HOP-03
-        name: Number of individuals receiving health education sessions
-        type: output
-        unit: persons
-        frequency: monthly
-        disaggregation: [sex, topic]
+    - id: HOP-06
+      name: "CHW Supervision Completion Rate"
+      definition: "% of scheduled CHW supervision visits completed"
+      target: "≥90%"
 
-      - id: HOP-04
-        name: Number of referrals made to health post / health facilities
-        type: output
-        unit: referrals
-        frequency: monthly
+    - id: HOP-07
+      name: "Health Post OPD Attendance"
+      definition: "Total patients seen at health post per reporting period"
+      type: monthly_count
 
-      - id: HOP-05
-        name: Number of referrals completed (patient attended)
-        type: output
-        unit: referrals
-        frequency: monthly
+    - id: HOP-08
+      name: "Female Patient Proportion"
+      definition: "% of health post patients who are female"
+      type: percentage
 
-      - id: HOP-06
-        name: Referral completion rate (%)
-        type: outcome
-        unit: percent
-        formula: "(HOP-05 / HOP-04) * 100"
+# ════════════════════════════════════════════════════════════════════════════
+# SCABIES MDA INDICATORS (Campaign-specific)
+# ════════════════════════════════════════════════════════════════════════════
+scabies_mda_indicators:
+  campaign_target_population: ~24682
+  target_families: ~5188
+  target_camps: ["Camp 1W (Blocks A & B)", "Camp 4 (Blocks D & F)"]
+  treatment: Permethrin cream (or oral Ivermectin per protocol)
+  population_source: "UNHCR March 2026 block-level data"
 
-      - id: HOP-07
-        name: Number of CHW supervision sessions conducted
-        type: output
-        unit: sessions
-        frequency: monthly
+  indicators:
+    - id: MDA-01
+      name: "MDA Coverage Rate"
+      definition: "% of target population receiving treatment"
+      target: "≥85% for effective control"
+    - id: MDA-02
+      name: "Households Reached"
+      definition: "Number of families receiving complete household treatment"
+    - id: MDA-03
+      name: "Treatment Dose Completion"
+      definition: "% receiving correct number of doses per protocol"
+    - id: MDA-04
+      name: "Adverse Event Rate"
+      definition: "Number of reported adverse events per 1000 treated"
 
-      - id: HOP-08
-        name: CHW supervision completion rate (%)
-        type: output
-        unit: percent
-        frequency: monthly
-
-      - id: HOP-09
-        name: Number of community health education events
-        type: output
-        unit: events
-        frequency: monthly
-
-      - id: HOP-10
-        name: Unique camps/blocks covered by outreach
-        type: output
-        unit: areas
-        frequency: monthly
-
-  health_post:
-    name: Health Post (HP) Program
-    reporting_platforms:
-      - DHIS2 (YPSA)
-      - EWARS
-      - ActivityInfo
-    indicators:
-      - id: HP-01
-        name: Total OPD consultations
-        type: output
-        unit: consultations
-        frequency: daily_reported_monthly
-        disaggregation: [sex, age_group, diagnosis]
-
-      - id: HP-02
-        name: Average daily patient attendance
-        type: output
-        unit: patients
-        frequency: monthly
-        formula: "HP-01 / working_days"
-
-      - id: HP-03
-        name: Number of patients referred to secondary care
-        type: output
-        unit: persons
-        frequency: monthly
-
-      - id: HP-04
-        name: Referral rate (%)
-        type: output
-        unit: percent
-        formula: "(HP-03 / HP-01) * 100"
-
-      - id: HP-05
-        name: Number of EWARS alerts reported
-        type: output
-        unit: alerts
-        frequency: weekly
-
-      - id: HP-06
-        name: Top 5 diagnoses by frequency
-        type: output
-        unit: cases
-        frequency: monthly
-
-  wash:
-    name: WASH Services
-    indicators:
-      - id: WASH-01
-        name: Number of water wells/points constructed or maintained
-        type: output
-        unit: facilities
-        frequency: monthly
-
-      - id: WASH-02
-        name: Number of individuals with access to safe water
-        type: outcome
-        unit: persons
-        frequency: monthly
-
-      - id: WASH-03
-        name: Number of sanitation facilities installed/maintained
-        type: output
-        unit: facilities
-        frequency: monthly
-
-      - id: WASH-04
-        name: Number of hygiene promotion sessions
-        type: output
-        unit: sessions
-        frequency: monthly
-
-      - id: WASH-05
-        name: Number of individuals receiving hygiene kits/supplies
-        type: output
-        unit: persons
-        frequency: monthly
-
-  mda_scabies:
-    name: Scabies Mass Drug Administration (MDA) Campaign
-    reference_camps: ["Camp 1W — Blocks A and B", "Camp 4 — Blocks D and F"]
-    reference_population: 24682
-    reference_families: 5188
-    population_source: "UNHCR March 2026 block-level data"
-    indicators:
-      - id: MDA-01
-        name: Target population identified
-        type: output
-        unit: persons
-
-      - id: MDA-02
-        name: Number of individuals receiving MDA treatment (permethrin/ivermectin)
-        type: output
-        unit: persons
-        disaggregation: [sex, age_group, block]
-
-      - id: MDA-03
-        name: MDA coverage rate (%)
-        type: outcome
-        unit: percent
-        formula: "(MDA-02 / MDA-01) * 100"
-        target: "≥85%"
-
-      - id: MDA-04
-        name: Number of adverse events reported
-        type: safety
-        unit: events
-
-      - id: MDA-05
-        name: Number of households where all members treated
-        type: outcome
-        unit: households
-
+# ════════════════════════════════════════════════════════════════════════════
+# REPORTING SCHEDULE
+# ════════════════════════════════════════════════════════════════════════════
 reporting_schedule:
-  weekly: [HP-05, EWARS_alerts]
-  monthly: [HCV, NCD, HOP, HP, WASH]
-  quarterly: [cumulative_all, donor_report]
-  annually: [annual_program_review, M_and_E_assessment]
+  weekly:
+    - EWARS disease surveillance
+    - CHW activity count
+  monthly:
+    - DHIS2 health data
+    - ActivityInfo donor platform
+    - Internal program reports (all programs)
+    - Health post OPD statistics
+  quarterly:
+    - Donor reports
+    - Health Sector 3W/4W
+    - M&E assessment
+  annually:
+    - Annual Program Report
+    - Full M&E evaluation
 
-data_systems:
-  DHIS2:
-    access: "Via YPSA credentials"
-    scope: "Facility-level data, aggregate reporting"
-    facility_uid: "HF-418"
-  KoboToolbox:
-    scope: "CHW household visit data, field data collection"
-    languages: [English, Rohingya]
-  ActivityInfo:
-    scope: "Health Sector coordination reporting, 3W/4W"
-  EWARS:
-    scope: "Early Warning and Response System — disease surveillance"
-  Google_Sheets:
-    scope: "Internal dashboards, KPI tracking, Looker Studio"
+# ════════════════════════════════════════════════════════════════════════════
+# INDICATOR PERFORMANCE TABLE FORMAT
+# ════════════════════════════════════════════════════════════════════════════
+indicator_table_format:
+  columns:
+    - "#"
+    - Indicator
+    - "Target (Cumulative)"
+    - "Target (Monthly)"
+    - "Achieved (Month)"
+    - "Achieved (Cumulative)"
+    - "% of Monthly Target"
+    - Remarks
+  formatting:
+    header_row: "CPI Purple #41273B background, white Arial Bold 10pt"
+    row_on_target: "Light green fill (#E8F5E9)"
+    row_below_target: "Light yellow fill (#FFF9C4)"
+    row_critical: "Light red fill (#FFEBEE)"
+    alternating_rows: ["#FFFFFF", "#D0C4C5 at 30%"]
