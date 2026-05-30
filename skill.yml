@@ -1,0 +1,115 @@
+name: CPI-BRANDING-KIT
+version: "1.0.0"
+description: >
+  Complete brand identity and design system skill for Community Partners
+  International (CPI) — Bangladesh Mission. Enables any AI agent to produce
+  100% brand-compliant documents, presentations, reports, social media
+  graphics, email templates, and all other communication materials.
+
+author:
+  name: Mohammad Ariful Islam
+  title: Health Program Manager (HPM)
+  organization: Community Partners International — Bangladesh Mission
+  email_personal: ariful@cpintl.org
+  email_program: healthbgd@cpintl.org
+  phone: "+8801723889843"
+  location: Cox's Bazar, Bangladesh
+
+organization:
+  full_name: Community Partners International
+  short_name: CPI
+  type: "501(c)(3) International Nonprofit NGO"
+  founded: 1998
+  tagline: "Empower communities. Transform lives."
+  website: https://www.cpintl.org
+  email: info@cpintl.org
+  social_facebook: communitypartnersinternational
+  social_linkedin: community-partners-international
+
+source_authority:
+  - "CPI Brand Identity & Standards — Designer's Guide (Official PDF)"
+  - "CPI Brand Identity Standards Poster (Official PDF)"
+  - "cpintl.org (live website, verified May 2026)"
+  - "CPI Bangladesh Mission operational knowledge (Ariful Islam, HPM)"
+
+last_updated: "2026-05-30"
+skill_type: branding
+compatible_with:
+  - Claude (Anthropic)
+  - GPT-4 / GPT-4o (OpenAI)
+  - Gemini  (Google)
+  - Any LLM agent with file/skill upload capability
+
+entry_point: SKILL.md
+quickstart: AI_AGENT_QUICKSTART.md
+
+file_index:
+  root:
+    - SKILL.md
+    - AI_AGENT_QUICKSTART.md
+    - skill.yml
+    - metadata.yml
+    - README.md
+    - .gitignore
+
+  core:
+    - brand-colors.json        # All hex/RGB/CMYK/Pantone values
+    - typography.md            # Raleway + Arial font system
+    - logo-rules.md            # Logo usage, placement, clear space, misuse
+    - brand-voice.yml          # Approved vocabulary and messaging rules
+
+  guidelines:
+    - tone-of-voice.md         # Language, tone, messaging principles
+    - design-elements.md       # Shapes, overlays, watermarks, photography
+    - stationery-specs.md      # Name card, letterhead, envelope, folder
+    - accessibility.md         # Color contrast, font size, inclusive design
+
+  templates:
+    - document-template-guide.md       # Word / Google Docs / PDF
+    - presentation-template-guide.md   # PowerPoint / Google Slides
+    - social-media-guide.md            # Social posts, email newsletters
+    - report-template-guide.md         # Monthly, quarterly, annual reports
+    - email-signature-templates.md     # Email signature templates
+    - field-tools-guide.md             # KoboToolbox, CHW tools, field forms
+
+  assets:
+    - copy-blocks.md           # Ready-to-use brand copy
+    - icon-descriptions.md     # Icon system and usage
+    - hashtag-library.yml      # Approved social media hashtags
+    - abbreviations-glossary.yml  # Standard abbreviations
+
+  bangladesh_mission:
+    - bangladesh-context.md    # Programs, population, operational data
+    - key-contacts.md          # Contact directory
+    - program-indicators.yml   # Standard M&E indicators by program
+    - camp-data.yml            # Camp-level population and geographic data
+
+  prompts:
+    - design-prompt-templates.yml      # AI prompt templates for designs
+    - report-prompt-templates.yml      # AI prompts for reports
+    - social-prompt-templates.yml      # AI prompts for social content
+
+  examples:
+    - example-report-structure.md      # Annotated example report
+    - example-slide-structure.md       # Annotated example slide deck
+    - example-social-posts.md          # Example social media posts
+
+  schemas:
+    - indicator-schema.json    # Standard indicator data schema
+    - report-metadata.json     # Report metadata schema
+    - contact-schema.json      # Contact record schema
+
+activation_rules:
+  always_apply:
+    - "Use only approved CPI brand colors from core/brand-colors.json"
+    - "Use Raleway for designed/printed materials; Arial for Office/email"
+    - "Never alter CPI logo proportions, colors, or placement rules"
+    - "All copy must reflect empowering, dignified language (see guidelines/tone-of-voice.md)"
+    - "Maintain minimum logo clear space equal to x-width of 'P' in logo"
+
+  trigger_on_request:
+    design_task: "Load core/ + guidelines/design-elements.md + templates/presentation-template-guide.md"
+    report_task: "Load templates/report-template-guide.md + templates/document-template-guide.md"
+    social_task: "Load templates/social-media-guide.md + assets/copy-blocks.md"
+    bangladesh_task: "Load bangladesh_mission/bangladesh-context.md + bangladesh_mission/key-contacts.md"
+    copy_task: "Load guidelines/tone-of-voice.md + assets/copy-blocks.md"
