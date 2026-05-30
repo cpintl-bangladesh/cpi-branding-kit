@@ -1,0 +1,254 @@
+schema: cpi-brand-colors
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide (Official)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# PRIMARY COLORS
+# ════════════════════════════════════════════════════════════════════════════
+primary:
+
+  cpi_red:
+    name: "CPI Red"
+    alias: "CPI Magenta"
+    role: "Primary accent — CTAs, icons, headlines, section headers, stroke lines"
+    pantone: "Pantone 7636C"
+    hex: "#D91E4D"
+    hex_alt: "D91E4D"
+    rgb: { r: 218, g: 30, b: 78 }
+    rgb_string: "rgb(218, 30, 78)"
+    cmyk: { c: 10, m: 100, y: 65, k: 0 }
+    hsl: "hsl(343, 76%, 49%)"
+    usage:
+      - Logo butterfly/leaf mark
+      - Section titles and headings on white
+      - Highlighted/emphasized body text (bold)
+      - Tagline text option
+      - Icon fills (solid or outline)
+      - Horizontal rule / stroke lines
+      - CTA buttons and links
+      - Envelope header band
+      - Key shape fills (overlay on images)
+      - Stat/callout box backgrounds
+      - Header bars (slides, reports)
+    never_use_for:
+      - Body paragraph text (too bright)
+      - Backgrounds of large areas with small text
+
+  cpi_purple:
+    name: "CPI Purple"
+    alias: "CPI Dark Purple"
+    role: "Primary dark — logo wordmark, headings, body text in brand materials"
+    pantone: "Pantone 7449C"
+    hex: "#41273B"
+    hex_alt: "41273B"
+    rgb: { r: 75, g: 39, b: 67 }
+    rgb_string: "rgb(75, 39, 67)"
+    cmyk: { c: 55, m: 80, y: 35, k: 55 }
+    hsl: "hsl(316, 32%, 22%)"
+    usage:
+      - Logo wordmark ("CPI" + "COMMUNITY PARTNERS INTERNATIONAL")
+      - Primary headings on white backgrounds
+      - Body text in branded print materials
+      - Dark panel backgrounds (white text on top)
+      - Table header row backgrounds
+      - Subheadings in documents
+      - Tagline text option
+      - Footer bars in presentations
+    never_use_for:
+      - Small text on dark backgrounds
+
+  cpi_mid_grey:
+    name: "CPI Mid Grey"
+    role: "Secondary text, captions, muted elements, dividers"
+    pantone: "Pantone 7653C"
+    hex: "#948794"
+    hex_alt: "948794"
+    rgb: { r: 131, g: 126, b: 139 }
+    rgb_string: "rgb(131, 126, 139)"
+    cmyk: { c: 52, m: 47, y: 35, k: 5 }
+    hsl: "hsl(291, 6%, 52%)"
+    usage:
+      - Captions and footnotes
+      - Supporting / secondary text
+      - Vertical rule separators
+      - Watermark base color (at 46% opacity)
+      - Subtext in stationery
+
+  cpi_light_grey:
+    name: "CPI Light Grey"
+    role: "Background tints, panels, alternating table rows"
+    pantone: "Pantone 434C"
+    hex: "#D0C4C5"
+    hex_alt: "D0C4C5"
+    rgb: { r: 207, g: 199, b: 204 }
+    rgb_string: "rgb(207, 199, 204)"
+    cmyk: { c: 18, m: 19, y: 13, k: 0 }
+    hsl: "hsl(348, 10%, 79%)"
+    usage:
+      - Section/panel background fills
+      - Alternating table row tints
+      - Name card and notepad backgrounds
+      - Subtle section divider areas
+
+  cpi_black:
+    name: "CPI Black"
+    alias: "Near-Black"
+    role: "Body text in non-branded or digital contexts"
+    pantone: "Pantone Black C"
+    hex: "#2D2926"
+    hex_alt: "2D2926"
+    rgb: { r: 35, g: 31, b: 32 }
+    rgb_string: "rgb(35, 31, 32)"
+    cmyk: { c: 0, m: 0, y: 0, k: 100 }
+    hsl: "hsl(345, 6%, 13%)"
+    usage:
+      - Body paragraph text in Word/digital docs
+      - Fine print
+      - Dark overlay fill layers
+
+  white:
+    name: "White"
+    role: "Primary background; reversed logo on brand-colored backgrounds"
+    hex: "#FFFFFF"
+    hex_alt: "FFFFFF"
+    rgb: { r: 255, g: 255, b: 255 }
+    rgb_string: "rgb(255, 255, 255)"
+    cmyk: { c: 0, m: 0, y: 0, k: 0 }
+    usage:
+      - Page backgrounds (default)
+      - Reversed logo on any dark/colored bg
+      - Text on dark CPI-colored backgrounds
+      - Icon fills on colored circles
+
+# ════════════════════════════════════════════════════════════════════════════
+# SECONDARY COLORS
+# ════════════════════════════════════════════════════════════════════════════
+secondary:
+
+  cpi_purple_secondary:
+    name: "CPI Secondary Purple"
+    alias: "CPI Violet"
+    role: "Charts, data viz, secondary sections, icon backgrounds"
+    pantone: "Pantone 7669C"
+    hex: "#615E9B"
+    hex_alt: "615E9B"
+    rgb: { r: 104, g: 87, b: 148 }
+    rgb_string: "rgb(104, 87, 148)"
+    cmyk: { c: 70, m: 75, y: 14, k: 1 }
+    hsl: "hsl(248, 26%, 46%)"
+    usage:
+      - Bar/line charts (second series)
+      - Infographic accents
+      - Secondary page section color
+      - HCV program color identifier
+
+  cpi_blue:
+    name: "CPI Blue"
+    alias: "CPI Teal"
+    role: "WASH, water programs, secondary data, third series in charts"
+    pantone: "Pantone 7459C"
+    hex: "#4298B5"
+    hex_alt: "4298B5"
+    rgb: { r: 85, g: 151, b: 174 }
+    rgb_string: "rgb(85, 151, 174)"
+    cmyk: { c: 69, m: 29, y: 25, k: 0 }
+    hsl: "hsl(196, 34%, 51%)"
+    usage:
+      - WASH / water program materials
+      - Map callouts and highlights
+      - Third data series in charts
+      - Info/note box accents
+
+# ════════════════════════════════════════════════════════════════════════════
+# COLOR COMBINATIONS & RULES
+# ════════════════════════════════════════════════════════════════════════════
+combinations:
+
+  approved_logo_backgrounds:
+    - bg: "#FFFFFF"
+      logo_version: full_color
+      name: White (primary)
+    - bg: "#41273B"
+      logo_version: white_reversed
+      name: CPI Purple
+    - bg: "#D91E4D"
+      logo_version: white_reversed
+      name: CPI Red
+    - bg: "#948794"
+      logo_version: white_reversed
+      name: CPI Mid Grey
+    - bg: "#4298B5"
+      logo_version: white_reversed
+      name: CPI Blue/Teal
+    - bg: "#615E9B"
+      logo_version: white_reversed
+      name: CPI Secondary Purple
+    - bg: "#2D2926"
+      logo_version: white_reversed
+      name: CPI Black
+
+  text_on_background:
+    "#FFFFFF": ["#41273B", "#D91E4D", "#948794", "#2D2926"]
+    "#41273B": ["#FFFFFF"]
+    "#D91E4D": ["#FFFFFF"]
+    "#4298B5": ["#FFFFFF"]
+    "#615E9B": ["#FFFFFF"]
+    "#2D2926": ["#FFFFFF"]
+    "#D0C4C5": ["#41273B", "#2D2926"]
+
+  photo_overlay:
+    blend_mode: Multiply
+    opacity_range: "60-80%"
+    approved_overlay_colors:
+      - "#D91E4D"   # CPI Red — bold, urgent, health
+      - "#41273B"   # CPI Purple — formal, report covers
+      - "#4298B5"   # CPI Blue — WASH, water
+      - "#615E9B"   # CPI Secondary Purple — learning, research
+      - "#948794"   # CPI Mid Grey — neutral
+
+# ════════════════════════════════════════════════════════════════════════════
+# PROGRAM / THEMATIC COLOR MAPPING
+# ════════════════════════════════════════════════════════════════════════════
+thematic_mapping:
+  health_general:
+    primary: "#D91E4D"
+    secondary: "#41273B"
+  hcv_program:
+    primary: "#D91E4D"
+    secondary: "#615E9B"
+  cvd_ncd_program:
+    primary: "#41273B"
+    secondary: "#D91E4D"
+  wash:
+    primary: "#4298B5"
+    secondary: "#41273B"
+  emergency_humanitarian:
+    primary: "#D91E4D"
+    secondary: "#615E9B"
+  sustainable_development:
+    primary: "#4298B5"
+    secondary: "#41273B"
+  research_learning:
+    primary: "#615E9B"
+    secondary: "#41273B"
+  bangladesh_mission:
+    primary: "#D91E4D"
+    secondary: "#41273B"
+  zarish_sphere_his:
+    primary: "#41273B"
+    secondary: "#4298B5"
+
+# ════════════════════════════════════════════════════════════════════════════
+# CHART COLOR SEQUENCE (use in order)
+# ════════════════════════════════════════════════════════════════════════════
+chart_palette:
+  sequence:
+    1: "#D91E4D"   # CPI Red
+    2: "#41273B"   # CPI Purple
+    3: "#4298B5"   # CPI Blue
+    4: "#615E9B"   # CPI Secondary Purple
+    5: "#948794"   # CPI Mid Grey
+    6: "#D0C4C5"   # CPI Light Grey
+  grid_line_color: "#D0C4C5"
+  axis_color: "#948794"
+  label_color: "#2D2926"
