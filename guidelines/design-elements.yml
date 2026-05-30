@@ -1,0 +1,276 @@
+schema: cpi-design-elements
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide (Official)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# KEY SHAPES
+# ════════════════════════════════════════════════════════════════════════════
+key_shapes:
+
+  shape_1_rounded_top_rectangle:
+    name: "Rectangle with Rounded Top Corner"
+    description: >
+      Rectangle where only the top corners are rounded (radius ~10–15% of height).
+      Used as an overlay box on top of a photograph.
+    usage:
+      - Report covers
+      - Posters and banners
+      - Social media cards
+    specs:
+      border_radius: "top-left and top-right only"
+      fill_options: ["#D91E4D", "#41273B"]
+      text_inside: "White, Raleway Bold/Semi-Bold"
+      position: "Lower-left or lower-center of image"
+    css_example: |
+      .cpi-shape-1 {
+        border-radius: 12px 12px 0 0;
+        background-color: #D91E4D;
+        color: #FFFFFF;
+        padding: 16px 24px;
+      }
+
+  shape_2_image_key_shape:
+    name: "Title and Image in Key Shape"
+    description: >
+      Title text sits beside or overlaps a photo clipped/masked into a CPI
+      geometric key shape. Acts as a photo "window."
+    usage:
+      - Report covers
+      - Feature sections
+      - Impact story layouts
+    variations:
+      - "Diagonal split: image left, colored panel right"
+      - "Rounded-corner card: image fully inside rounded rectangle"
+
+  shape_3_side_image:
+    name: "Image in Key Shape on Side"
+    description: >
+      Photo placed in the key shape and positioned left or right of layout.
+      Text fills opposite side.
+    usage:
+      - Two-column layouts
+      - Name cards
+      - Brochure panels
+
+  shape_4_stroke_line_rounded_photo:
+    name: "Stroke Line + Rounded Shape Photo"
+    description: >
+      Thin CPI Red stroke line (vertical or diagonal) with a rounded/circular
+      photo adjacent to it.
+    usage:
+      - Pull quotes
+      - Profile features
+      - Testimonials
+    specs:
+      stroke_weight_print: "2–4pt"
+      stroke_weight_digital: "2–3px"
+      stroke_color: "#D91E4D"
+      stroke_style: Solid
+      photo_shape: "Rounded rectangle or circle"
+
+# ════════════════════════════════════════════════════════════════════════════
+# WATERMARK
+# ════════════════════════════════════════════════════════════════════════════
+watermark:
+  element: "CPI butterfly/leaf logo mark (not the full logo)"
+  placement: "Right side of layout ONLY (bottom-right preferred)"
+  size: "Flexible — can be very large (bleed off edge) or moderate"
+  rules:
+    on_white_background:
+      color: "#948794"
+      opacity: "46%"
+    on_cpi_brand_color_background:
+      color: "#948794"
+      opacity: "46%"
+      alternative: "Full opacity grey in Multiply blend mode"
+  never:
+    - Left side
+    - Center
+    - On busy photographic areas
+    - Full color butterfly as watermark
+
+# ════════════════════════════════════════════════════════════════════════════
+# PHOTO OVERLAY
+# ════════════════════════════════════════════════════════════════════════════
+photo_overlay:
+  technique: "Semi-transparent color fill over photograph"
+  blend_mode: Multiply   # or Color blend mode
+  opacity: "60–80%"
+  approved_colors:
+    - hex: "#D91E4D"
+      name: CPI Red
+      use: Bold, urgent, health programs
+    - hex: "#41273B"
+      name: CPI Purple
+      use: Formal report covers
+    - hex: "#4298B5"
+      name: CPI Blue
+      use: WASH, water programs
+    - hex: "#615E9B"
+      name: CPI Secondary Purple
+      use: Research, learning
+    - hex: "#948794"
+      name: CPI Mid Grey
+      use: Neutral, subdued
+
+# ════════════════════════════════════════════════════════════════════════════
+# ICONS
+# ════════════════════════════════════════════════════════════════════════════
+icons:
+  official_cpi_styles:
+    non_solid:
+      description: "CPI Red stroke circle with white background + icon inside"
+      border: "2pt CPI Red (#D91E4D) circle stroke"
+    solid:
+      description: "CPI Red filled circle with white icon inside"
+      fill: "#D91E4D"
+      icon_color: "#FFFFFF"
+
+  official_cpi_icons:
+    - id: icon_community
+      represents: Community partnership, network, CHW teams
+    - id: icon_family
+      represents: Maternal & child health, family services
+    - id: icon_health_care
+      represents: Health care, healing, nurturing
+    - id: icon_shelter
+      represents: Shelter, safety, humanitarian response
+
+  sizing:
+    inline_body: "16–18px"
+    list_bullet: "20–24px"
+    card_feature: "40–60px"
+    section_header: "48–64px"
+    infographic_large: "80–120px"
+    name_card: "10–12pt"
+
+  color_rules:
+    on_white: "#D91E4D solid fill"
+    on_cpi_red: "#FFFFFF"
+    on_cpi_purple: "#FFFFFF"
+    secondary_context: "#948794"
+    highlighted_active: "CPI Red circle + white icon"
+    disabled: "#D0C4C5"
+
+# ════════════════════════════════════════════════════════════════════════════
+# PHOTOGRAPHY
+# ════════════════════════════════════════════════════════════════════════════
+photography:
+  philosophy: >
+    Avoid photographs depicting individuals and communities as passive
+    recipients. Use photographs showing vibrant, diverse communities actively
+    engaged and empowered in leading solutions to their challenges.
+
+  do:
+    - Show people actively engaged — working, learning, caring, leading
+    - Capture genuine expressions of dignity, resilience, and hope
+    - Include community health workers and local staff in action
+    - Show community spaces, clinics, water points, training sessions
+    - Include diversity of ages, genders, and roles
+    - Photograph in natural light where possible
+    - Obtain appropriate consent / photo release for all subjects
+
+  dont:
+    - Show patients in clinical distress without consent
+    - Depict communities as helpless or defeated
+    - Compromise individual dignity
+    - Show children's faces without guardian consent
+    - Use stock photo clichés (single emaciated child, dramatic suffering)
+    - Over-expose Western staff/visitors at expense of local leaders
+
+  treatments:
+    - Full color natural (standard)
+    - CPI color overlay (covers, social media)
+    - Black and white (archival, historical context)
+    - Clipped in key shape (feature layouts)
+    - With caption — always credit photographer
+
+  caption_format: "Photo: [Photographer Name] / CPI"
+
+# ════════════════════════════════════════════════════════════════════════════
+# LAYOUT GRID
+# ════════════════════════════════════════════════════════════════════════════
+layout_grid:
+  print_A4:
+    columns: 12
+    margins: "10mm all sides"
+    gutters: "5mm"
+  print_letter_US:
+    columns: 12
+    margins: "1 inch all sides"
+    gutters: "0.2 inch"
+  digital_screen:
+    columns: 12
+    responsive: true
+  social_media:
+    guide: "3×3 or 2×2 safe zone composition"
+
+white_space:
+  print_minimum_margin: "10mm"
+  digital_minimum_padding: "20px"
+  principle: "Be generous — CPI materials should feel clean and accessible."
+
+# ════════════════════════════════════════════════════════════════════════════
+# DIVIDERS & SEPARATORS
+# ════════════════════════════════════════════════════════════════════════════
+dividers:
+  horizontal_rule:
+    weight: "1pt"
+    color: "#D91E4D"
+    use: Section divider, full width
+  vertical_rule:
+    weight: "1pt"
+    color: "#948794"
+    use: Column separator, co-brand logo separator
+  dot_separator:
+    size: "4pt circle"
+    color: "#D91E4D"
+    use: Tagline separator, bulleted list accent
+  section_number_bg:
+    font: "Raleway Light"
+    size: "60–80pt"
+    color: "#D91E4D"
+    opacity: "10–15%"
+    use: Background large number for section identification
+
+# ════════════════════════════════════════════════════════════════════════════
+# CALLOUT BOX STYLES
+# ════════════════════════════════════════════════════════════════════════════
+callout_boxes:
+
+  stat_box:
+    background: "#D91E4D"
+    number_font: "Raleway Bold or Arial Bold"
+    number_size: "48–60pt"
+    number_color: "#FFFFFF"
+    label_size: "12pt"
+    label_color: "#FFFFFF"
+    border_radius: "4–8px"
+    padding: "16–24px"
+
+  pull_quote:
+    border_left: "4pt solid #D91E4D"
+    background: "#D0C4C5 at 30% opacity"
+    quote_font: "Raleway Semi-Bold or Arial Semi-Bold"
+    quote_size: "14–16pt"
+    quote_color: "#41273B"
+    attribution_size: "11pt"
+    attribution_color: "#948794"
+
+  info_note_box:
+    background: "#4298B5 at 15% opacity"
+    border_left: "3pt solid #4298B5"
+    text_size: "11pt"
+    text_color: "#2D2926"
+
+  warning_critical_box:
+    background: "#D91E4D at 10% opacity"
+    border_left: "3pt solid #D91E4D"
+    text_size: "11pt"
+    text_color: "#2D2926"
+
+  success_box:
+    background: "#4298B5 at 10% opacity"
+    border_left: "3pt solid #4298B5"
+    text_size: "11pt"
+    text_color: "#2D2926"

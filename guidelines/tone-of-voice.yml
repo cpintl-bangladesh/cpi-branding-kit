@@ -1,0 +1,228 @@
+schema: cpi-tone-of-voice
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide + cpintl.org (2026)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# OFFICIAL LANGUAGE ASSETS
+# ════════════════════════════════════════════════════════════════════════════
+official_copy:
+
+  tagline:
+    text: "Empower communities. Transform lives."
+    note: Use exactly as written — period after each sentence.
+
+  mission_statement:
+    text: >
+      Community Partners International empowers vulnerable communities in Asia
+      affected by conflict, disasters, and poverty to meet their essential
+      health, humanitarian, and sustainable development needs.
+    source: cpintl.org (live, 2026)
+
+  vision_statement:
+    text: >
+      Communities in Southeast Asia have the resources, capacity and information
+      necessary to meet their own health, learning and development needs.
+
+  one_liner_short:
+    text: >
+      Community Partners International empowers vulnerable communities in Asia
+      to meet their essential needs.
+
+  about_cpi_long:
+    text: >
+      Community Partners International (CPI) empowers vulnerable communities
+      in Asia affected by conflict, disasters, and poverty to meet their
+      essential health, humanitarian, and sustainable development needs.
+      Founded in 1998, CPI works in Myanmar, Bangladesh, and Thailand, serving
+      more than three million people each year. Ninety-seven percent of CPI's
+      workforce is from the countries where we operate. We invest 95% of our
+      expenses in programs that directly reach people in need.
+
+  about_cpi_short:
+    text: >
+      Community Partners International (CPI) empowers vulnerable communities
+      in Asia to meet their essential health, humanitarian, and sustainable
+      development needs.
+
+  about_cpi_bangladesh_long:
+    text: >
+      Community Partners International has been working in Cox's Bazar,
+      Bangladesh since 2017, supporting Rohingya refugees and Bangladeshi
+      host communities. CPI Bangladesh provides essential health care, WASH
+      services, and community-based humanitarian response in Cox's Bazar
+      refugee camps, operating a health post serving up to 200 refugees daily
+      and a network of Community Health Workers making thousands of household
+      visits each month.
+
+  about_cpi_bangladesh_short:
+    text: >
+      CPI Bangladesh has operated in Cox's Bazar since 2017, delivering
+      essential health and humanitarian services to Rohingya refugees and
+      host communities through community health workers, static health
+      facilities, and emergency response teams.
+
+  thematic_statements:
+    health:
+      text: >
+        We empower communities to build and strengthen essential health services
+        and access good nutrition to achieve health for all.
+    sustainable_development:
+      text: >
+        We empower communities to sustainably improve their quality of life
+        on their own terms.
+    humanitarian_response:
+      text: >
+        We empower communities to prepare and respond to humanitarian
+        emergencies caused by conflict and natural disasters.
+
+  strategic_priorities_2026_2028:
+    authentic_localization:
+      text: >
+        We believe in a balanced distribution of power in aid systems, centered
+        on those closest to the challenges.
+    mesh_network_health_systems:
+      text: >
+        We support resilient, decentralized networks led by local organizations
+        that deliver health services even in the most fragile settings.
+    building_trust:
+      text: >
+        Multidirectional trust among local organizations, communities and donors
+        strengthens collaboration and builds resilience.
+    ambition_2028:
+      text: >
+        Connect 200 local organizations into coordinated networks reaching
+        7 million people by 2028.
+
+  localization_statement:
+    text: >
+      Empowerment and localization are hardwired into Community Partners
+      International. Ninety-seven percent of our workforce is from the countries
+      where we operate, and more than 98% is based in those countries.
+
+  efficiency_statement:
+    text: >
+      We invest around 95% of our expenses in programs that directly reach
+      people in need, with just 5% used for administration and fundraising.
+
+# ════════════════════════════════════════════════════════════════════════════
+# TONE PRINCIPLES
+# ════════════════════════════════════════════════════════════════════════════
+tone_principles:
+
+  empowering:
+    description: >
+      Center the agency, resilience, and capacity of communities we serve.
+      Never portray communities as passive recipients or victims.
+    do_examples:
+      - "Rohingya community health workers made over 200,000 household visits…"
+      - "Women like Laili Akter are now leading water access solutions in their village…"
+      - "Communities in Cox's Bazar are building their own health systems…"
+    dont_examples:
+      - "We help helpless refugees…"
+      - "Vulnerable people who depend entirely on our charity…"
+      - "We rescued the community from…"
+
+  inspiring:
+    description: >
+      Give readers a sense of hope and possibility. Connect them to real impact.
+    do_examples:
+      - "Your support sustains health post services reaching up to 200 refugees daily."
+      - "Together, we are building systems that will serve communities long into the future."
+    dont_examples:
+      - "Without us, everything would collapse."
+      - "The situation is hopeless without intervention."
+
+  inclusive_and_respectful:
+    description: >
+      Uphold non-discrimination and dignity in all language.
+    do_examples:
+      - "Rohingya refugees" (not "the Rohingya" as a monolith)
+      - "communities affected by conflict" (not "war-torn populations")
+    dont_examples:
+      - Dehumanizing or generalizing group labels
+      - Language that strips individual identity
+
+  accessible:
+    description: >
+      Write in plain language. Explain technical terms. Avoid jargon. Be direct.
+    prefer:
+      - "health care" over "medical intervention delivery"
+      - "community health workers" over "CHW cadres" (in external materials)
+      - "Rohingya refugee camps" over "informal settlements for displaced persons"
+
+  appropriate:
+    description: >
+      Match language register to audience and context.
+    contexts:
+      donor_communications: "Warm, personal, story-driven, impact-focused"
+      technical_reports: "Precise, evidence-based, sector-standard terminology"
+      social_media: "Concise, engaging, accessible, clear call to action"
+      official_letters: "Formal, professional, brief"
+      field_materials: "Plain, community-level language; translated where needed"
+
+# ════════════════════════════════════════════════════════════════════════════
+# VOCABULARY
+# ════════════════════════════════════════════════════════════════════════════
+vocabulary:
+  preferred:
+    - empowers / empowering / empowerment
+    - communities
+    - local leaders / local organizations / local partners
+    - essential services / essential needs
+    - resilient / resilience
+    - sustainable
+    - equitable access
+    - community-led
+    - partnership of equals
+    - complex contexts / fragile settings
+    - conflict-affected / poverty-affected
+    - Rohingya refugees (Bangladesh)
+    - partnership → "We work WITH communities" (not "for")
+
+  avoid:
+    - term: beneficiaries
+      use_instead: "communities, patients, refugees, families"
+    - term: the poor / the needy
+      reason: dehumanizing
+    - term: charity / charitable handout
+      reason: undermines empowerment narrative
+    - term: we saved / we rescued
+      reason: centers CPI over community
+    - term: remote/backward/undeveloped
+      use_instead: "underserved, hard-to-reach"
+    - term: illegal immigrants
+      use_instead: "refugees, displaced persons"
+    - term: tribal
+      use_instead: specific ethnic group name
+    - term: beneficiary lists
+      use_instead: "community registries, patient lists"
+
+# ════════════════════════════════════════════════════════════════════════════
+# ORGANIZATION NAME USAGE
+# ════════════════════════════════════════════════════════════════════════════
+name_usage:
+  first_mention: "Community Partners International (CPI)"
+  subsequent: "CPI"
+  possessive: "CPI's"
+  never_write:
+    - "the CPI"
+    - "C.P.I."
+    - "community partners" (lowercase)
+    - "CPINTL" (except as email domain reference)
+
+# ════════════════════════════════════════════════════════════════════════════
+# KEY STATISTICS (current as of 2026)
+# ════════════════════════════════════════════════════════════════════════════
+key_statistics:
+  people_served_annually: "3+ million"
+  countries_of_operation: 4  # Myanmar, Bangladesh, Thailand, Nepal
+  local_workforce_percent: 97
+  direct_program_spend_percent: 95
+  years_of_operation: "25+"
+  rohingya_refugees_bangladesh: "970,000+"
+  rohingya_arrived_2017: "740,000+"
+  camps_coxs_bazar: "33"
+  health_post_daily_patients_bangladesh: 200
+  strategic_target_organizations_2028: 200
+  strategic_target_people_2028: "7 million"
+  bangladesh_operation_since: 2017

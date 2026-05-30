@@ -1,0 +1,225 @@
+schema: cpi-stationery-specs
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide (Official)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# NAME CARD — BANGLADESH
+# ════════════════════════════════════════════════════════════════════════════
+name_card_bangladesh:
+  size_mm: { w: 90, h: 55 }
+  bleed_mm: 3
+  resolution_dpi: 300
+  typeface: Raleway
+
+  front:
+    logo: { position: top-left, version: full_color, min_height_cm: 0.8 }
+    watermark: { element: butterfly_mark, position: bottom-right, opacity: "46%", color: "#948794" }
+    tagline: { text: "Empower communities. Transform lives.", font: "Raleway Medium", size_pt: 6, color_options: ["#41273B","#D91E4D"], position: bottom-left }
+
+  back:
+    name: { font: "Raleway Bold", size_pt: 8, color: "#41273B" }
+    title: { font: "Raleway Regular", size_pt: 6, color: "#41273B" }
+    divider: { weight: "0.5pt", color: "#D91E4D" }
+    contact_details: { font: "Raleway Regular + Semi-Bold", size_pt: 6, color: "#41273B" }
+    address_block:
+      organization: "Community Partners International Bangladesh"
+      address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
+      phone: "+880 15 3420 6479"
+    bottom_strip:
+      text: "Community Partners International USA, 2560 Ninth Street, Suite 315 B, Berkeley, CA 94710, USA"
+      font_size_pt: 6
+      logo: { position: right, version: full_color }
+
+  template_content:
+    name: "[Full Name]"
+    title: "[Position Title]"
+    program: "[Program/Unit e.g., Health Outreach Programme]"
+    mobile: "+880 [number]"
+    office_phone: "+880 15 3420 6479"
+    email: "[name]@cpintl.org"
+    website: "www.cpintl.org"
+
+# ════════════════════════════════════════════════════════════════════════════
+# A4 LETTERHEAD — BANGLADESH
+# ════════════════════════════════════════════════════════════════════════════
+letterhead_a4_bangladesh:
+  size_mm: { w: 210, h: 297 }
+  margins_mm: { top: 25, bottom: 20, left: 20, right: 20 }
+  resolution_dpi: 300
+  typeface: Raleway
+
+  header:
+    logo: { position: top-left, version: primary_with_tagline, min_height_cm: 0.8 }
+    rule_below_logo: { weight: "1pt", color: "#D91E4D", width: full }
+
+  body_area:
+    watermark: { element: butterfly_mark, position: right, size: large_bleed, opacity: "46%", color: "#948794" }
+
+  footer:
+    rule_above: { weight: "1pt", color: "#D91E4D", width: full }
+    layout: three_columns
+    font: "Raleway Regular + Semi-Bold"
+    size_pt: 6.5
+    color: "#41273B"
+    left_column: "Community Partners International Bangladesh\nRabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
+    center_column: "healthbgd@cpintl.org\n+880 15 3420 6479"
+    right_column: "www.cpintl.org"
+
+# ════════════════════════════════════════════════════════════════════════════
+# EMAIL SIGNATURE — BANGLADESH MISSION
+# ════════════════════════════════════════════════════════════════════════════
+email_signature:
+  font: Arial   # system font for email
+  name_style: "Arial Bold, CPI Purple #41273B"
+  details_style: "Arial Regular, #2D2926, 10pt"
+  tagline_style: "Arial Regular, CPI Red #D91E4D or Purple #41273B, 10pt"
+  logo_max_width_px: 150
+  logo_version: full_color_png
+
+  template_hpm:
+    name: "Mohammad Ariful Islam"
+    title: "Health Program Manager | CPI Bangladesh Mission"
+    org: "Community Partners International"
+    mobile: "+8801723889843"
+    email_personal: "ariful@cpintl.org"
+    email_program: "healthbgd@cpintl.org"
+    office: "+880 15 3420 6479"
+    website: "www.cpintl.org"
+    address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
+    tagline: "Empower communities. Transform lives."
+
+  template_generic:
+    name: "[Full Name]"
+    title: "[Job Title] | [Program/Unit]"
+    org: "Community Partners International — Bangladesh Mission"
+    mobile: "+880 [number]"
+    email: "[name]@cpintl.org"
+    office: "+880 15 3420 6479"
+    program_email: "healthbgd@cpintl.org"
+    website: "www.cpintl.org"
+    address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
+    tagline: "Empower communities. Transform lives."
+
+# ════════════════════════════════════════════════════════════════════════════
+# ENVELOPES
+# ════════════════════════════════════════════════════════════════════════════
+envelopes:
+  DL_non_US:
+    size_mm: { w: 220, h: 110 }
+    front: { logo: top-left-with-tagline, watermark: bottom-right }
+    back_flap: { fill: "#D91E4D", logo: white-reversed-centered }
+
+  C4_non_US:
+    size_mm: { w: 229, h: 325 }
+    front: { logo: top-left, watermark: bottom-right }
+    back_flap: { fill: "#D91E4D", logo: white-reversed-centered }
+
+  return_address_block:
+    text: |
+      Community Partners International Bangladesh
+      Rabbani Building (4th Floor), Opposite S.K. Tower
+      Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+      +880 15 3420 6479 | info@cpintl.org | www.cpintl.org
+    font: "Raleway Regular + Semi-Bold, 6.5pt"
+    color: "#41273B"
+
+# ════════════════════════════════════════════════════════════════════════════
+# NOTEPAD — A5
+# ════════════════════════════════════════════════════════════════════════════
+notepad_a5:
+  size_mm: { w: 148, h: 210 }
+  header:
+    logo: { position: top-left, version: full_color }
+    tagline: { position: below-logo, font: "Raleway Medium", color: "#41273B" }
+  footer:
+    rule: { weight: "1pt", color: "#D91E4D" }
+    text: "info@cpintl.org | www.cpintl.org"
+    font: "Raleway Regular, 6.5pt"
+  body:
+    watermark: { position: right, opacity: "46%", color: "#948794" }
+    lines: { spacing_mm: 7, color: "#E0E0E0" }
+
+# ════════════════════════════════════════════════════════════════════════════
+# FOLDER — BANGLADESH VERSION
+# ════════════════════════════════════════════════════════════════════════════
+folder_bangladesh:
+  size_mm_flat: { w: 457, h: 305 }
+  spine_mm: 10
+  resolution_dpi: 300
+
+  front_cover:
+    background: "Full-bleed community photo"
+    logo: { position: top-left, version: white-reversed, height_cm: 1.2 }
+    title_panel:
+      fill: "#D91E4D"
+      text_color: "#FFFFFF"
+      font: "Raleway Bold"
+      position: bottom-left-overlay
+
+  back_cover:
+    connect_section:
+      heading: "CONNECT WITH US"
+      font: "Raleway Semi-Bold, 10pt, #D91E4D"
+      content:
+        cpi_usa:
+          label: "Community Partners International USA"
+          address: "2560 Ninth Street, Suite 315 B, Berkeley, CA 94710"
+          phone: "+1 510 225 9676"
+        cpi_bangladesh:
+          label: "Community Partners International Bangladesh"
+          address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
+          phone: "+880 15 3420 6479"
+        digital:
+          website: "www.cpintl.org"
+          email: "info@cpintl.org"
+          facebook: "communitypartnersinternational"
+    logo: { position: bottom-right, version: white-reversed }
+    tagline: { text: "Empower communities. Transform lives.", font: "Raleway Medium, 9pt" }
+
+  inside:
+    left_pocket: blank_or_light_brand_color
+    right_pocket: business_card_slot
+
+  typography:
+    all_text: "Raleway Regular (400) + Semi-Bold (600), 9pt"
+    section_headers: "Raleway Semi-Bold, CPI Red, 10pt"
+
+# ════════════════════════════════════════════════════════════════════════════
+# PRESENTATION TEMPLATE SUMMARY
+# ════════════════════════════════════════════════════════════════════════════
+presentation:
+  dimensions:
+    preferred: { w_px: 1920, h_px: 1080, ratio: "16:9" }
+    alternative: { w_px: 1280, h_px: 960, ratio: "4:3" }
+
+  slide_types:
+    cover:
+      background_options: ["CPI Purple #41273B", "Full-bleed photo with overlay"]
+      logo: { position: top-left, version: white-reversed, height_px: 48 }
+      title: { font: "Arial Bold", size_pt: "28–36", color: "#FFFFFF" }
+      bottom_band: { fill: "#D91E4D", height_px: 100, content: "title + subtitle + date" }
+
+    content_standard:
+      background: "#FFFFFF"
+      header_bar: { fill: "#D91E4D", height_mm: 15, title_font: "Arial Bold 22pt White" }
+      body: { font: "Arial Regular", size_pt: "16–18", color: "#2D2926" }
+      footer_bar: { fill: "#41273B", height_mm: 8, logo: "left white", website: "right white 9pt" }
+      slide_number: { position: "right in header bar", size_pt: 10, color: "#FFFFFF" }
+
+    section_divider:
+      background: "#D91E4D"
+      section_number: { font: "Arial Light 80pt", color: "#FFFFFF", opacity: "20%" }
+      section_title: { font: "Arial Bold 36–42pt", color: "#FFFFFF" }
+
+    data_stats:
+      stat_box:
+        background: "#D91E4D"
+        number: { font: "Arial Bold 48pt", color: "#FFFFFF" }
+        label: { font: "Arial Regular 12pt", color: "#FFFFFF" }
+        dimensions_cm: { w: 6, h: 5 }
+
+    closing:
+      background: "#41273B"
+      main_text: { font: "Arial Bold 48pt", color: "#FFFFFF" }
+      contact: { font: "Arial Regular 14–16pt", color: "#FFFFFF" }
+      tagline: { position: bottom-center, font: "Arial 14pt", color: "#FFFFFF" }
