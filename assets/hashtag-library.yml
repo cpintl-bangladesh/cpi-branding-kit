@@ -1,0 +1,102 @@
+hashtag_library:
+  version: "2.0.0"
+  organization: Community Partners International — Bangladesh Mission
+  purpose: Approved social media hashtags for CPI Bangladesh communications
+  last_updated: "2026-05-30"
+
+primary_organization:
+  - "#CommunityPartnersInternational"
+  - "#CPI"
+  - "#CPIBangladesh"
+  - "#CPIMyanmar"
+  - "#EmpowerCommunities"
+  - "#TransformLives"
+
+thematic_health:
+  - "#HealthForAll"
+  - "#CommunityHealth"
+  - "#PrimaryHealthCare"
+  - "#UniversalHealthCoverage"
+  - "#RefugeeHealth"
+  - "#HCV"
+  - "#HepatitisC"
+  - "#WorldHepatitisDay"
+  - "#NCD"
+  - "#Hypertension"
+  - "#Diabetes"
+  - "#CVD"
+  - "#CommunityHealthWorker"
+  - "#CHW"
+  - "#HealthOutreach"
+
+thematic_wash:
+  - "#WASH"
+  - "#CleanWater"
+  - "#SafeWater"
+  - "#Sanitation"
+  - "#HygienePromotion"
+  - "#WorldWaterDay"
+
+thematic_humanitarian:
+  - "#HumanitarianAid"
+  - "#HumanitarianResponse"
+  - "#WorldHumanitarianDay"
+  - "#EmergencyResponse"
+  - "#DisasterRisk"
+
+thematic_development:
+  - "#SustainableDevelopment"
+  - "#LocalLeadership"
+  - "#Localization"
+  - "#CommunityLed"
+  - "#SDGs"
+  - "#LeaveNoOneBehind"
+
+geographic:
+  - "#CoxsBazar"
+  - "#Bangladesh"
+  - "#Rohingya"
+  - "#RohingyaRefugees"
+  - "#KutupalongCamp"
+  - "#Myanmar"
+  - "#AsiaNGO"
+  - "#SoutheastAsia"
+
+gender_inclusion:
+  - "#WomenAndGirls"
+  - "#GenderEquality"
+  - "#InternationalWomensDay"
+  - "#WomenLead"
+
+research_learning:
+  - "#HealthResearch"
+  - "#EvidenceBased"
+  - "#MandE"
+  - "#DataForGood"
+  - "#HealthData"
+
+observance_days:
+  - "#WorldHealthDay"            # April 7
+  - "#WorldWaterDay"             # March 22
+  - "#WorldHepatitisDay"         # July 28
+  - "#WorldRefugeeDay"           # June 20
+  - "#WorldHumanitarianDay"      # August 19
+  - "#InternationalWomensDay"    # March 8
+  - "#WorldMentalHealthDay"      # October 10
+  - "#WorldAIDSDay"              # December 1
+  - "#WorldTBDay"                # March 24
+  - "#WorldMalariaDay"           # April 25
+  - "#WorldNutritionDay"         # May 28
+
+usage_rules:
+  max_per_post:
+    facebook: 5
+    linkedin: 5
+    instagram: 15
+  always_include:
+    - "#CPI" OR "#CPIBangladesh"
+  caption_placement: "End of caption, after main content"
+  never_use:
+    - Trending hashtags unrelated to CPI's work
+    - Political hashtags
+    - Hashtags that could be misinterpreted

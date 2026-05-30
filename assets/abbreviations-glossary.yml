@@ -1,0 +1,116 @@
+abbreviations_glossary:
+  version: "2.0.0"
+  organization: Community Partners International — Bangladesh Mission
+  last_updated: "2026-05-30"
+  note: "Use full form on first mention, abbreviation thereafter."
+
+organization_acronyms:
+  CPI: Community Partners International
+  YPSA: Young Power in Social Action
+  WHO: World Health Organization
+  UNHCR: UN Refugee Agency (United Nations High Commissioner for Refugees)
+  WFP: World Food Programme
+  UNICEF: United Nations Children's Fund
+  IOM: International Organization for Migration
+  MSF: Médecins Sans Frontières (Doctors Without Borders)
+  IRC: International Rescue Committee
+  IMC: International Medical Corps
+  BRAC: formerly "Bangladesh Rural Advancement Committee" (now just BRAC)
+  DGHS: Directorate General of Health Services (Bangladesh)
+  ISCG: Inter Sector Coordination Group
+  OCHA: UN Office for the Coordination of Humanitarian Affairs
+
+program_acronyms:
+  HOP: Health Outreach Programme
+  HP: Health Post
+  HCV: Hepatitis C Virus
+  CVD: Cardiovascular Disease
+  NCD: Non-Communicable Disease
+  WASH: Water, Sanitation, and Hygiene
+  MDA: Mass Drug Administration
+  SVR: Sustained Virological Response
+  CHW: Community Health Worker
+  MCH: Maternal and Child Health
+  ANC: Antenatal Care
+  PNC: Postnatal Care
+  SGBV: Sexual and Gender-Based Violence
+  NFI: Non-Food Item
+  GBV: Gender-Based Violence
+
+data_systems:
+  DHIS2: District Health Information Software 2
+  FCN: Family Composition Number
+  HIS: Health Information System
+  M_and_E: Monitoring and Evaluation
+  LMIS: Logistics Management Information System
+  EMR: Electronic Medical Record
+  EHR: Electronic Health Record
+  KoboToolbox: KoboToolbox (open-source mobile data collection — no expansion needed)
+  ODK: Open Data Kit
+
+clinical_terms:
+  OPD: Outpatient Department
+  IPD: Inpatient Department
+  BP: Blood Pressure
+  RBS: Random Blood Sugar
+  HbA1c: Glycated Hemoglobin (diabetes marker)
+  RDT: Rapid Diagnostic Test
+  PCR: Polymerase Chain Reaction
+  ARV: Antiretroviral (HIV treatment)
+  DAA: Direct-Acting Antivirals (HCV treatment)
+  SOF: Sofosbuvir (DAA for HCV)
+  LED: Ledipasvir (DAA combination for HCV)
+
+program_management:
+  HPM: Health Program Manager
+  FC: Field Coordinator
+  MO: Medical Officer
+  MEO: M&E Officer
+  DPM: Deputy Program Manager
+  PM: Program Manager
+  CD: Country Director / Country Representative
+  TOR: Terms of Reference
+  SOP: Standard Operating Procedure
+  IEC: Information, Education, and Communication
+  BCC: Behaviour Change Communication
+  KPI: Key Performance Indicator
+  ToT: Training of Trainers
+
+reporting_platforms:
+  EWARS: Early Warning and Alert Response System
+  PRIMES: Population Registration and Identity Management EcoSystem (UNHCR)
+  ProGres: UNHCR's refugee registration system
+  PING: Population Information and Navigation Gateway (UNHCR)
+  DSA: Data Sharing Arrangement
+  3W: Who does What, Where (coordination tool)
+  4W: Who does What, Where, When (coordination tool)
+
+geographic:
+  BGD: Bangladesh (ISO country code)
+  CXB: Cox's Bazar (informal code)
+  KRC: Kutupalong Refugee Camp
+  BLC: Balukhali Camp
+  FDMN: Forcibly Displaced Myanmar Nationals (Government of Bangladesh term)
+
+donor_terms:
+  USAID: United States Agency for International Development
+  BHA: Bureau for Humanitarian Assistance (USAID)
+  OFDA: Office of U.S. Foreign Disaster Assistance (now BHA)
+  ECHO: European Civil Protection and Humanitarian Aid Operations
+  FCDO: Foreign, Commonwealth & Development Office (UK)
+  SIDA: Swedish International Development Cooperation Agency
+  BMZ: German Federal Ministry for Economic Cooperation and Development
+  GFFO: German Federal Foreign Office
+  MFA: Ministry of Foreign Affairs (various countries)
+  PPA: Program Partnership Agreement
+  CA: Contribution Agreement
+  LOA: Letter of Agreement
+  MOU: Memorandum of Understanding
+  PEPFAR: President's Emergency Plan for AIDS Relief
+
+financial:
+  BDT: Bangladeshi Taka
+  USD: United States Dollar
+  FY: Fiscal Year
+  Q1_Q4: "Quarters 1–4 (Q1 = Jan–Mar for calendar year programs)"
+  COGP: Cost of Goods and Programs
