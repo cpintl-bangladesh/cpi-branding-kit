@@ -1,0 +1,200 @@
+schema: cpi-logo-rules
+version: "1.0.0"
+source: "CPI Brand Identity & Standards Designer's Guide (Official)"
+
+# ════════════════════════════════════════════════════════════════════════════
+# LOGO VARIATIONS
+# ════════════════════════════════════════════════════════════════════════════
+variations:
+
+  primary_logo:
+    id: logo_primary
+    description: >
+      Horizontal layout. Butterfly/leaf mark (red gradient) + "CPI" wordmark
+      (CPI Purple) + "COMMUNITY PARTNERS INTERNATIONAL" stacked descriptor (CPI Purple).
+    when_to_use: Default for the vast majority of contexts — documents, reports,
+      presentations, emails, banners, posters, co-branding arrays.
+    background: White or very light backgrounds only
+    minimum_height_cm: 0.5
+    minimum_height_px: 20
+
+  primary_logo_with_tagline:
+    id: logo_primary_tagline
+    description: Primary logo with "Empower communities. Transform lives." below.
+    when_to_use: Official letterheads, stationery, formal documents, official correspondence.
+    tagline_font: "Raleway Medium (500)"
+    tagline_color_options: ["#41273B", "#D91E4D"]
+    minimum_height_cm: 0.8
+    minimum_height_px: 32
+
+  secondary_logo:
+    id: logo_secondary
+    description: >
+      Vertical/stacked layout. Butterfly mark centered above, "CPI" below,
+      "COMMUNITY PARTNERS INTERNATIONAL" stacked beneath.
+    when_to_use: Space-constrained contexts — social media thumbnails, narrow
+      columns, small badge areas.
+    minimum_height_cm: 0.9
+    minimum_height_px: 36
+
+  white_reversed:
+    id: logo_white
+    description: All logo elements rendered in pure white.
+    when_to_use: On any approved CPI brand-colored background (Purple, Red,
+      Blue, Grey, Black).
+    background_restriction: Only approved CPI brand colors (see approved_backgrounds)
+    color: "#FFFFFF"
+
+  tagline_standalone:
+    id: tagline_only
+    exact_text: "Empower communities. Transform lives."
+    font: "Raleway Medium (500)"
+    color_options:
+      - color: "#41273B"
+        context: On white/light backgrounds
+      - color: "#D91E4D"
+        context: On white/light backgrounds, for emphasis
+      - color: "#FFFFFF"
+        context: On CPI brand-colored backgrounds
+    when_to_use: Supporting element in branded materials where logo is present;
+      discretionary use on branded merchandise; additional clarity on mission.
+
+# ════════════════════════════════════════════════════════════════════════════
+# MINIMUM SIZES
+# ════════════════════════════════════════════════════════════════════════════
+minimum_sizes:
+  primary_logo:
+    cm: 0.5
+    px: 20
+    note: Below this the logo becomes illegible
+  secondary_logo:
+    cm: 0.9
+    px: 36
+  logo_with_tagline:
+    cm: 0.8
+    px: 32
+
+# ════════════════════════════════════════════════════════════════════════════
+# CLEAR SPACE (EXCLUSION ZONE)
+# ════════════════════════════════════════════════════════════════════════════
+clear_space:
+  rule: >
+    Maintain clear space on all four sides equal to the x-width of the letter
+    "P" in the CPI logo. No text, graphics, images, or other elements may enter
+    this zone.
+  practical_guide:
+    at_5cm_logo_width: "~0.4cm on each side"
+    at_10cm_logo_width: "~0.8cm on each side"
+    digital_rule: "Minimum 8px padding on all sides at standard screen sizes"
+
+# ════════════════════════════════════════════════════════════════════════════
+# PLACEMENT ON PAGE
+# ════════════════════════════════════════════════════════════════════════════
+placement:
+  approved_positions:
+    - Top Left      # ← most common, preferred
+    - Top Right
+    - Bottom Left
+    - Bottom Right
+  note: >
+    Logo should not be centered except on specific templates (e.g., covers,
+    envelopes, social media profile images).
+
+# ════════════════════════════════════════════════════════════════════════════
+# APPROVED BACKGROUNDS
+# ════════════════════════════════════════════════════════════════════════════
+approved_backgrounds:
+  - background: "#FFFFFF"
+    logo_version: full_color
+    name: White (primary use)
+  - background: "#41273B"
+    logo_version: white_reversed
+    name: CPI Purple
+  - background: "#D91E4D"
+    logo_version: white_reversed
+    name: CPI Red
+  - background: "#948794"
+    logo_version: white_reversed
+    name: CPI Mid Grey
+  - background: "#4298B5"
+    logo_version: white_reversed
+    name: CPI Blue/Teal
+  - background: "#615E9B"
+    logo_version: white_reversed
+    name: CPI Secondary Purple
+  - background: "#2D2926"
+    logo_version: white_reversed
+    name: CPI Black
+
+# ════════════════════════════════════════════════════════════════════════════
+# MISUSE — ALL STRICTLY PROHIBITED
+# ════════════════════════════════════════════════════════════════════════════
+prohibited_uses:
+  - id: no_proportion_change
+    description: Do not stretch or squish logo horizontally or vertically
+  - id: no_below_minimum_size
+    description: Do not use logo below specified minimum size
+  - id: no_busy_background
+    description: Do not place logo on photographic or patterned/busy backgrounds
+  - id: no_rotation
+    description: Do not tilt or rotate logo at any angle
+  - id: no_wrong_background_color
+    description: Do not place on unapproved background colors (orange, green, yellow, etc.)
+  - id: no_color_change
+    description: Do not alter any element's color
+  - id: no_distortion
+    description: No skewing, perspective, or warp effects
+  - id: no_font_change
+    description: Do not recreate the wordmark in a different font
+  - id: no_effects
+    description: No drop shadows, glows, emboss, or any filter effects
+  - id: no_outline_version
+    description: Do not use an outline/ghost version not in the official kit
+  - id: no_logo_in_text
+    description: Do not substitute the logo mark mid-sentence in text
+
+# ════════════════════════════════════════════════════════════════════════════
+# CO-BRANDING RULES
+# ════════════════════════════════════════════════════════════════════════════
+co_branding:
+  logo_version: primary_logo (without tagline, unless specifically required)
+  visual_weight: Equal to all partner logos in the array
+  separator: "Thin vertical line, CPI Mid Grey #948794"
+  cpi_position: Left (preferred unless partnership agreement specifies otherwise)
+  clear_space: Maintained even within a logo row
+
+# ════════════════════════════════════════════════════════════════════════════
+# FILE FORMATS
+# ════════════════════════════════════════════════════════════════════════════
+file_formats:
+  SVG:
+    use: Web, responsive digital, any scalable screen use
+  PNG_transparent:
+    use: Digital documents, Word, PowerPoint, email signatures, web
+  JPG_white_bg:
+    use: When transparency not supported
+  PDF:
+    use: Print-ready, high-resolution printing
+  EPS_AI:
+    use: Professional print, large format, signage
+
+color_modes:
+  RGB: All digital and screen use
+  CMYK: All print materials
+
+# ════════════════════════════════════════════════════════════════════════════
+# LOGO ELEMENT DESCRIPTION (reference only — do not recreate)
+# ════════════════════════════════════════════════════════════════════════════
+element_description:
+  mark: >
+    Stylized butterfly/leaf form. Three leaf/wing shapes in a gradient from
+    deep red-pink to bright red (#D91E4D). A curved black stroke separates the
+    leaf elements. The mark slightly overlaps the "C" of the CPI wordmark.
+  wordmark: >
+    "CPI" in a custom heavy serif weight in CPI Purple (#41273B).
+  descriptor: >
+    "COMMUNITY PARTNERS INTERNATIONAL" in a lighter, spaced sans-serif in
+    CPI Purple (#41273B), separated from "CPI" by a vertical rule.
+  warning: >
+    DO NOT attempt to recreate the logo from this description.
+    Always use the official logo files.
