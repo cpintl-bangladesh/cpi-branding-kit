@@ -1,0 +1,124 @@
+skill_id: CPI-BRANDING-KIT-BGD-001
+skill_name: CPI Branding Kit — Bangladesh Mission
+skill_version: "2.0.0"
+skill_category: branding
+skill_subcategory: nonprofit_communications
+created_date: "2026-05-30"
+last_updated: "2026-05-30"
+
+maintainer:
+  name: Mohammad Ariful Islam
+  role: Health Program Manager
+  email: ariful@cpintl.org
+  organization: CPI Bangladesh Mission
+
+organization_profile:
+  name: Community Partners International (CPI)
+  acronym: CPI
+  type: International NGO / 501(c)(3)
+  sectors:
+    - Global Health
+    - Humanitarian Response
+    - WASH
+    - Sustainable Development
+  thematic_areas:
+    - Health
+    - Humanitarian Response
+    - Sustainable Development
+  geographies:
+    - Bangladesh (Cox's Bazar — Rohingya Response)
+    - Myanmar
+    - Thailand
+    - Nepal
+
+brand_summary:
+  tagline: "Empower communities. Transform lives."
+  primary_color_hex: "#D91E4D"
+  secondary_color_hex: "#41273B"
+  primary_font: Raleway
+  system_font: Arial
+  logo_min_height_cm: 0.5
+
+capabilities:
+  - name: Brand-compliant document creation
+    description: Word, PDF, Google Docs with correct fonts, colors, headers/footers
+    input: Task description
+    output: Fully styled document structure
+
+  - name: Presentation design
+    description: PowerPoint/Google Slides with CPI slide master specifications
+    input: Topic, content points, audience
+    output: Slide-by-slide design instructions and content
+
+  - name: Social media content
+    description: Posts for Facebook, LinkedIn, WhatsApp with correct dimensions and copy
+    input: Message/theme/program
+    output: Post design specs + caption copy + hashtags
+
+  - name: Report production
+    description: Monthly, quarterly, annual program/donor reports
+    input: Program data, indicators, period
+    output: Structured report with tables, sections, indicators
+
+  - name: Brand copy generation
+    description: Mission-aligned copy for any communication material
+    input: Context, audience, message
+    output: Brand-voice-compliant text
+
+  - name: Bangladesh Mission context
+    description: Deep operational context for Rohingya refugee health programs
+    input: Program/question
+    output: Contextually accurate, operationally grounded content
+
+  - name: Email signature generation
+    description: Compliant email signatures for CPI Bangladesh staff
+    input: Staff name, title, program
+    output: HTML + plain text email signature
+
+  - name: Field tool design
+    description: KoboToolbox form descriptions, CHW logbooks, field guides
+    input: Data collection requirements
+    output: Form structure and field tool templates
+
+keywords:
+  - CPI
+  - Community Partners International
+  - Bangladesh
+  - Cox's Bazar
+  - Rohingya
+  - Health program
+  - NGO branding
+  - Humanitarian
+  - Brand kit
+  - Design system
+  - Health outreach
+  - HCV
+  - CVD
+  - NCD
+  - WASH
+  - CHW
+  - M&E
+
+dependencies:
+  fonts:
+    - name: Raleway
+      source: https://fonts.google.com/specimen/Raleway
+      license: OFL (Open Font License)
+      weights: [300, 400, 500, 600, 700]
+    - name: Arial
+      source: System font (pre-installed)
+      license: Proprietary (Microsoft) — universally available
+
+  tools_compatible:
+    - Microsoft Word
+    - Microsoft PowerPoint
+    - Microsoft Excel
+    - Google Docs
+    - Google Slides
+    - Google Sheets
+    - Canva
+    - Adobe InDesign
+    - Adobe Illustrator
+    - Figma
+    - KoboToolbox
+    - DHIS2
