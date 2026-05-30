@@ -1,0 +1,128 @@
+camp_data:
+  version: "2.0.0"
+  organization: Community Partners International — Bangladesh Mission
+  source: "UNHCR Cox's Bazar — March 2026 block-level population data"
+  maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
+  last_updated: "2026-05-30"
+  disclaimer: "Population figures change frequently. Always verify with latest UNHCR data before using in official materials."
+
+cox_bazar_overview:
+  district: Cox's Bazar
+  division: Chittagong
+  country: Bangladesh
+  total_rohingya_population: 970000
+  total_rohingya_note: "UN estimate — subject to change"
+  total_camps_approximate: 33
+  largest_camp: Kutupalong-Balukhali Expansion Site
+  population_density_per_sqkm: 47000
+  rohingya_children_percent: ">50%"
+  mass_displacement_year: 2017
+  new_arrivals_2024_2025: "150,000+"
+
+cpi_operational_camps:
+  camp_1w:
+    name: "Camp 1W"
+    full_name: "Kutupalong Camp 1 West"
+    district: Cox's Bazar
+    upazila: Ukhia
+    cpi_program_blocks: ["Block A", "Block B"]
+    population_blocks_a_and_b: "~12,000 (estimate — verify with UNHCR)"
+    families_blocks_a_and_b: "~2,500 (estimate)"
+    cpi_programs:
+      - Health Outreach Programme (HOP)
+      - Scabies MDA (Blocks A and B)
+      - CHW network
+
+  camp_4:
+    name: "Camp 4"
+    full_name: "Balukhali Camp 4"
+    district: Cox's Bazar
+    upazila: Ukhia
+    cpi_program_blocks: ["Block D", "Block F"]
+    population_blocks_d_and_f: "~12,682 (estimate — verify with UNHCR)"
+    families_blocks_d_and_f: "~2,688 (estimate)"
+    cpi_programs:
+      - Health Outreach Programme (HOP)
+      - Scabies MDA (Blocks D and F)
+      - CHW network
+
+mda_target_data:
+  reference_date: "March 2026"
+  source: "UNHCR block-level population data"
+  camps:
+    camp_1w:
+      blocks: ["A", "B"]
+      total_individuals: 12000
+      total_families: 2500
+      note: "Verify exact figures from UNHCR pre-campaign census"
+    camp_4:
+      blocks: ["D", "F"]
+      total_individuals: 12682
+      total_families: 2688
+  combined_total:
+    individuals: 24682
+    families: 5188
+
+health_sector_context:
+  lead_agency: WHO
+  co_lead: UNHCR
+  key_coordination_body: Health Sector Bangladesh
+  major_health_partners:
+    - WHO
+    - UNHCR
+    - MSF (Médecins Sans Frontières)
+    - IRC (International Rescue Committee)
+    - IMC (International Medical Corps)
+    - Médecins du Monde
+    - BRAC
+    - YPSA
+    - CPI (Community Partners International)
+  coordination_frequency: Monthly (Health Sector plenary)
+  reporting_platform: ActivityInfo
+  disease_surveillance: EWARS (CDC/WHO)
+
+geographic_references:
+  ukhia_upazila: "Primary location for most refugee camps"
+  teknaf_upazila: "Southeastern camps — some smaller settlements"
+  cox_bazar_town: "District headquarters — CPI office location (Rabbani Building)"
+  kutupalong: "Largest camp complex (~800,000 refugees in adjacent sites)"
+  balukhali: "Part of Kutupalong-Balukhali expansion site"
+
+humanitarian_context:
+  crisis_type: Protracted refugee displacement
+  displacement_origin: Myanmar (Rakhine State)
+  un_refugee_status: UNHCR-registered
+  resettlement_pace: Extremely limited
+  repatriation_status: Suspended / no safe conditions for return (as of 2026)
+  ration_cut_wfp_2025: "$6 USD per person per month (halved)"
+  fire_risk: Extremely high (bamboo/tarpaulin shelters, dense population)
+  flood_monsoon_risk: High (June–October)
+  cyclone_risk: Moderate (Bay of Bengal)
+  key_challenges:
+    - Overcrowding and sanitation deficits
+    - Rising food insecurity post-aid cuts
+    - Limited freedom of movement
+    - Youth unemployment and mental health burden
+    - Repatriation uncertainty and protracted displacement
+    - Shrinking humanitarian funding
+
+fcn_identifier:
+  name: Family Composition Number
+  acronym: FCN
+  purpose: "Universal patient identifier across Cox's Bazar refugee camps"
+  issuing_authority: UNHCR
+  structure: "Family-level ID with individual suffix"
+  integration: "Core patient identifier in ZarishSphere HIS and all CPI health registries"
+  verification_pathway: "UNHCR Data Sharing Arrangement (DSA) required for API access"
+
+cpi_facility:
+  uid: HF-418
+  system: DHIS2 (via YPSA)
+  type: Health Post
+  capacity: "Up to 200 patients per day"
+  services:
+    - General OPD
+    - Chronic disease management (HCV, CVD, NCD)
+    - Screening programs (HCV, hypertension, diabetes)
+    - Referral coordination
+    - Emergency first aid
