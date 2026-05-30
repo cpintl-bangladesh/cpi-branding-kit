@@ -1,115 +1,180 @@
 {
   "brand": "Community Partners International (CPI)",
   "version": "1.0.0",
-  "source": "CPI Brand Identity & Standards Designer's Guide",
+  "source": "CPI Brand Identity & Standards Designer's Guide (Official)",
+  "last_updated": "2026-05-30",
 
   "primary_colors": {
     "CPI_Purple": {
-      "name": "CPI Purple",
-      "role": "Primary dark color — logo text, headings, body text in branded materials",
+      "label": "CPI Purple",
+      "role": "Logo wordmark, headings, body text on light backgrounds",
       "pantone": "Pantone 7449C",
       "hex": "#41273B",
+      "hex_alt": "#41273b",
       "rgb": { "r": 75, "g": 39, "b": 67 },
       "cmyk": { "c": 55, "m": 80, "y": 35, "k": 55 },
-      "usage": ["Logo wordmark", "Headings", "Body text on white/light backgrounds", "Tagline text option"]
+      "hsl": { "h": 316, "s": 32, "l": 22 },
+      "usage": ["Logo wordmark", "Headings", "Body text on white", "Dark panel backgrounds", "Table headers"]
     },
     "CPI_Red": {
-      "name": "CPI Red / Magenta",
-      "role": "Primary accent — CTAs, icons, highlights, stroke lines, section headers",
+      "label": "CPI Red / Magenta",
+      "role": "Primary accent — CTAs, icons, highlights, headers",
       "pantone": "Pantone 7636C",
       "hex": "#D91E4D",
+      "hex_alt": "#d91e4d",
       "rgb": { "r": 218, "g": 30, "b": 78 },
       "cmyk": { "c": 10, "m": 100, "y": 65, "k": 0 },
-      "usage": ["Logo mark (butterfly/leaf element)", "Section titles in red", "Highlights in body text", "Tagline text option", "Icon fill", "Stroke lines", "CTA buttons", "Envelope header band"]
+      "hsl": { "h": 344, "s": 76, "l": 49 },
+      "usage": ["Logo butterfly mark", "Section titles", "Highlight text", "CTA buttons", "Icon fills", "Stroke lines", "Divider rules", "Envelope header band", "Slide header bars"]
     },
     "CPI_Mid_Grey": {
-      "name": "CPI Mid Grey",
-      "role": "Secondary text, muted backgrounds, dividers",
+      "label": "CPI Mid Grey",
+      "role": "Secondary text, captions, muted elements",
       "pantone": "Pantone 7653C",
       "hex": "#948794",
+      "hex_alt": "#948794",
       "rgb": { "r": 131, "g": 126, "b": 139 },
       "cmyk": { "c": 52, "m": 47, "y": 35, "k": 5 },
-      "usage": ["Subheadings", "Captions", "Divider lines", "Watermark base (at 46% opacity)"]
+      "hsl": { "h": 291, "s": 5, "l": 52 },
+      "usage": ["Subheadings", "Captions", "Photo credits", "Footer text", "Divider lines", "Watermark base at 46% opacity"]
     },
     "CPI_Light_Grey": {
-      "name": "CPI Light Grey",
-      "role": "Background tints, secondary panels",
+      "label": "CPI Light Grey",
+      "role": "Background tints, secondary panels, table alternating rows",
       "pantone": "Pantone 434C",
       "hex": "#D0C4C5",
+      "hex_alt": "#d0c4c5",
       "rgb": { "r": 207, "g": 199, "b": 204 },
       "cmyk": { "c": 18, "m": 19, "y": 13, "k": 0 },
-      "usage": ["Panel backgrounds", "Light section fills", "Name card backgrounds"]
+      "hsl": { "h": 343, "s": 9, "l": 80 },
+      "usage": ["Panel backgrounds", "Table alternate rows (30% opacity)", "Light tints", "Name card backgrounds"]
     },
     "CPI_Black": {
-      "name": "CPI Black",
-      "role": "Near-black for body text in non-branded contexts",
+      "label": "CPI Black",
+      "role": "Body text in non-branded / office contexts",
       "pantone": "Pantone Black C",
       "hex": "#2D2926",
+      "hex_alt": "#2d2926",
       "rgb": { "r": 35, "g": 31, "b": 32 },
       "cmyk": { "c": 0, "m": 0, "y": 0, "k": 100 },
+      "hsl": { "h": 350, "s": 6, "l": 13 },
       "usage": ["Body text (general)", "Fine print", "Dark overlays"]
     },
     "White": {
-      "name": "White",
+      "label": "White",
+      "role": "Backgrounds, reversed logo on colored backgrounds",
       "hex": "#FFFFFF",
+      "hex_alt": "#ffffff",
       "rgb": { "r": 255, "g": 255, "b": 255 },
       "cmyk": { "c": 0, "m": 0, "y": 0, "k": 0 },
-      "usage": ["Background", "Reversed logo on colored backgrounds", "Text on dark backgrounds"]
+      "usage": ["Page backgrounds", "Reversed logo", "Text on dark backgrounds", "Icon on colored circles"]
     }
   },
 
   "secondary_colors": {
     "CPI_Purple_Secondary": {
-      "name": "CPI Purple (Secondary)",
-      "role": "Accent for data visualization, charts, icons, secondary sections",
+      "label": "CPI Purple (Secondary)",
+      "role": "Charts, data visualizations, secondary accents",
       "pantone": "Pantone 7669C",
       "hex": "#615E9B",
+      "hex_alt": "#615e9b",
       "rgb": { "r": 104, "g": 87, "b": 148 },
       "cmyk": { "c": 70, "m": 75, "y": 14, "k": 1 },
-      "usage": ["Charts", "Data visualizations", "Secondary section color", "Icon backgrounds"]
+      "hsl": { "h": 251, "s": 26, "l": 46 },
+      "usage": ["Charts series 2", "Data visualizations", "Secondary section accents", "Icon backgrounds"]
     },
     "CPI_Blue": {
-      "name": "CPI Blue / Teal",
-      "role": "Secondary accent — data, WASH programs, water-related themes",
+      "label": "CPI Blue / Teal",
+      "role": "WASH programs, water themes, secondary data",
       "pantone": "Pantone 7459C",
       "hex": "#4298B5",
+      "hex_alt": "#4298b5",
       "rgb": { "r": 85, "g": 151, "b": 174 },
       "cmyk": { "c": 69, "m": 29, "y": 25, "k": 0 },
-      "usage": ["Charts", "WASH/water program materials", "Secondary highlight", "Map callouts"]
+      "hsl": { "h": 198, "s": 34, "l": 51 },
+      "usage": ["WASH program materials", "Water-related content", "Charts series 3", "Map callouts", "Info boxes"]
     }
   },
 
-  "color_combinations": {
-    "approved_logo_backgrounds": [
-      { "background": "#41273B", "logo": "white_version", "name": "Purple background" },
-      { "background": "#D91E4D", "logo": "white_version", "name": "Red background" },
-      { "background": "#948794", "logo": "white_version", "name": "Grey background" },
-      { "background": "#4298B5", "logo": "white_version", "name": "Blue/Teal background" },
-      { "background": "#615E9B", "logo": "white_version", "name": "Secondary purple background" },
-      { "background": "#2D2926", "logo": "white_version", "name": "Black background" },
-      { "background": "#FFFFFF", "logo": "full_color_version", "name": "White background (primary)" }
-    ],
-    "text_on_backgrounds": {
-      "#FFFFFF": ["#41273B", "#D91E4D", "#948794", "#2D2926"],
-      "#41273B": ["#FFFFFF"],
-      "#D91E4D": ["#FFFFFF"],
-      "#4298B5": ["#FFFFFF"],
-      "#615E9B": ["#FFFFFF"],
-      "#2D2926": ["#FFFFFF"]
-    },
-    "color_overlays_on_photos": {
-      "primary_overlay": "#41273B at 70-80% opacity",
-      "red_overlay": "#D91E4D at 70-80% opacity",
-      "secondary_overlays": ["#615E9B", "#4298B5", "#948794"]
-    }
+  "color_palette_ordered": [
+    "#D91E4D",
+    "#41273B",
+    "#615E9B",
+    "#4298B5",
+    "#948794",
+    "#D0C4C5",
+    "#FFFFFF",
+    "#2D2926"
+  ],
+
+  "approved_logo_backgrounds": [
+    { "bg": "#FFFFFF", "logo_version": "full_color", "label": "White — primary preferred" },
+    { "bg": "#41273B", "logo_version": "white_reversed", "label": "CPI Purple" },
+    { "bg": "#D91E4D", "logo_version": "white_reversed", "label": "CPI Red" },
+    { "bg": "#948794", "logo_version": "white_reversed", "label": "CPI Mid Grey" },
+    { "bg": "#4298B5", "logo_version": "white_reversed", "label": "CPI Blue/Teal" },
+    { "bg": "#615E9B", "logo_version": "white_reversed", "label": "CPI Purple Secondary" },
+    { "bg": "#2D2926", "logo_version": "white_reversed", "label": "CPI Black" }
+  ],
+
+  "chart_color_sequence": [
+    "#D91E4D",
+    "#41273B",
+    "#4298B5",
+    "#615E9B",
+    "#948794",
+    "#D0C4C5"
+  ],
+
+  "text_on_background": {
+    "#FFFFFF": ["#41273B", "#D91E4D", "#948794", "#2D2926"],
+    "#41273B": ["#FFFFFF"],
+    "#D91E4D": ["#FFFFFF"],
+    "#4298B5": ["#FFFFFF"],
+    "#615E9B": ["#FFFFFF"],
+    "#2D2926": ["#FFFFFF"],
+    "#948794": ["#FFFFFF"],
+    "#D0C4C5": ["#41273B", "#2D2926"]
+  },
+
+  "photo_overlay_colors": {
+    "primary_red_overlay": { "hex": "#D91E4D", "opacity": 0.75, "blend": "multiply" },
+    "primary_purple_overlay": { "hex": "#41273B", "opacity": 0.75, "blend": "multiply" },
+    "secondary_blue_overlay": { "hex": "#4298B5", "opacity": 0.70, "blend": "multiply" },
+    "secondary_purple_overlay": { "hex": "#615E9B", "opacity": 0.70, "blend": "multiply" },
+    "grey_overlay": { "hex": "#948794", "opacity": 0.65, "blend": "multiply" }
+  },
+
+  "watermark": {
+    "element": "CPI butterfly/leaf logo mark only",
+    "placement": "right side only",
+    "color_on_white": "#948794",
+    "opacity_on_white": 0.46,
+    "color_on_brand_bg": "#948794",
+    "opacity_on_brand_bg": 0.46,
+    "blend_mode_dark_version": "multiply"
   },
 
   "thematic_color_mapping": {
     "Health": { "primary": "#D91E4D", "secondary": "#41273B" },
-    "Humanitarian": { "primary": "#D91E4D", "secondary": "#615E9B" },
+    "Humanitarian_Response": { "primary": "#D91E4D", "secondary": "#615E9B" },
     "Sustainable_Development": { "primary": "#4298B5", "secondary": "#41273B" },
     "WASH": { "primary": "#4298B5", "secondary": "#948794" },
-    "Research_Learning": { "primary": "#615E9B", "secondary": "#41273B" },
-    "Bangladesh_Mission": { "primary": "#D91E4D", "secondary": "#41273B" }
+    "Research_and_Learning": { "primary": "#615E9B", "secondary": "#41273B" },
+    "Bangladesh_Mission": { "primary": "#D91E4D", "secondary": "#41273B" },
+    "HCV_Program": { "primary": "#D91E4D", "secondary": "#41273B" },
+    "CVD_NCD_Program": { "primary": "#615E9B", "secondary": "#41273B" },
+    "Emergency_Response": { "primary": "#D91E4D", "secondary": "#2D2926" }
+  },
+
+  "css_variables": {
+    "--cpi-red": "#D91E4D",
+    "--cpi-purple": "#41273B",
+    "--cpi-grey-mid": "#948794",
+    "--cpi-grey-light": "#D0C4C5",
+    "--cpi-black": "#2D2926",
+    "--cpi-purple-sec": "#615E9B",
+    "--cpi-blue": "#4298B5",
+    "--cpi-white": "#FFFFFF"
   }
 }
