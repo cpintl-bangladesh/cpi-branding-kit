@@ -1,0 +1,135 @@
+prompt_templates:
+  category: Social Media & Communications
+  version: "2.0.0"
+  maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
+
+templates:
+
+  - id: SOCIAL-01
+    name: Program Milestone Announcement
+    prompt: |
+      Write a social media post for CPI Bangladesh Mission announcing a program milestone.
+
+      Platform: [Facebook / LinkedIn]
+      Milestone: [e.g., "1,000 refugees screened for HCV in 2026" / "CHW network completes 50,000 household visits"]
+      Program: [PROGRAM NAME]
+      Additional context: [2–3 sentences of supporting info]
+
+      Requirements:
+      - Tone: Empowering, celebratory, dignity-centered (communities as active agents)
+      - Length: 150–200 words caption
+      - Open with the stat or milestone (bold if possible)
+      - Credit local CHWs/staff and community members
+      - Close with link: www.cpintl.org
+      - Include 4–5 approved hashtags from CPI hashtag library
+
+  - id: SOCIAL-02
+    name: Field Story / Human Interest Post
+    prompt: |
+      Write a community story social media post for CPI Bangladesh Mission.
+
+      Story subject: [REAL OR COMPOSITE — e.g., "A CHW named Yasmin who conducts daily household visits"]
+      Key narrative: [DESCRIBE THE STORY IN 3–5 SENTENCES]
+      Program: [PROGRAM NAME]
+      Location: [Camp name / Cox's Bazar refugee camps]
+
+      Requirements:
+      - Start with a compelling human detail or quote (use "she" / "he" / "they")
+      - Show the person as empowered and active, not as a victim
+      - Connect individual story to CPI program impact
+      - Brand voice: Inspiring, respectful, accessible
+      - Length: 200–250 words
+      - Close: "Read the full story at cpintl.org"
+      - Hashtags: #CPIBangladesh + 3–4 relevant hashtags
+
+  - id: SOCIAL-03
+    name: Observance Day / Awareness Post
+    prompt: |
+      Write a social media post for CPI Bangladesh Mission for an international observance day.
+
+      Observance: [e.g., World Hepatitis Day — July 28 / World Refugee Day — June 20]
+      Key message: [WHAT CPI WANTS TO HIGHLIGHT — e.g., "HCV is curable — our CHWs are making sure every refugee can access testing"]
+      Relevant program data (optional): [STAT — e.g., "We have screened 2,400 refugees for HCV this year"]
+
+      Requirements:
+      - Open by acknowledging the observance day
+      - Connect to CPI Bangladesh's work
+      - Include one specific, empowering statistic or story detail
+      - Call to action: learn more / support / share
+      - Length: 150–180 words
+      - Hashtags: [Day-specific hashtag] + #CPIBangladesh + 3 thematic hashtags
+
+  - id: SOCIAL-04
+    name: Staff / CHW Recognition Post
+    prompt: |
+      Write a social media post recognizing a CPI Bangladesh Mission staff member or CHW.
+
+      Person: [NAME and ROLE — e.g., "Fatema, a CHW who has worked with CPI for 3 years in Camp 1W"]
+      Story/achievement: [DESCRIBE THEIR WORK AND WHY THEY DESERVE RECOGNITION]
+      Quote (if available): [DIRECT QUOTE FROM THE PERSON]
+
+      Requirements:
+      - Center the person's voice and agency
+      - Describe their daily work concretely
+      - Show the impact of their work on the community
+      - Respectful, warm, professional tone
+      - Do NOT share identifying details that could compromise safety
+      - Get photo/content consent before posting
+      - Length: 180–220 words
+      - Hashtags: #CPIBangladesh #LocalLeadership #CommunityHealthWorker + 2 more
+
+  - id: SOCIAL-05
+    name: Program Update / Quarterly Results
+    prompt: |
+      Write a social media post sharing quarterly program results for CPI Bangladesh Mission.
+
+      Quarter: [e.g., Q1 2026 — January to March]
+      Program(s): [PROGRAM NAMES]
+      Key results to highlight: [LIST 3–4 STATS]
+      Any notable achievement or challenge overcome: [BRIEF]
+
+      Requirements:
+      - Lead with the most impactful number or outcome
+      - Use concise bullet points or numbered list format
+      - Credit local staff, CHWs, and community partners
+      - Express gratitude to donors/partners at the end
+      - Length: 180–230 words
+      - Hashtags: #CPIBangladesh #HealthForAll + 3 program-specific hashtags
+
+  - id: SOCIAL-06
+    name: Emergency / Crisis Response Update
+    prompt: |
+      Write a social media update on CPI Bangladesh Mission's emergency response.
+
+      Incident: [DESCRIBE THE EMERGENCY — e.g., fire in Camp 1W / flooding in Camp 4]
+      Date/timeframe: [WHEN IT HAPPENED / ONGOING]
+      CPI response: [WHAT CPI IS DOING — e.g., deployed medical team, distributed NFIs]
+      Current status: [IS SITUATION ONGOING OR RESOLVED]
+
+      Requirements:
+      - Factual, clear, calm language (no sensationalism)
+      - Acknowledge the impact on community members with dignity
+      - Describe CPI's response concretely
+      - Express solidarity with affected families
+      - Do NOT include identifying information about individuals without consent
+      - If crisis ongoing: include how people can help or link to donations
+      - Length: 150–200 words
+      - Hashtags: #CPIBangladesh #EmergencyResponse + 2–3 relevant
+
+  - id: SOCIAL-07
+    name: Partnership Announcement
+    prompt: |
+      Write a social media post announcing a partnership or coordination activity.
+
+      Partner organization: [PARTNER NAME]
+      Nature of partnership: [e.g., joint training / MOU signing / health sector coordination meeting]
+      Program area: [PROGRAM]
+      Quote from HPM (optional): ["Quote from Mohammad Ariful Islam about the partnership"]
+
+      Requirements:
+      - Acknowledge both organizations equally
+      - Describe what the partnership will achieve for communities
+      - Empowering language about shared commitment
+      - Tag partner organization handle if known
+      - Length: 150–180 words
+      - Hashtags: #CPIBangladesh #Partnership + 3 thematic

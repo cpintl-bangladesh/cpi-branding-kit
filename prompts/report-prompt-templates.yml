@@ -1,0 +1,224 @@
+prompt_templates:
+  category: Reports, Documents & Written Communications
+  version: "2.0.0"
+  purpose: >
+    Ready-to-use AI prompt templates for generating CPI-compliant written
+    documents, reports, letters, and program materials.
+  maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
+
+templates:
+
+  - id: REPORT-01
+    name: Monthly Program Report
+    prompt: |
+      Write a monthly program report for Community Partners International (CPI) Bangladesh Mission.
+
+      Program: [PROGRAM NAME — e.g., Health Outreach Programme / HCV Program]
+      Reporting period: [MONTH YEAR — e.g., April 2026]
+      Prepared by: Mohammad Ariful Islam, Health Program Manager
+      Office: CPI Bangladesh, Cox's Bazar
+
+      Data for this month:
+      [PASTE YOUR INDICATOR DATA HERE — e.g.:
+       - HCV screenings: 340
+       - Enrolled in treatment: 298
+       - CHW visits: 1,850
+       - Key challenge: monsoon flooding restricted access to Camp 4 Block F]
+
+      Report structure to follow (CPI standard):
+      1. Executive Summary (3–4 bullet points max)
+      2. Program Context (2–3 sentences)
+      3. Key Achievements (narrative + data)
+      4. Indicator Performance Table (format: Indicator | Monthly Target | Achieved | % | Remarks)
+      5. Challenges and Mitigation
+      6. Field Story (brief, empowering, dignity-centered)
+      7. Next Month Plan
+
+      Tone: Empowering, evidence-based, accessible. Communities as active agents.
+      Font instructions: Arial 11pt body, Arial Bold 16pt for Heading 1, CPI Red #D91E4D headings.
+
+  - id: REPORT-02
+    name: Quarterly Donor Report
+    prompt: |
+      Write a quarterly donor report for Community Partners International (CPI) Bangladesh Mission.
+
+      Program: [PROGRAM NAME]
+      Donor: [DONOR NAME]
+      Quarter: [Q1/Q2/Q3/Q4 YEAR]
+      Reporting period: [START DATE – END DATE]
+      Prepared by: Mohammad Ariful Islam, Health Program Manager
+
+      Cumulative data for the quarter:
+      [PASTE INDICATOR DATA FOR ALL THREE MONTHS]
+
+      Key achievements: [LIST 3–5 ACHIEVEMENTS]
+      Challenges: [LIST MAIN CHALLENGES]
+      Financial status: [BUDGET % UTILIZED — optional]
+
+      Report structure:
+      1. Cover page details
+      2. Executive Summary (1 page)
+      3. Program Background
+      4. Activities and Achievements by Objective
+      5. Indicator Table (cumulative — Target vs Achieved vs %)
+      6. Challenges and Response
+      7. Case Study / Field Story (150–250 words, real or composite, dignified)
+      8. Financial Summary (if required)
+      9. Lessons Learned
+      10. Next Quarter Plan
+
+      Tone: Professional, results-focused, empowering narrative.
+
+  - id: REPORT-03
+    name: SOP (Standard Operating Procedure)
+    prompt: |
+      Write a Standard Operating Procedure (SOP) for Community Partners International (CPI) Bangladesh Mission.
+
+      SOP details:
+      - SOP Title: [TITLE — e.g., HCV Patient Referral and Follow-up Procedure]
+      - SOP Number: CPI-BGD-[PROGRAM CODE]-SOP-[NUMBER]
+      - Program: [PROGRAM]
+      - Version: [e.g., 1.0]
+      - Effective Date: [DATE]
+      - Review Date: [DATE — typically 1 year later]
+      - Approved by: Mohammad Ariful Islam, Health Program Manager
+
+      Process to document: [DESCRIBE THE PROCESS IN PLAIN LANGUAGE]
+      Roles involved: [LIST ROLES — e.g., CHW, Medical Officer, M&E Officer]
+
+      SOP structure to follow:
+      1. Purpose
+      2. Scope (who this applies to)
+      3. Definitions and Abbreviations
+      4. Roles and Responsibilities (table: Role | Responsibility)
+      5. Procedure (numbered step-by-step)
+      6. Flow diagram (describe as text if visual not possible)
+      7. Related Documents and Forms
+      8. Revision History (table: Version | Date | Author | Changes)
+
+      Formatting: Arial 11pt body. Headers Arial Bold CPI Red (#D91E4D). Footer: CPI logo + SOP number + version + page X of Y.
+
+  - id: REPORT-04
+    name: Field Activity Report
+    prompt: |
+      Write a field activity report for CPI Bangladesh Mission.
+
+      Activity: [ACTIVITY NAME — e.g., CHW supervision visit / community sensitization session]
+      Date(s): [DATE(S)]
+      Location: [CAMP/BLOCK]
+      Conducted by: [NAME(S)]
+      Number of participants/beneficiaries: [NUMBER]
+
+      Summary of what happened: [BRIEF DESCRIPTION]
+      Key observations: [LIST 3–5 OBSERVATIONS]
+      Challenges encountered: [ANY ISSUES]
+      Recommendations: [WHAT SHOULD HAPPEN NEXT]
+      Photos/attachments: [Y/N — note to attach separately]
+
+      Format this as a 1–2 page professional field report with:
+      - CPI letterhead reference (CPI Bangladesh, Cox's Bazar)
+      - Arial fonts, CPI color headings
+      - Clear sections with bold headings in CPI Red (#D91E4D)
+      - Signature block at end: Mohammad Ariful Islam, Health Program Manager
+
+  - id: REPORT-05
+    name: Situation Report (SitRep)
+    prompt: |
+      Write an emergency Situation Report (SitRep) for CPI Bangladesh Mission.
+
+      Incident: [INCIDENT NAME — e.g., Camp 1W fire / monsoon flooding / disease outbreak]
+      SitRep number: [#]
+      Date: [DATE]
+      Reporting period: [e.g., last 24 hours / 72 hours]
+
+      Situation: [WHAT HAPPENED, WHERE, WHEN, SCALE]
+      CPI response: [WHAT CPI IS DOING / HAS DONE]
+      Key figures:
+        - People affected: [NUMBER]
+        - CPI teams deployed: [NUMBER]
+        - Services provided: [BRIEF LIST]
+      Immediate needs: [TOP 3 PRIORITIES]
+      Coordination: [WHO ELSE IS RESPONDING]
+      Next steps: [NEXT 24–72 HOURS PLAN]
+      Contact: Mohammad Ariful Islam | ariful@cpintl.org | +8801723889843
+
+      Format: 1 page maximum. CPI branded header. Clear and urgent language. Factual only.
+
+  - id: REPORT-06
+    name: Concept Note / Proposal
+    prompt: |
+      Write a concept note for Community Partners International (CPI) Bangladesh Mission.
+
+      Project title: [TITLE]
+      Submitted to: [DONOR / AUTHORITY]
+      Requested budget (approximate): [AMOUNT IN USD or BDT]
+      Proposed duration: [e.g., 6 months / 1 year]
+      Geographic focus: [CAMPS/BLOCKS]
+      Target beneficiaries: [NUMBER AND DESCRIPTION]
+
+      Problem statement: [DESCRIBE THE HEALTH/HUMANITARIAN PROBLEM]
+      Proposed intervention: [WHAT CPI WILL DO]
+      Expected outcomes: [LIST 3–5 EXPECTED OUTCOMES]
+      CPI's unique capacity: [WHY CPI IS BEST PLACED]
+      Key partners: [e.g., YPSA, Health Sector]
+
+      Structure:
+      1. Background and Problem Statement
+      2. Proposed Intervention and Approach
+      3. Target Population and Geographic Focus
+      4. Implementation Methodology
+      5. Expected Outcomes and Indicators (table)
+      6. Budget Summary (5 categories: Personnel, Operations, Supplies, Training, Overhead)
+      7. Organizational Capacity (3–4 sentences)
+      8. Risks and Mitigation (table)
+
+      Tone: Persuasive, evidence-based, empowering communities as agents.
+      Format: Word document, Arial font, CPI Red headings.
+
+  - id: REPORT-07
+    name: Meeting Minutes
+    prompt: |
+      Write meeting minutes for CPI Bangladesh Mission.
+
+      Meeting: [MEETING TITLE — e.g., Monthly Health Team Review]
+      Date: [DATE]
+      Time: [TIME]
+      Location: [LOCATION / PLATFORM]
+      Facilitated by: [NAME]
+      Note taker: [NAME]
+
+      Attendees: [LIST NAMES, ROLES, ORGANIZATIONS]
+
+      Agenda items discussed:
+      [LIST EACH ITEM WITH BRIEF DISCUSSION SUMMARY AND ANY DECISIONS MADE]
+
+      Action items: [LIST: Action | Who is responsible | Deadline]
+
+      Next meeting: [DATE/TIME if known]
+
+      Format with CPI logo header, table for attendees, numbered agenda items,
+      action items table at end. Arial font, CPI Purple headings.
+
+  - id: REPORT-08
+    name: Training Report
+    prompt: |
+      Write a post-training report for CPI Bangladesh Mission.
+
+      Training title: [TITLE — e.g., HCV Cascade of Care Refresher Training for CHWs]
+      Date(s): [DATE(S)]
+      Location: [VENUE, CAMP/AREA]
+      Facilitator(s): [NAME(S) AND TITLE(S)]
+      Number of participants: [NUMBER]
+      Target audience: [e.g., CHWs, Medical Officers, M&E Officers]
+
+      Training objectives: [LIST 3–5 OBJECTIVES]
+      Topics covered: [LIST SESSIONS/MODULES]
+      Pre/post test results: [SCORES IF AVAILABLE]
+      Key learnings from participants: [FEEDBACK SUMMARY]
+      Challenges during training: [ANY ISSUES]
+      Recommendations for future: [IMPROVEMENTS]
+
+      Attachments to note: Attendance register, pre/post test forms, photo documentation
+
+      Format: 2–3 page professional report. CPI letterhead. Arial font.
+      Sections with CPI Red bold headings. Attendance table included.
