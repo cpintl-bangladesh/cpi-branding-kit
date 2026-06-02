@@ -13,9 +13,10 @@ Desktop.ini
 # Raw source files (not part of skill distribution)
 _raw/
 
-# Skill package archives
+# Skill package archives (except the published one in docs/downloads)
 *.zip
 *.tar.gz
+!docs/downloads/*.zip
 
 # Node (if any future tooling)
 node_modules/
