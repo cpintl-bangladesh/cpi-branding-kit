@@ -53,40 +53,65 @@ Community Partners International — Bangladesh Mission
 CPI_BRANDING_KIT/
 │
 ├── SKILL.md                              ← Master reference (START HERE)
-├── AI_AGENT_QUICKSTART.md                ← This file
+├── AI_AGENT_QUICKSTART.md                ← AI agent routing guide
+├── skill.yml                             ← AI skill manifest (YAML)
+├── metadata.yml                          ← Skill metadata for agent discovery
+├── config.yml                            ← Behavior & output configuration
+├── README.md                             ← This file
+├── .gitignore                            ← Git ignore rules
 │
-├── core/
-│   ├── brand-colors.json                 ← ALL color values (hex/RGB/CMYK)
-│   ├── typography.md                     ← Fonts, sizes, weights
-│   └── logo-rules.md                     ← Logo usage, placement, misuse
+├── core/                                 ← Core brand identity
+│   ├── brand-colors.json                 ← ALL color values (hex/RGB/CMYK/Pantone/HSL)
+│   ├── brand-voice.yml                   ← Official statements, vocabulary, tone rules
+│   ├── typography.md                     ← Raleway + Arial font system
+│   └── logo-rules.md                     ← Logo variations, placement, misuse
 │
-├── guidelines/
-│   ├── tone-of-voice.md                  ← Language, messaging, copy standards
-│   ├── design-elements.md                ← Shapes, overlays, watermarks, photos
-│   └── stationery-specs.md               ← Name card, letterhead, envelopes, folder
+├── guidelines/                           ← Brand guidelines & standards
+│   ├── tone-of-voice.md                  ← Language, messaging, brand voice
+│   ├── design-elements.md                ← Shapes, overlays, watermarks, photography
+│   ├── stationery-specs.md               ← Name card, letterhead, envelope, folder
+│   └── accessibility.md                  ← Color contrast, inclusive design
 │
-├── templates/
+├── templates/                            ← Template guides
 │   ├── document-template-guide.md        ← Word/PDF/Google Docs
 │   ├── presentation-template-guide.md    ← PowerPoint/Google Slides
 │   ├── social-media-guide.md             ← Social posts, email newsletters
-│   └── report-template-guide.md         ← Program/donor/field reports
+│   ├── report-template-guide.md          ← Monthly/quarterly/annual reports
+│   ├── email-signature-templates.md      ← Email signatures (HTML + plain text)
+│   └── field-tools-guide.md              ← KoboToolbox, CHW tools, field forms
 │
-├── assets/
-│   ├── copy-blocks.md                    ← Ready-to-use text and copy
-│   ├── icon-descriptions.md             ← Icon system and usage
-│   ├── CPI_LOGO_CIRCLE.png
+├── assets/                               ← Brand assets & reference materials
+│   ├── copy-blocks.md                    ← Ready-to-use brand copy
+│   ├── icon-descriptions.md              ← Icon system and usage
+│   ├── hashtag-library.yml               ← Approved social media hashtags
+│   ├── abbreviations-glossary.yml        ← Standard abbreviations
+│   ├── CPI_logo_h_RGB.png                ← CPI horizontal logo (RGB, PNG)
 │   ├── CPI_logo_h_r_CMYK__negative black_transparent.ai
-│   ├── CPI_logo_h_RGB.png
-│   ├── CPI_logo_white.svg
-│   ├── How_to_use_YPSA-Logo.md
-│   ├── YPSA-LOGO.ai
-│   ├── YPSA-LOGO-JPG.jpg
-│   ├── YPSA-LOGO-PNG.png
-│   └── YPSA_logo_white.svg
+│   ├── CPI_logo_white.svg                ← CPI logo white (SVG)
+│   └── CPI_LOGO_CIRCLE.png               ← CPI circular logo (PNG)
 │
-└── bangladesh_mission/
-    ├── bangladesh-context.md             ← Programs, context, data, messaging
-    └── key-contacts.md                   ← Directory and contacts
+├── bangladesh_mission/                   ← Bangladesh-specific operational data
+│   ├── bangladesh-context.md             ← Programs, population, operational data
+│   ├── key-contacts.md                   ← Contact directory
+│   ├── context.yml                       ← Structured operational context
+│   ├── contacts.yml                      ← Structured contacts
+│   ├── program-indicators.yml            ← M&E indicators by program
+│   └── camp-data.yml                     ← Camp population and geographic data
+│
+├── prompts/                              ← AI prompt templates
+│   ├── design-prompt-templates.yml       ← AI prompts for design tasks
+│   ├── report-prompt-templates.yml       ← AI prompts for documents/reports
+│   └── social-prompt-templates.yml       ← AI prompts for social content
+│
+├── examples/                             ← Annotated examples
+│   ├── example-report-structure.md       ← Annotated example report
+│   ├── example-slide-structure.md        ← Annotated example slide deck
+│   └── example-social-posts.md           ← Example social media posts
+│
+└── schemas/                              ← Data schemas
+    ├── contact-schema.json               ← Contact record schema
+    ├── indicator-schema.json             ← Standard indicator data schema
+    └── report-metadata.json              ← Report metadata schema
 ```
 
 ---

@@ -1,10 +1,10 @@
 skill_id: CPI-BRANDING-KIT-BGD-001
 skill_name: CPI Branding Kit — Bangladesh Mission
-skill_version: "2.0.0"
+skill_version: "1.0.0"
 skill_category: branding
 skill_subcategory: nonprofit_communications
 created_date: "2026-05-30"
-last_updated: "2026-05-30"
+last_updated: "2026-06-02"
 
 maintainer:
   name: Mohammad Ariful Islam
@@ -18,13 +18,15 @@ organization_profile:
   type: International NGO / 501(c)(3)
   sectors:
     - Global Health
-    - Humanitarian Response
+    - Humanitarian Relief
     - WASH
+    - Well-Being
     - Sustainable Development
   thematic_areas:
     - Health
-    - Humanitarian Response
-    - Sustainable Development
+    - Humanitarian Relief
+    - Well-Being
+    - Sustainable Development (sub-topic of Well-Being)
   geographies:
     - Bangladesh (Cox's Bazar — Rohingya Response)
     - Myanmar
@@ -79,6 +81,13 @@ capabilities:
     description: KoboToolbox form descriptions, CHW logbooks, field guides
     input: Data collection requirements
     output: Form structure and field tool templates
+
+social_media:
+  facebook: communitypartnersinternational
+  linkedin: community-partners-international
+  instagram: cp_intl
+  x_twitter: cp_intl
+  website: https://www.cpintl.org
 
 keywords:
   - CPI

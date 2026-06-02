@@ -20,15 +20,17 @@
 ### One-liner (short form)
 > **"Community Partners International empowers vulnerable communities in Asia to meet their essential needs."**
 
-### Three Thematic Area Statements
+### Three Impact Area Statements
 **Health:**
 > *"We empower communities to build and strengthen essential health services and access good nutrition to achieve health for all."*
 
-**Sustainable Development:**
+**Humanitarian Relief:**
+> *"We empower communities to prepare and respond to humanitarian emergencies caused by conflict and natural disasters."*
+
+**Well-Being:**
 > *"We empower communities to sustainably improve their quality of life on their own terms."*
 
-**Humanitarian Response:**
-> *"We empower communities to prepare and respond to humanitarian emergencies caused by conflict and natural disasters."*
+> **Note:** *Sustainable Development* is a sub-topic of the Well-Being impact area, reflecting CPI's current website framework. The original three thematic areas (Health, Humanitarian Response, Sustainable Development) remain valid for legacy materials.
 
 ### Strategic Priority Statements (2026–2028)
 **Authentic Localization:**
@@ -165,7 +167,7 @@ CPI's values should be reflected in how we write:
 
 ### How to write the US office:
 - **Full:** Community Partners International USA
-- **Address:** 2560 Ninth Street, Suite 315 B, Berkeley, CA 94710, USA
+- **Address:** 2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA
 - **Phone:** +1 510 225 9676
 
 ---

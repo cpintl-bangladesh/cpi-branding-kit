@@ -6,7 +6,7 @@
 **Entry Point for AI Agents:** See `AI_AGENT_QUICKSTART.md`  
 **Developer:** Mohammad Ariful Islam | Health Program Manager | CPI Bangladesh Mission  
 **Contact:** ariful@cpintl.org | healthbgd@cpintl.org | +8801723889843  
-**Updated:** May 2026
+**Updated:** June 2026
 
 ---
 
@@ -31,13 +31,13 @@
 
 ---
 
-## THREE THEMATIC AREAS
+## THREE IMPACT AREAS
 
 **Health:** *"We empower communities to build and strengthen essential health services and access good nutrition to achieve health for all."*
 
-**Sustainable Development:** *"We empower communities to sustainably improve their quality of life on their own terms."*
+**Humanitarian Relief:** *"We empower communities to prepare and respond to humanitarian emergencies caused by conflict and natural disasters."*
 
-**Humanitarian Response:** *"We empower communities to prepare and respond to humanitarian emergencies caused by conflict and natural disasters."*
+**Well-Being:** *"We empower communities to sustainably improve their quality of life on their own terms."*
 
 ---
 

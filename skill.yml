@@ -25,6 +25,8 @@ organization:
   email: info@cpintl.org
   social_facebook: communitypartnersinternational
   social_linkedin: community-partners-international
+  social_instagram: cp_intl
+  social_x_twitter: cp_intl
 
 source_authority:
   - "CPI Brand Identity & Standards — Designer's Guide (Official PDF)"
@@ -32,7 +34,7 @@ source_authority:
   - "cpintl.org (live website, verified May 2026)"
   - "CPI Bangladesh Mission operational knowledge (Ariful Islam, HPM)"
 
-last_updated: "2026-05-30"
+last_updated: "2026-06-02"
 skill_type: branding
 compatible_with:
   - Claude (Anthropic)

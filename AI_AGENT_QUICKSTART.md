@@ -1,5 +1,5 @@
 # AI AGENT QUICKSTART
-## CPI-BRANDING-KIT v2.0.0 — Instant Task Routing for AI Agents
+## CPI-BRANDING-KIT v1.0.0 — Instant Task Routing for AI Agents
 
 ---
 

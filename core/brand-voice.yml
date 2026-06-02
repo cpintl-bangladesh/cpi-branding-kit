@@ -48,13 +48,17 @@ thematic_statements:
     We empower communities to build and strengthen essential health services
     and access good nutrition to achieve health for all.
 
-  sustainable_development: >
+  humanitarian_relief: >
+    We empower communities to prepare and respond to humanitarian emergencies
+    caused by conflict and natural disasters.
+
+  well_being: >
     We empower communities to sustainably improve their quality of life on
     their own terms.
 
-  humanitarian_response: >
-    We empower communities to prepare and respond to humanitarian emergencies
-    caused by conflict and natural disasters.
+  sustainable_development: >
+    We empower communities to sustainably improve their quality of life on
+    their own terms. [Sub-topic of Well-Being]
 
 strategic_priorities_2026_2028:
   authentic_localization: >

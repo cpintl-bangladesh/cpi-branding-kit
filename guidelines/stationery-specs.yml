@@ -26,7 +26,7 @@ name_card_bangladesh:
       address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
       phone: "+880 15 3420 6479"
     bottom_strip:
-      text: "Community Partners International USA, 2560 Ninth Street, Suite 315 B, Berkeley, CA 94710, USA"
+      text: "Community Partners International USA, 2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA"
       font_size_pt: 6
       logo: { position: right, version: full_color }
 
@@ -163,7 +163,7 @@ folder_bangladesh:
       content:
         cpi_usa:
           label: "Community Partners International USA"
-          address: "2560 Ninth Street, Suite 315 B, Berkeley, CA 94710"
+          address: "2001 Addison St, Ste 300, Berkeley, CA 94704-1165"
           phone: "+1 510 225 9676"
         cpi_bangladesh:
           label: "Community Partners International Bangladesh"

@@ -24,7 +24,7 @@
 **Health Email:** healthbgd@cpintl.org  
 
 ### CPI USA (Headquarters)
-**Address:** 2560 Ninth Street, Suite 315 B, Berkeley, CA 94710, USA  
+**Address:** 2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA  
 **Phone:** +1 510 225 9676  
 **Email:** info@cpintl.org  
 **Website:** www.cpintl.org  
@@ -59,5 +59,7 @@
 ## SOCIAL MEDIA HANDLES
 - **Facebook:** communitypartnersinternational  
 - **LinkedIn:** Community Partners International  
+- **Instagram:** @cp_intl  
+- **X (Twitter):** @cp_intl  
 - **Website:** www.cpintl.org  
 - **Email:** info@cpintl.org  

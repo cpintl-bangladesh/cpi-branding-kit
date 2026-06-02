@@ -42,10 +42,10 @@
       "email": "info@cpintl.org",
       "phone": "+1 510 225 9676",
       "address": {
-        "street": "2560 Ninth Street, Suite 315 B",
+        "street": "2001 Addison St, Ste 300",
         "city": "Berkeley",
         "state": "CA",
-        "zip": "94710",
+        "zip": "94704-1165",
         "country": "USA"
       },
       "website": "https://www.cpintl.org"
@@ -77,6 +77,8 @@
   "social_handles": {
     "facebook": "communitypartnersinternational",
     "linkedin": "community-partners-international",
+    "instagram": "cp_intl",
+    "x_twitter": "cp_intl",
     "website": "www.cpintl.org",
     "email_general": "info@cpintl.org"
   }

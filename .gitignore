@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Raw source files (not part of skill distribution)
+_raw/
+
+# Skill package archives
+*.zip
+*.tar.gz
+
+# Node (if any future tooling)
+node_modules/

@@ -52,7 +52,7 @@
    Kurushkul Bypass Road, Cox's Bazar, Bangladesh
 
 Community Partners International USA
-2560 Ninth Street, Suite 315 B, Berkeley, CA 94710, USA
+2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA
 ```
 
 ---
@@ -162,7 +162,7 @@ Kurushkul Bypass Road, Cox's Bazar, Bangladesh
 - **CONNECT WITH US section:**
   ```
   Community Partners International USA
-  2560 Ninth Street, Suite 315 B, Berkeley, CA 94710
+  2001 Addison St, Ste 300, Berkeley, CA 94704-1165
   +1 510 225 9676
 
   Community Partners International Bangladesh

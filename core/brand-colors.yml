@@ -225,6 +225,12 @@ thematic_mapping:
   emergency_humanitarian:
     primary: "#D91E4D"
     secondary: "#615E9B"
+  humanitarian_relief:
+    primary: "#D91E4D"
+    secondary: "#615E9B"
+  well_being:
+    primary: "#4298B5"
+    secondary: "#41273B"
   sustainable_development:
     primary: "#4298B5"
     secondary: "#41273B"

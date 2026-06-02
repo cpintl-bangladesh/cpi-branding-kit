@@ -1,0 +1,7 @@
+# CPI Branding Kit — GitHub Pages Configuration
+title: CPI Branding Kit
+description: Complete brand identity and AI agent skill kit for Community Partners International
+url: https://cpintl-bangladesh.github.io
+baseurl: /cpi-branding-kit
+markdown: kramdown
+theme: null
