@@ -1,3 +1,15 @@
+---
+name: CPI-BRANDING-KIT
+description: >
+  Complete brand identity and design system for Community Partners International (CPI).
+  Enables AI agents to produce 100% brand-compliant documents, presentations, reports,
+  social media graphics, email templates, banners, and all communication materials
+  following CPI's official brand standards.
+version: 1.0.0
+author: Mohammad Ariful Islam
+organization: Community Partners International — Bangladesh Mission
+---
+
 # CPI-BRANDING-KIT — Master Skill Reference
 ## Community Partners International | Complete Brand Identity & Design System
 
