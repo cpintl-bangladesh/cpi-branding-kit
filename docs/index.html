@@ -3,316 +3,238 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CPI Branding Kit — Community Partners International</title>
-  <meta name="description" content="Complete brand identity and AI agent skill kit for Community Partners International (CPI)">
+  <title>CPI Branding Kit — Design System & Brand Guidelines</title>
+  <meta name="description" content="The complete CPI Branding Kit — official brand guidelines, logo assets, color palette, typography, and templates for Community Partners International.">
   <link rel="icon" type="image/png" href="images/CPI_LOGO_CIRCLE.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- Navigation -->
-<nav>
-  <img class="logo" src="images/CPILogoFooter.svg" alt="CPI Logo" style="height:28px">
-  <button class="hamburger" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-  <ul class="nav-links">
-    <li><a href="#colors">Colors</a></li>
-    <li><a href="#typography">Typography</a></li>
-    <li><a href="#logo">Logo</a></li>
-    <li><a href="#templates">Templates</a></li>
-    <li><a href="#audiences">Audiences</a></li>
-    <li><a href="#developers">Developers</a></li>
-    <li><a href="#download">Download</a></li>
-  </ul>
-</nav>
+  <!-- Navigation -->
+  <nav>
+    <img src="images/LOGOCPI.svg" alt="Community Partners International" class="logo">
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#logos">Logos</a></li>
+      <li><a href="#templates">Templates</a></li>
+      <li><a href="#audience">Audience</a></li>
+      <li><a href="#download">Download</a></li>
+    </ul>
+  </nav>
 
-<!-- Hero -->
-<section class="hero">
-  <img class="hero-logo" src="images/CPILogoFooter.svg" alt="Community Partners International" style="height:70px">
-  <h1>Branding Kit <span class="version-badge">1.0.0</span></h1>
-  <p class="tagline">Empower communities. Transform lives.</p>
-  <p class="subtitle">The single source of truth for all CPI-branded design — from headquarters to country offices. Ready for AI agents, designers, developers, and field teams.</p>
-  <div class="stats">
-    <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Million Reached</div></div>
-    <div class="stat"><div class="stat-num">4</div><div class="stat-label">Countries</div></div>
-    <div class="stat"><div class="stat-num">97%</div><div class="stat-label">Local Workforce</div></div>
-    <div class="stat"><div class="stat-num">55+</div><div class="stat-label">Skill Assets</div></div>
-  </div>
-</section>
-
-<!-- Colors -->
-<section id="colors">
-  <div class="container">
-    <h2>Brand Colors</h2>
-    <p class="section-desc">Approved CPI color palette. Click any swatch to copy its hex value.</p>
-    <div class="colors-grid">
-      <div class="color-swatch" style="background:#D91E4D;color:#fff" data-hex="#D91E4D">
-        <div class="color-name">CPI Red</div>
-        <div class="color-hex">#D91E4D</div>
-        <div class="color-detail">Pantone 7636C — Accent, headers, icons, CTAs</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#41273B;color:#fff" data-hex="#41273B">
-        <div class="color-name">CPI Purple</div>
-        <div class="color-hex">#41273B</div>
-        <div class="color-detail">Pantone 7449C — Logo, headings, dark panels</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#948794;color:#fff" data-hex="#948794">
-        <div class="color-name">CPI Mid Grey</div>
-        <div class="color-hex">#948794</div>
-        <div class="color-detail">Pantone 7653C — Secondary text, captions</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#D0C4C5;color:#2D2926" data-hex="#D0C4C5">
-        <div class="color-name">CPI Light Grey</div>
-        <div class="color-hex">#D0C4C5</div>
-        <div class="color-detail">Pantone 434C — Backgrounds, table alternates</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#2D2926;color:#fff" data-hex="#2D2926">
-        <div class="color-name">CPI Black</div>
-        <div class="color-hex">#2D2926</div>
-        <div class="color-detail">Pantone Black C — Body text</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#615E9B;color:#fff" data-hex="#615E9B">
-        <div class="color-name">Purple (Secondary)</div>
-        <div class="color-hex">#615E9B</div>
-        <div class="color-detail">Pantone 7669C — Charts, secondary accents</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#4298B5;color:#fff" data-hex="#4298B5">
-        <div class="color-name">CPI Blue / Teal</div>
-        <div class="color-hex">#4298B5</div>
-        <div class="color-detail">Pantone 7459C — WASH, water, charts series 3</div>
-        <div class="copy-badge">Copy</div>
-      </div>
-      <div class="color-swatch" style="background:#FFFFFF;color:#2D2926;border-color:#D0C4C5" data-hex="#FFFFFF">
-        <div class="color-name">White</div>
-        <div class="color-hex">#FFFFFF</div>
-        <div class="color-detail">Page backgrounds, reversed logo</div>
-        <div class="copy-badge">Copy</div>
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>CPI BRANDING</h1>
+      <div class="tagline">KIT</div>
+      <p class="subtitle">Official branding design system for Community Partners International including logos, colors, typography, and brand guidelines.</p>
+      <div class="stats">
+        <div>
+          <div class="stat-num">71</div>
+          <div class="stat-label">Assets</div>
+        </div>
+        <div>
+          <div class="stat-num">5</div>
+          <div class="stat-label">Templates</div>
+        </div>
+        <div>
+          <div class="stat-num">1.0</div>
+          <div class="stat-label">Version</div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Typography -->
-<section id="typography">
-  <div class="container">
-    <h2>Typography</h2>
-    <p class="section-desc">Raleway for designed materials — Arial for office &amp; digital use</p>
-    <div class="typo-grid">
-      <div class="typo-card">
-        <h3>Raleway <span style="font-weight:300;font-size:12px;color:var(--cpi-grey-mid)">Google Fonts (OFL)</span></h3>
-        <div class="typo-sample"><div class="label">Bold 700 — Headlines</div><div class="raleway" style="font-weight:700;font-size:20px;color:#41273B">The quick brown fox</div></div>
-        <div class="typo-sample"><div class="label">Semi-Bold 600 — Section headings</div><div class="raleway" style="font-weight:600;font-size:16px;color:#D91E4D">The quick brown fox</div></div>
-        <div class="typo-sample"><div class="label">Medium 500 — Tagline</div><div class="raleway" style="font-weight:500;font-size:14px;color:#41273B">Empower communities. Transform lives.</div></div>
-        <div class="typo-sample"><div class="label">Regular 400 — Body</div><div class="raleway" style="font-weight:400;font-size:13px;color:#2D2926">The quick brown fox jumps over the lazy dog.</div></div>
-        <div class="typo-sample"><div class="label">Light 300 — Sub-headings</div><div class="raleway" style="font-weight:300;font-size:12px;color:#948794">The quick brown fox jumps over the lazy dog.</div></div>
+  <!-- Colors -->
+  <section id="colors">
+    <div class="container">
+      <div class="section-header">
+        <h2>Color System</h2>
+        <p>CPI's official color palette — brand colors, neutrals, and extended palette with hex, RGB, and use cases.</p>
       </div>
-      <div class="typo-card">
-        <h3>Arial <span style="font-weight:300;font-size:12px;color:var(--cpi-grey-mid)">System Font</span></h3>
-        <div class="typo-sample"><div class="label">Bold 700 — Titles</div><div class="arial" style="font-weight:700;font-size:22px;color:#41273B">The quick brown fox</div></div>
-        <div class="typo-sample"><div class="label">Bold 700 — Headings (Red)</div><div class="arial" style="font-weight:700;font-size:16px;color:#D91E4D">The quick brown fox</div></div>
-        <div class="typo-sample"><div class="label">Regular 400 — Body</div><div class="arial" style="font-weight:400;font-size:13px;color:#2D2926">The quick brown fox jumps over the lazy dog.</div></div>
-        <div class="typo-sample"><div class="label">Regular 400 — Captions (Grey)</div><div class="arial" style="font-weight:400;font-size:11px;color:#948794">The quick brown fox jumps over the lazy dog.</div></div>
+      <div class="colors-grid" id="colorsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Typography -->
+  <section id="typography">
+    <div class="container">
+      <div class="section-header">
+        <h2>Typography</h2>
+        <p>Barlow Condensed for display headlines and Poppins for body copy — a modern, readable pair.</p>
+      </div>
+      <div class="typo-grid">
+        <div class="typo-card">
+          <h3>Barlow Condensed</h3>
+          <div class="typo-sample">
+            <div class="label">Display / H1 (62/70)</div>
+            <div class="barlow" style="font-size:62px;font-weight:700;line-height:70px;">CPI Branding Kit</div>
+          </div>
+          <div class="typo-sample">
+            <div class="label">Display / H2 (48/52)</div>
+            <div class="barlow" style="font-size:48px;font-weight:700;line-height:52px;">Color System</div>
+          </div>
+          <div class="typo-sample">
+            <div class="label">Tagline (92/92)</div>
+            <div class="barlow" style="font-size:92px;font-weight:600;line-height:92px;color:var(--brand-magenta);">KIT</div>
+          </div>
+        </div>
+        <div class="typo-card">
+          <h3>Poppins</h3>
+          <div class="typo-sample">
+            <div class="label">Body (16/30)</div>
+            <div class="poppins">Community Partners International works alongside local health providers and community-based organizations in Bangladesh to strengthen access to essential health services.</div>
+          </div>
+          <div class="typo-sample">
+            <div class="label">Button Label (18/18) Bold</div>
+            <div class="poppins" style="font-size:18px;font-weight:700;">Download Kit</div>
+          </div>
+          <div class="typo-sample">
+            <div class="label">Caption / Detail (13/20)</div>
+            <div class="poppins" style="font-size:13px;font-weight:400;">Color: Brand Magenta #D91E4D</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Logo -->
-<section id="logo">
-  <div class="container">
-    <h2>Logo Variations</h2>
-    <p class="section-desc">Five official CPI logo versions for every context</p>
-    <div class="logo-showcase">
-      <div class="logo-card">
-        <img src="images/LOGOCPI.svg" alt="CPI Primary Logo">
-        <h4>Primary (Full Color)</h4>
-        <p>Default for most contexts — white backgrounds</p>
+  <!-- Logos -->
+  <section id="logos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Logos</h2>
+        <p>Official CPI logo files in color and white variants, with usage guidance.</p>
       </div>
-      <div class="logo-card dark-bg">
-        <img src="images/CPILogoFooter.svg" alt="CPI White Logo">
-        <h4>White / Reversed</h4>
-        <p>On colored backgrounds — Purple, Red, Blue, Grey, Black</p>
-      </div>
-      <div class="logo-card">
-        <img src="images/CPI_LOGO_CIRCLE.png" alt="CPI Circular Logo">
-        <h4>Circular / Icon</h4>
-        <p>Profile photos, favicon, badge contexts</p>
-      </div>
-    </div>
-    <br>
-    <table class="ref-table">
-      <thead><tr><th>Rule</th><th>Value</th></tr></thead>
-      <tbody>
-        <tr><td>Min size (primary)</td><td>0.5 cm height</td></tr>
-        <tr><td>Min size (secondary)</td><td>0.9 cm height</td></tr>
-        <tr><td>Clear space</td><td>= x-width of "P" in logo on all sides</td></tr>
-        <tr><td>Approved backgrounds</td><td>White, Purple, Red, Grey, Blue, Black only</td></tr>
-        <tr><td>Color mode</td><td>RGB for digital / CMYK for print</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<!-- Templates -->
-<section id="templates">
-  <div class="container">
-    <h2>Template Guides</h2>
-    <p class="section-desc">Complete guides for every CPI-branded document type</p>
-    <div class="template-grid">
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/document-template-guide.md" class="template-card" target="_blank">
-        <div class="icon">📄</div>
-        <h4>Documents</h4>
-        <p>Word, PDF, Google Docs — SOPs, letters, reports</p>
-      </a>
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/presentation-template-guide.md" class="template-card" target="_blank">
-        <div class="icon">📊</div>
-        <h4>Presentations</h4>
-        <p>PowerPoint &amp; Google Slides — 9 slide templates</p>
-      </a>
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/social-media-guide.md" class="template-card" target="_blank">
-        <div class="icon">📱</div>
-        <h4>Social Media</h4>
-        <p>Facebook, LinkedIn, WhatsApp — posts &amp; stories</p>
-      </a>
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/report-template-guide.md" class="template-card" target="_blank">
-        <div class="icon">📈</div>
-        <h4>Reports</h4>
-        <p>Monthly, quarterly, annual, sitrep templates</p>
-      </a>
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/email-signature-templates.md" class="template-card" target="_blank">
-        <div class="icon">✉️</div>
-        <h4>Email Signatures</h4>
-        <p>HTML + plain text — staff &amp; HPM templates</p>
-      </a>
-      <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/templates/field-tools-guide.md" class="template-card" target="_blank">
-        <div class="icon">🗂️</div>
-        <h4>Field Tools</h4>
-        <p>KoboToolbox, CHW logbooks, supervision forms</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Audiences -->
-<section id="audiences">
-  <div class="container">
-    <h2>For Every Audience</h2>
-    <p class="section-desc">The CPI Branding Kit serves everyone — from field staff to AI agents</p>
-    <div class="audience-grid">
-      <div class="audience-card">
-        <div class="icon">👥</div>
-        <h3>For General Viewers</h3>
-        <p>Explore CPI's visual identity — our colors tell the story of empowerment, dignity, and community-led change. Download logo assets and brand guidelines.</p>
-        <a href="#colors" class="btn btn-outline">Explore Brand</a>
-      </div>
-      <div class="audience-card">
-        <div class="icon">💻</div>
-        <h3>For Developers</h3>
-        <p>CSS variables, JSON color specs, and structured YAML/JSON schemas ready for integration. Copy CPI's design tokens directly into your project.</p>
-        <a href="#developers" class="btn btn-outline">View Tokens</a>
-      </div>
-      <div class="audience-card">
-        <div class="icon">🤖</div>
-        <h3>For AI Agents</h3>
-        <p>Upload this skill to Claude, GPT, Gemini, or any LLM. Load the AI quickstart guide for instant brand-compliant content generation.</p>
-        <a href="#download" class="btn btn-primary">Download Skill</a>
-      </div>
-      <div class="audience-card">
-        <div class="icon">📝</div>
-        <h3>For Designers</h3>
-        <p>Complete specifications for every CPI asset — stationery, presentations, social graphics, reports, and field materials. Fonts, colors, layouts included.</p>
-        <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit/blob/main/guidelines" class="btn btn-outline" target="_blank">View Guidelines</a>
+      <div class="logo-showcase">
+        <div class="logo-card">
+          <img src="images/LOGOCPI.svg" alt="CPI Color Logo">
+          <h4>Primary Color Logo</h4>
+          <p>Full-color logo for use on white or light backgrounds.</p>
+        </div>
+        <div class="logo-card dark-bg">
+          <img src="images/CPILogoFooter.svg" alt="CPI White Logo">
+          <h4>White / Reversed Logo</h4>
+          <p>White logo for use on dark or branded backgrounds.</p>
+        </div>
+        <div class="logo-card">
+          <img src="images/CPI_LOGO_CIRCLE.png" alt="CPI Circle Icon" style="max-height:90px;">
+          <h4>Circle Icon</h4>
+          <p>Standalone icon for social media avatars and favicons.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Developers -->
-<section id="developers">
-  <div class="container">
-    <h2>For Developers</h2>
-    <p class="section-desc">Design tokens, CSS variables, and structured data ready to integrate</p>
-    <h3 style="font-size:18px;color:var(--cpi-purple);margin-bottom:12px">CSS Variables</h3>
-    <div class="code-block">
-:root {
-  --cpi-red:         #D91E4D;
-  --cpi-purple:      #41273B;
-  --cpi-grey-mid:    #948794;
-  --cpi-grey-light:  #D0C4C5;
-  --cpi-black:       #2D2926;
-  --cpi-purple-sec:  #615E9B;
-  --cpi-blue:        #4298B5;
-  --font-primary:    'Raleway', sans-serif;
-  --font-system:     'Arial', Helvetica, sans-serif;
-}
+  <!-- Templates -->
+  <section id="templates">
+    <div class="container">
+      <div class="section-header">
+        <h2>Templates</h2>
+        <p>Editable Canva and PDF templates for presentations, reports, and field communications.</p>
+      </div>
+      <div class="template-grid">
+        <a href="templates/presentation-deck.pptx" class="template-card" download>
+          <div class="icon">📊</div>
+          <h4>Presentation Deck</h4>
+          <p>Canva/PPT template for internal and external presentations.</p>
+        </a>
+        <a href="templates/report-cover-page.docx" class="template-card" download>
+          <div class="icon">📄</div>
+          <h4>Report Cover Page</h4>
+          <p>Cover page template for program and annual reports.</p>
+        </a>
+        <a href="templates/social-media-graphics.pptx" class="template-card" download>
+          <div class="icon">📱</div>
+          <h4>Social Media Graphics</h4>
+          <p>Pre-sized graphics for Facebook, Instagram, and X/Twitter.</p>
+        </a>
+        <a href="templates/letterhead.docx" class="template-card" download>
+          <div class="icon">✉️</div>
+          <h4>Letterhead</h4>
+          <p>Official CPI letterhead for formal correspondence.</p>
+        </a>
+        <a href="templates/field-tools-guide-cover.pptx" class="template-card" download>
+          <div class="icon">🛠️</div>
+          <h4>Field Tools Guide Cover</h4>
+          <p>Cover template for field tools and training materials.</p>
+        </a>
+        <a href="#" class="template-card">
+          <div class="icon">📐</div>
+          <h4>Email Signature</h4>
+          <p>HTML email signature template with CPI branding.</p>
+        </a>
+      </div>
     </div>
-    <h3 style="font-size:18px;color:var(--cpi-purple);margin:24px 0 12px">Google Fonts Import</h3>
-    <div class="code-block">
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+  </section>
+
+  <!-- Audience -->
+  <section id="audience">
+    <div class="container">
+      <div class="section-header">
+        <h2>Who Uses This</h2>
+        <p>This branding kit is designed for everyone creating CPI-branded materials.</p>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <div class="icon">🎨</div>
+          <h3>Designers</h3>
+          <p>Access official color values, font stacks, and logo assets for any design tool.</p>
+          <a href="#download" class="btn btn-secondary">Download Kit</a>
+        </div>
+        <div class="audience-card">
+          <div class="icon">✍️</div>
+          <h3>Content Creators</h3>
+          <p>Editable templates for social media, presentations, and reports.</p>
+          <a href="#templates" class="btn btn-secondary">View Templates</a>
+        </div>
+        <div class="audience-card">
+          <div class="icon">🖥️</div>
+          <h3>Developers</h3>
+          <p>CSS custom properties, color tokens, and downloadable assets for web projects.</p>
+          <a href="#download" class="btn btn-secondary">Get Assets</a>
+        </div>
+        <div class="audience-card">
+          <div class="icon">📋</div>
+          <h3>Partners</h3>
+          <p>Guidelines for co-branded materials and correct CPI logo usage.</p>
+          <a href="#templates" class="btn btn-secondary">Guidelines</a>
+        </div>
+      </div>
     </div>
-    <h3 style="font-size:18px;color:var(--cpi-purple);margin:24px 0 12px">File Naming Convention</h3>
-    <div class="code-block">
-CPI-BGD-{ProgramCode}-{DocumentType}-{YYYYMM}-v{Version}.{ext}
+  </section>
 
-Examples:
-CPI-BGD-HOP-MonthlyReport-202604-v1.pdf
-CPI-BGD-HCV-SOP-202601-v2.docx
-CPI-BGD-CVD-TrainingManual-202603-v1.pptx
+  <!-- Downloads -->
+  <section id="download">
+    <div class="container">
+      <div class="section-header">
+        <h2>Downloads</h2>
+        <p>Download the complete CPI Branding Kit package with all assets and guidelines.</p>
+      </div>
+      <div class="download-area">
+        <h3>cpi-branding-kit <span class="version-badge">v1.0.0</span></h3>
+        <p>71 files — logos, colors, typography, templates, guidelines, and field tools. ZIP archive ready for use.</p>
+        <a href="downloads/cpi-branding-kit-v1.0.0.zip" class="btn btn-primary">Download Kit</a>
+      </div>
     </div>
-    <h3 style="font-size:18px;color:var(--cpi-purple);margin:24px 0 12px">Program Codes</h3>
-    <table class="ref-table">
-      <thead><tr><th>Code</th><th>Program</th></tr></thead>
-      <tbody>
-        <tr><td>HOP</td><td>Health Outreach Programme</td></tr>
-        <tr><td>HCV</td><td>Hepatitis C Virus Program</td></tr>
-        <tr><td>CVD</td><td>CVD/NCD Program</td></tr>
-        <tr><td>HP</td><td>Health Post</td></tr>
-        <tr><td>WASH</td><td>WASH Services</td></tr>
-        <tr><td>EM</td><td>Emergency Preparedness</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
+  </section>
 
-<!-- Download -->
-<section id="download">
-  <div class="container">
-    <h2>Download the Skill</h2>
-    <p class="section-desc">Get the complete CPI Branding Kit as a ready-to-use package for any AI agent or design workflow</p>
-    <div class="download-area">
-      <h3>CPI Branding Kit v1.0.0</h3>
-      <p>Complete brand identity + AI skill package — 55+ assets, templates, schemas, and guides</p>
-      <a href="downloads/cpi-branding-kit-v1.0.0.zip" class="btn">Download ZIP</a>
-      <p style="margin-top:12px;font-size:12px;opacity:0.7">Includes: core, guidelines, templates, assets, prompts, examples, schemas, and AI quickstart</p>
+  <!-- Footer -->
+  <footer>
+    <img src="images/CPILogoFooter.svg" alt="CPI" class="f-logo" style="height:40px;">
+    <p class="f-tagline">Community Partners International</p>
+    <div class="f-links">
+      <a href="https://cpintl.org" target="_blank" rel="noopener">cpintl.org</a>
+      <a href="mailto:info@cpintl.org">info@cpintl.org</a>
+      <a href="https://cpintl.org/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
     </div>
-  </div>
-</section>
+    <p class="f-copy">&copy; 2026 Community Partners International. All rights reserved.</p>
+  </footer>
 
-<!-- Footer -->
-<footer>
-  <img class="f-logo" src="images/CPILogoFooter.svg" alt="CPI">
-  <p class="f-tagline">Empower communities. Transform lives.</p>
-  <div class="f-links">
-    <a href="https://cpintl.org" target="_blank">Website</a>
-    <a href="https://github.com/cpintl-bangladesh/cpi-branding-kit" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/company/community-partners-international" target="_blank">LinkedIn</a>
-    <a href="https://www.facebook.com/communitypartnersinternational" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/cp_intl/" target="_blank">Instagram</a>
-  </div>
-  <div class="f-copy">
-    &copy; 2026 Community Partners International. All rights reserved.<br>
-    2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA<br>
-    Tax ID: 94-3375666 | 501(c)(3) Public Charity
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
