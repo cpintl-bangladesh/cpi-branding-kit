@@ -20,7 +20,6 @@ function renderColorSwatches() {
       <div class="copy-badge">Click to copy</div>
       <div class="color-name">${c.name}</div>
       <div class="color-hex">${c.hex}</div>
-      <div class="color-rgb">RGB: ${c.rgb}</div>
       <div class="color-detail">${c.detail}</div>
     </div>`;
   }).join('');

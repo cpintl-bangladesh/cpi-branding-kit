@@ -329,7 +329,6 @@ section:nth-child(even) { background: var(--subtle-bg); }
 .template-card .icon { font-size: 40px; margin-bottom: 12px; }
 .template-card h4 { font-size: 20px; font-weight: 600; font-family: var(--font-primary); color: var(--cpi-purple); margin-bottom: 8px; line-height: 30px; }
 .template-card p { font-size: 13px; font-weight: 400; color: var(--cpi-grey-mid); line-height: 20px; }
-.template-card .icon { font-size: 13px; font-weight: 700; color: var(--cpi-red); letter-spacing: 2px; margin-bottom: 12px; }
 
 /* ── Audience Cards ── */
 .audience-grid {
@@ -359,7 +358,6 @@ section:nth-child(even) { background: var(--subtle-bg); }
 .audience-card .icon { font-size: 48px; margin-bottom: 16px; }
 .audience-card h3 { font-size: 24px; font-weight: 600; font-family: var(--font-primary); color: var(--cpi-purple); margin-bottom: 12px; line-height: 36px; }
 .audience-card p { font-size: 13px; font-weight: 400; color: var(--cpi-black); line-height: 20px; margin-bottom: 24px; }
-.audience-card .icon { font-size: 13px; font-weight: 700; color: var(--cpi-red); letter-spacing: 2px; margin-bottom: 16px; }
 
 /* ── Buttons ── */
 .btn {
