@@ -20,3 +20,9 @@ _raw/
 
 # Node (if any future tooling)
 node_modules/
+
+# Downloaded / exported pages (not part of the kit)
+CPI Branding Kit — Design System & Brand Guidelines.html
+CPI Branding Kit — Design System & Brand Guidelines.pdf
+CPI Branding Kit — Design System & Brand Guidelines_files/
+Screenshot*.png
