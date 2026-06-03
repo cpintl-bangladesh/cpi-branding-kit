@@ -257,7 +257,6 @@ section:nth-child(even) { background: var(--subtle-bg); }
 }
 
 @media (max-width: 768px) {
-  section { padding: 60px 0; }
   .section-header { margin-bottom: 36px; }
   .section-header h2 { font-size: 32px; line-height: 40px; }
   .section-header p { font-size: 14px; line-height: 24px; }
@@ -472,7 +471,7 @@ section:nth-child(even) { background: var(--subtle-bg); }
   height: 48px;
 }
 .btn-secondary:hover { background: #F5F5F5; border-color: var(--cpi-purple); }
-.btn-secondary:active { background: var(--off-white); }
+.btn-secondary:active { background: #E8E8E8; }
 
 /* ── Code Blocks ── */
 .code-block {
