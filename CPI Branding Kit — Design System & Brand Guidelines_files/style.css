@@ -102,8 +102,8 @@ nav .nav-links a.active { color: var(--cpi-red); border-bottom: 2px solid var(--
 .hero {
   margin-top: 64px;
   position: relative;
-  background: #41273B;
-  color: #FFFFFF;
+  background: var(--cpi-purple);
+  color: var(--white);
   padding: 80px 60px;
   min-height: 520px;
   display: flex;
