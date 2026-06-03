@@ -198,23 +198,123 @@ scabies_mda_indicators:
       definition: "Number of reported adverse events per 1000 treated"
 
 # ════════════════════════════════════════════════════════════════════════════
+# EDUCATION PROGRAM INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+education_indicators:
+  program: "Learning for Future (L4F)"
+  partner: Educo
+  learners: 440
+  facilities:
+    ece_centers: 8
+    learning_centers: 4
+    community_based_learning_facilities: 4
+
+  indicators:
+    - id: EDU-01
+      name: "Learner Enrollment"
+      definition: "Number of learners enrolled across all facilities"
+      target: 440
+      type: point_in_time_count
+    - id: EDU-02
+      name: "Learner Attendance Rate"
+      definition: "% of enrolled learners attending regularly"
+      target: "≥85%"
+    - id: EDU-03
+      name: "Life Skills Sessions Conducted"
+      definition: "Number of life skills sessions on gender discrimination, safeguarding, PSEA"
+      type: monthly_count
+    - id: EDU-04
+      name: "Staff Trained on Child Safeguarding"
+      definition: "Number of educational staff trained on child safeguarding and PSEA"
+      type: cumulative_count
+    - id: EDU-05
+      name: "Community Libraries Established"
+      definition: "Number of community libraries established for adolescent literacy"
+      type: cumulative_count
+
+# ════════════════════════════════════════════════════════════════════════════
+# WASH & CLEAN ENERGY INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+wash_clean_energy_indicators:
+  partners: ["YPSA", "SDA"]
+  geographic_focus: ["Camps 1W, 4, 17 (Cox's Bazar)", "Patuakhali host communities"]
+
+  indicators:
+    - id: WCE-01
+      name: "Latrines Constructed"
+      definition: "Number of disaster-resilient twin-pit latrines constructed"
+      type: cumulative_count
+    - id: WCE-02
+      name: "Bathing Cubicles Constructed"
+      definition: "Number of gender-segregated bathing cubicles constructed"
+      type: cumulative_count
+    - id: WCE-03
+      name: "Solar Street Lights Installed"
+      definition: "Number of solar-powered street lights installed"
+      type: cumulative_count
+    - id: WCE-04
+      name: "Households Connected to Mini-Piped Water"
+      definition: "Number of new household connections to mini-piped water network"
+      type: cumulative_count
+    - id: WCE-05
+      name: "Biogas Plants Constructed"
+      definition: "Number of household/community biogas plants constructed"
+      type: cumulative_count
+    - id: WCE-06
+      name: "Households Reached with Hygiene Promotion"
+      definition: "Number of households reached with hygiene promotion activities"
+      type: cumulative_count
+
+# ════════════════════════════════════════════════════════════════════════════
+# LIVELIHOOD & ALTERNATIVE ENERGY INDICATORS
+# ════════════════════════════════════════════════════════════════════════════
+livelihood_indicators:
+  partner: SDA
+  geographic_focus: "Patuakhali host communities"
+
+  indicators:
+    - id: LIV-01
+      name: "Jobs Created (O&M)"
+      definition: "Number of community members employed in water network O&M"
+      type: cumulative_count
+    - id: LIV-02
+      name: "Water Management Committees Formed"
+      definition: "Number of community-led water management committees established"
+      type: cumulative_count
+    - id: LIV-03
+      name: "Biogas Households Served"
+      definition: "Number of households using biogas for cooking fuel"
+      type: cumulative_count
+    - id: LIV-04
+      name: "Firewood Replacement Rate"
+      definition: "Estimated reduction in firewood usage among biogas households"
+      type: percentage
+
+# ════════════════════════════════════════════════════════════════════════════
 # REPORTING SCHEDULE
 # ════════════════════════════════════════════════════════════════════════════
 reporting_schedule:
+  daily:
+    - DHIS2 Daily Morbidity Report (by 16:30 COB)
   weekly:
-    - EWARS disease surveillance
+    - EWARS Epidemiological Report (Sunday by 17:00 COB)
+    - EWARS Case Report Forms (within 24 hours of diagnosis)
     - CHW activity count
   monthly:
     - DHIS2 health data
-    - ActivityInfo donor platform
+    - ActivityInfo 4W donor platform (first EPI weekday)
+    - Monthly Govt. Progress Report (CiC) — physical copy
+    - Monthly Govt. Progress Report (DGHS) — physical copy
+    - HP Master Data Update (last working day)
+    - HCV/CVD Program Report (by 5th of following month)
+    - BGD Country Office SITREP
     - Internal program reports (all programs)
-    - Health post OPD statistics
   quarterly:
-    - Donor reports
-    - Health Sector 3W/4W
+    - Narrative Progress Reports (prime donors)
+    - Health Sector reporting
     - M&E assessment
   annually:
-    - Annual Program Report
+    - Annual Service Delivery Result (ASDR) — by March/April
     - Full M&E evaluation
 
 # ════════════════════════════════════════════════════════════════════════════

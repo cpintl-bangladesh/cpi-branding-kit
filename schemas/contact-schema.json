@@ -1,85 +1,151 @@
 {
-  "schema_name": "CPI Bangladesh Contact Directory Schema",
+  "schema_name": "CPI Global & Bangladesh Contact Directory Schema",
   "version": "1.0.0",
-
-  "contacts": [
+  "offices": [
+    {
+      "id": "CPI-OFFICE-001",
+      "office_category": "Global HQ",
+      "name": "Community Partners International (CPI) Global Headquarters",
+      "organization": "Community Partners International USA",
+      "plain_address": "2001 Addison Street, Suite 300, Berkeley, CA 94704, USA",
+      "map_location_url": "https://maps.app.goo.gl/p43TiO1-hYARKR-t5",
+      "contact_details": {
+        "phone_mobile": null,
+        "phone_office": "+1 510-225-9676",
+        "email": "info@cpintl.org"
+      },
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-OFFICE-002",
+      "office_category": "Regional HQ",
+      "name": "Community Partners International (CPI) Asia Regional Headquarters — Chiang Mai Hub",
+      "organization": "Community Partners International Thailand",
+      "plain_address": "Chiang Mai, Thailand",
+      "map_location_url": "https://maps.app.goo.gl/QenpL_Sf4jARw76Bm",
+      "contact_details": {
+        "phone_mobile": null,
+        "phone_office": null,
+        "email": "info@cpintl.org"
+      },
+      "description": "Primary regional hub shifted from Myanmar to Thailand; heavily utilized for finance and program management.",
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-OFFICE-003",
+      "office_category": "Country Office",
+      "name": "Community Partners International (CPI) Bangladesh Country Office",
+      "organization": "Community Partners International — Bangladesh Mission",
+      "plain_address": "Navana Bilkis Laurent, A-2 (Level-2), Plot- 11/B, Road - 36, Block - C.W.N (B), Gulshan-2, Dhaka-1212",
+      "map_location_url": "https://maps.app.goo.gl/uB9mD6V92BGrZ7qA6",
+      "contact_details": {
+        "phone_mobile": "+880 1729-926877",
+        "mobile_assignment": "Country Director",
+        "phone_office": null,
+        "email": "cpi.bangladesh@cpintl.org"
+      },
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-OFFICE-004",
+      "office_category": "Project Office",
+      "name": "Community Partners International (CPI) Cox's Bazar Project Office",
+      "organization": "Community Partners International — Bangladesh Mission",
+      "plain_address": "White House (3rd Floor), Kolatoli Bypass Road (Opposite CXB Police Lines)East Dolphin Point, Cox's Bazar 4700, Bangladesh",
+      "map_location_url": "https://maps.app.goo.gl/6J6H6P6ndyo6njph7",
+      "contact_details": {
+        "phone_mobile": "+880 1534-206479",
+        "mobile_assignment": "HRA Department (Official)",
+        "phone_office": null,
+        "email": "cpi.bangladesh@cpintl.org"
+      },
+      "website": "https://www.cpintl.org",
+      "field_operations": {
+        "managed_by": "Local Partner Organizations (e.g., YPSA — Young Power in Social Action)",
+        "partner_website": "https://www.ypsa.org"
+      }
+    },
+    {
+      "id": "CPI-OFFICE-005",
+      "office_category": "Project Office",
+      "name": "Community Partners International (CPI) Bangkok Office",
+      "organization": "Community Partners International Thailand",
+      "plain_address": "84, 1 Soi Sukhumvit 62, Phra Khanong Tai, Khet Phra Khanong, Bangkok 10260, Thailand",
+      "map_location_url": "https://maps.app.goo.gl/QenpL_Sf4jARw76Bm",
+      "contact_details": {
+        "phone_mobile": null,
+        "phone_office": null,
+        "email": "info@cpintl.org"
+      },
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-OFFICE-006",
+      "office_category": "Project Office",
+      "name": "Community Partners International (CPI) Mae Sot Field Office",
+      "organization": "Community Partners International Thailand",
+      "plain_address": "Mae Sot, Tak, Thailand",
+      "map_location_url": "https://maps.app.goo.gl/QenpL_Sf4jARw76Bm",
+      "contact_details": {
+        "phone_mobile": null,
+        "phone_office": null,
+        "email": "info@cpintl.org"
+      },
+      "description": "Field office located on the Thailand-Myanmar border facilitating cross-border health initiatives.",
+      "website": "https://www.cpintl.org"
+    },
+    {
+      "id": "CPI-OFFICE-007",
+      "office_category": "Country Office",
+      "name": "Community Partners International (CPI) Myanmar Country Office",
+      "organization": "Community Partners International Myanmar",
+      "plain_address": "81 University Avenue Road, Shwe Taung Gyar Ward (1), Bahan Township, Yangon, Myanmar",
+      "map_location_url": "https://maps.app.goo.gl/7dUtz_OTwTARmYJCT",
+      "contact_details": {
+        "phone_mobile": null,
+        "phone_office": "+95 1 525 729",
+        "email": "info@cpintl.org"
+      },
+      "description": "Formerly designated as Asia HQ; currently operates as the principal Myanmar Country Office.",
+      "website": "https://www.cpintl.org"
+    }
+  ],
+  "personnel_contacts": [
     {
       "id": "CPI-BGD-HPM-001",
       "name": "Mohammad Ariful Islam",
       "title": "Health Program Manager",
       "unit": "Health Programs",
-      "organization": "Community Partners International — Bangladesh Mission",
+      "assigned_location": "Cox's Bazar Project Office",
       "email_personal": "ariful@cpintl.org",
+      "email_personal2": "ariful@cpi-ypsa.org",
       "email_program": "healthbgd@cpintl.org",
-      "phone_mobile": "+8801723889843",
-      "phone_office": "+880 15 3420 6479",
-      "location": "Cox's Bazar, Bangladesh",
-      "role_scope": ["HCV Program", "CVD/NCD Program", "Health Outreach Programme", "Health Post", "WASH", "M&E", "ZarishSphere HIS"],
+      "phone_mobile": "+880 1723-889843",
+      "role_scope": [
+        "Global Health Program",
+        "Research and Learning Program",
+        "Health Outreach Program",
+        "Health Post Program",
+        "Health System Strengthening Program",
+        "WASH & CE Program",
+        "M&E"
+      ],
       "is_primary_contact": true
-    },
-    {
-      "id": "CPI-BGD-OFFICE-001",
-      "name": "CPI Bangladesh Mission Office",
-      "title": "General Office",
-      "organization": "Community Partners International Bangladesh",
-      "email": "info@cpintl.org",
-      "email_health": "healthbgd@cpintl.org",
-      "phone": "+880 15 3420 6479",
-      "address": {
-        "building": "Rabbani Building (4th Floor)",
-        "landmark": "Opposite S.K. Tower",
-        "road": "Kurushkul Bypass Road",
-        "city": "Cox's Bazar",
-        "country": "Bangladesh"
-      },
-      "website": "https://www.cpintl.org"
-    },
-    {
-      "id": "CPI-USA-HQ-001",
-      "name": "CPI USA Headquarters",
-      "title": "Global Headquarters",
-      "organization": "Community Partners International USA",
-      "email": "info@cpintl.org",
-      "phone": "+1 510 225 9676",
-      "address": {
-        "street": "2001 Addison St, Ste 300",
-        "city": "Berkeley",
-        "state": "CA",
-        "zip": "94704-1165",
-        "country": "USA"
-      },
-      "website": "https://www.cpintl.org"
-    },
-    {
-      "id": "CPI-MMR-HQ-001",
-      "name": "CPI Myanmar (Asia HQ)",
-      "title": "Asia Regional Headquarters",
-      "organization": "Community Partners International Myanmar",
-      "phone": "+95 1 525 729 / 523 356",
-      "address": {
-        "street": "81 University Avenue Road, Shwe Taung Gyar Ward (1)",
-        "township": "Bahan Township",
-        "city": "Yangon",
-        "country": "Myanmar"
-      }
-    },
-    {
-      "id": "PARTNER-YPSA-001",
-      "name": "YPSA — Young Power in Social Action",
-      "title": "Local Implementing Partner",
-      "organization": "YPSA",
-      "role": "Local implementing partner for CPI Bangladesh programs; DHIS2 system access",
-      "website": "https://www.ypsa.org",
-      "location": "Cox's Bazar, Bangladesh"
     }
   ],
-
-  "social_handles": {
-    "facebook": "communitypartnersinternational",
-    "linkedin": "community-partners-international",
-    "instagram": "cp_intl",
-    "x_twitter": "cp_intl",
-    "website": "www.cpintl.org",
-    "email_general": "info@cpintl.org"
+  "social_media_handles": {
+    "global_commons": {
+      "facebook": "https://www.facebook.com/communitypartnersinternational",
+      "linkedin": "https://www.linkedin.com/company/community-partners-international",
+      "instagram": "https://www.instagram.com/cp_intl",
+      "x_twitter": "https://x.com/cp_intl",
+      "youtube": "https://www.youtube.com/@communitypartnersinternational"
+    },
+    "regional_specific": {
+      "cpi_bangladesh": {
+        "facebook": "https://www.facebook.com/cpibangladesh",
+        "linkedin": null
+      }
+    }
   }
 }

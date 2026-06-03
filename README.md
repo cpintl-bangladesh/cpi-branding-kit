@@ -124,7 +124,7 @@ CPI_BRANDING_KIT/
 | **Primary Purple** | `#41273B` |
 | **Primary Font** | Raleway (designed) / Arial (office) |
 | **Tagline** | *Empower communities. Transform lives.* |
-| **Countries** | Myanmar, Bangladesh, Thailand, Nepal |
+| **Countries** | Bangladesh, Myanmar, Thailand, Nepal |
 | **People served** | 3+ million annually |
 
 ---

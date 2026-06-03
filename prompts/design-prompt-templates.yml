@@ -26,7 +26,7 @@ templates:
       - Font: Arial Bold for titles, Arial Regular for details
       - CPI logo top-left (use full-color version on white; white-reversed on colored backgrounds)
       - Tagline: "Empower communities. Transform lives."
-      - Footer: Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh | Tel: +880 15 3420 6479 | healthbgd@cpintl.org | www.cpintl.org
+      - Footer: Community Partners International — Bangladesh Mission | Country Office: Dhaka | Project Office: Cox's Bazar | Email: cpi.bangladesh@cpintl.org | www.cpintl.org
 
       Layout preference: [e.g., "full-bleed CPI Purple background" OR "white background with CPI Red header band" OR "photo background with overlay"]
 
@@ -120,11 +120,12 @@ templates:
 
       Brand requirements:
       - Font: Arial (email system font)
-      - Name: Arial Bold, CPI Purple (#41273B)
-      - Title/details: Arial Regular, CPI Black (#2D2926), 10–11pt
-      - Tagline: "Empower communities. Transform lives." in CPI Red (#D91E4D) or CPI Purple, italics
-      - CPI logo: PNG, max 120px wide, linked to www.cpintl.org
-      - Office address: Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh | +880 15 3420 6479
+      - Name: Arial Bold, CPI Pink #cc3366 (@cpintl.org) or Dark #333333 (@cpi-ypsa.org)
+      - Title/details: Arial Regular, #333333, 13px
+      - No logo — text-only signature with styled links
+      - @cpintl.org links: #cc3366 color
+      - @cpi-ypsa.org links: #3366CC color
+      - Max width: 620px
 
       Output: HTML email signature code + plain text fallback version.
 

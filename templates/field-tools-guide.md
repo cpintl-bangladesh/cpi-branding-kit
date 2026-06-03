@@ -10,7 +10,7 @@
 - Font: Arial (device font)
 - Colors: CPI Red `#D91E4D` for section headers, CPI Purple `#41273B` for labels
 - Language: English + Rohingya/Chittagonian translations where appropriate
-- Footer: "CPI Bangladesh | healthbgd@cpintl.org"
+- Footer: "CPI Bangladesh | cpi.bangladesh@cpintl.org"
 
 ### Form Structure Template:
 ```

@@ -97,7 +97,7 @@ SUBHEADER: CPI Purple bar, full width, 40px
   "BANGLADESH MISSION UPDATE | [Month Year]" — Arial Bold, 12pt, White
 BODY: White background, Arial Regular 14pt, CPI Black
   Standard newsletter content
-FOOTER: CPI Purple bar + contacts + unsubscribe
+FOOTER: CPI Purple bar + cpi.bangladesh@cpintl.org + unsubscribe
 ```
 
 ---

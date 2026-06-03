@@ -1,46 +1,85 @@
 schema: cpi-bangladesh-contacts
 version: "1.0.0"
+last_updated: "2026-06-03"
 
 cpi_bangladesh_mission:
+  country_representative:
+    name: Md. Abul Bashar
+    title: Country Representative (CR)
+    email: cpi.bangladesh@cpintl.org
+    location: Dhaka, Bangladesh
+
   health_program_manager:
     name: Mohammad Ariful Islam
     title: Health Program Manager (HPM)
-    email: ariful@cpintl.org
-    program_email: healthbgd@cpintl.org
+    email_cpi: ariful@cpintl.org
+    email_ypsa: ariful@cpi-ypsa.org
+    email_program: healthbgd@cpintl.org
     phone: "+8801723889843"
     location: Cox's Bazar, Bangladesh
 
-  office:
-    name: Community Partners International Bangladesh Mission
-    address: "Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh"
-    phone: "+880 15 3420 6479"
-    email: info@cpintl.org
-    health_email: healthbgd@cpintl.org
-    website: www.cpintl.org
+  country_office_dhaka:
+    name: Community Partners International — Bangladesh Country Office
+    address: "Navana Bilkis Laurent, A-2 (Level-2), Plot-11/B, Road-36, Block-C.W.N (B), Gulshan-2, Dhaka-1212, Bangladesh"
+    phone_mobile: "+880 1729-926877"
+    mobile_assignment: "Country Director"
+    email: cpi.bangladesh@cpintl.org
+
+  project_office_coxs_bazar:
+    name: Community Partners International — Cox's Bazar Project Office
+    address: "White House (3rd Floor), Kolatoli Bypass Road (Opposite CXB Police Lines), East Dolphin Point, Cox's Bazar 4700, Bangladesh"
+    phone_mobile: "+880 1534-206479"
+    mobile_assignment: "HRA Department (Official)"
+    email: cpi.bangladesh@cpintl.org
 
 cpi_global:
   usa_hq:
     name: Community Partners International USA
-    address: "2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA"
-    phone: "+1 510 225 9676"
+    address: "2001 Addison Street, Suite 300, Berkeley, CA 94704, USA"
+    phone: "+1 510-225-9676"
     email: info@cpintl.org
     website: www.cpintl.org
 
-  myanmar_hq:
-    name: Community Partners International Myanmar (Asia HQ)
+  thailand_regional:
+    name: Community Partners International Thailand (Asia Regional HQ)
+    address: "84, 1 Soi Sukhumvit 62, Phra Khanong Tai, Khet Phra Khanong, Bangkok 10260, Thailand"
+    email: info@cpintl.org
+
+  myanmar_country:
+    name: Community Partners International Myanmar
     address: "81 University Avenue Road, Shwe Taung Gyar Ward (1), Bahan Township, Yangon, Myanmar"
-    phone: "+95 1 525 729 / 523 356"
+    phone: "+95 1 525 729"
 
 social_media:
   facebook: communitypartnersinternational
+  facebook_bangladesh: cpibangladesh
   linkedin: "Community Partners International"
+  instagram: cp_intl
+  x_twitter: cp_intl
+  youtube: communitypartnersinternational
   website: www.cpintl.org
   email: info@cpintl.org
 
-local_partner:
-  name: YPSA (Young Power in Social Action)
-  website: www.ypsa.org
-  role: "Implementing partner — Cox's Bazar operations, DHIS2 management"
+local_partners:
+  ypsa:
+    name: "YPSA (Young Power in Social Action)"
+    website: www.ypsa.org
+    role: "Prime implementing partner — Cox's Bazar operations, DHIS2 management"
+  sda:
+    name: "SDA (Society Development Agency)"
+    role: "WASH and Clean Energy partner — Patuakhali WCEP Phase 3"
+  rtmi:
+    name: "RTMI (Research, Training and Management International)"
+    role: "CVD-HCV cRCT partner — NCD Corner operations"
+  icddrb:
+    name: "icddr,b"
+    role: "Research partner — CVD-HCV cluster randomized trial"
+  educo:
+    name: "Educo"
+    role: "Education program partner — Learning for Future (L4F) project"
+  friendship:
+    name: "Friendship"
+    role: "Sentinel screening site for Hepatitis C — Camp 5"
 
 coordination_platforms:
   health_sector_coxs_bazar: healthsectorbangladesh.org

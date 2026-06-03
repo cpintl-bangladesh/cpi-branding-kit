@@ -56,11 +56,13 @@ auto_inject_contacts:
     email: ariful@cpintl.org
     phone: "+8801723889843"
   bangladesh_office:
-    email: healthbgd@cpintl.org
-    phone: "+880 15 3420 6479"
+    email: cpi.bangladesh@cpintl.org
+    phone: "+880 1729-926877"
     address: >
-      Rabbani Building (4th Floor), Opposite S.K. Tower,
-      Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+      Country Office: Navana Bilkis Laurent, A-2 (Level-2), Plot-11/B,
+      Road-36, Block-C.W.N (B), Gulshan-2, Dhaka-1212, Bangladesh
+      Project Office: White House (3rd Floor), Kolatoli Bypass Road,
+      (Opposite CXB Police Lines), East Dolphin Point, Cox's Bazar 4700, Bangladesh
   cpi_global:
     website: https://cpintl.org
     email: info@cpintl.org
@@ -72,8 +74,11 @@ file_naming:
     HOP: Health Outreach Programme
     HCV: Hepatitis C Virus Program
     CVD: CVD/NCD Program
-    WASH: WASH Services
+    HSS: Health System Strengthening
+    WASH: WASH & Clean Energy Program
     HP: Health Post
+    EDU: Education Program
+    LIV: Livelihood & Alternative Energy
     EM: Emergency Preparedness
     ADMIN: Administration
     ME: Monitoring and Evaluation

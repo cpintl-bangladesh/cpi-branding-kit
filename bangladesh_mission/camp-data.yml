@@ -3,8 +3,18 @@ camp_data:
   organization: Community Partners International — Bangladesh Mission
   source: "UNHCR Cox's Bazar — March 2026 block-level population data"
   maintained_by: Mohammad Ariful Islam (ariful@cpintl.org)
-  last_updated: "2026-05-30"
+  last_updated: "2026-06-03"
   disclaimer: "Population figures change frequently. Always verify with latest UNHCR data before using in official materials."
+
+cpi_offices:
+  country_office_dhaka:
+    address: "Navana Bilkis Laurent, A-2 (Level-2), Plot-11/B, Road-36, Block-C.W.N (B), Gulshan-2, Dhaka-1212, Bangladesh"
+    phone: "+880 1729-926877"
+    email: "cpi.bangladesh@cpintl.org"
+  project_office_coxs_bazar:
+    address: "White House (3rd Floor), Kolatoli Bypass Road (Opposite CXB Police Lines), East Dolphin Point, Cox's Bazar 4700, Bangladesh"
+    phone: "+880 1534-206479"
+    email: "cpi.bangladesh@cpintl.org"
 
 cox_bazar_overview:
   district: Cox's Bazar
@@ -84,7 +94,7 @@ health_sector_context:
 geographic_references:
   ukhia_upazila: "Primary location for most refugee camps"
   teknaf_upazila: "Southeastern camps — some smaller settlements"
-  cox_bazar_town: "District headquarters — CPI office location (Rabbani Building)"
+  cox_bazar_town: "District headquarters — CPI project office location (White House, Kolatoli Bypass Road)"
   kutupalong: "Largest camp complex (~800,000 refugees in adjacent sites)"
   balukhali: "Part of Kutupalong-Balukhali expansion site"
 

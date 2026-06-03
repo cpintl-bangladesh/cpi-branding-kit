@@ -1,12 +1,16 @@
 abbreviations_glossary:
   version: "2.0.0"
   organization: Community Partners International — Bangladesh Mission
-  last_updated: "2026-05-30"
+  last_updated: "2026-06-03"
   note: "Use full form on first mention, abbreviation thereafter."
 
 organization_acronyms:
   CPI: Community Partners International
   YPSA: Young Power in Social Action
+  SDA: Society Development Agency
+  RTMI: Research, Training and Management International
+  icddrb: International Centre for Diarrhoeal Disease Research, Bangladesh
+  JHU: Johns Hopkins University
   WHO: World Health Organization
   UNHCR: UN Refugee Agency (United Nations High Commissioner for Refugees)
   WFP: World Food Programme
@@ -19,10 +23,12 @@ organization_acronyms:
   DGHS: Directorate General of Health Services (Bangladesh)
   ISCG: Inter Sector Coordination Group
   OCHA: UN Office for the Coordination of Humanitarian Affairs
+  CPIL: Community Partners International Limited
 
 program_acronyms:
   HOP: Health Outreach Programme
   HP: Health Post
+  HSS: Health System Strengthening
   HCV: Hepatitis C Virus
   CVD: Cardiovascular Disease
   NCD: Non-Communicable Disease
@@ -36,6 +42,14 @@ program_acronyms:
   SGBV: Sexual and Gender-Based Violence
   NFI: Non-Food Item
   GBV: Gender-Based Violence
+  L4F: Learning for Future
+  ECE: Early Childhood Education
+  LC: Learning Center
+  CBLF: Community-Based Learning Facility
+  MHPSS: Mental Health and Psychosocial Support
+  AMR: Antimicrobial Resistance
+  WCEP: WASH and Clean Energy Project
+  cRCT: Cluster Randomized Controlled Trial
 
 data_systems:
   DHIS2: District Health Information Software 2
@@ -45,6 +59,7 @@ data_systems:
   LMIS: Logistics Management Information System
   EMR: Electronic Medical Record
   EHR: Electronic Health Record
+  CPMS: Country Project Management System
   KoboToolbox: KoboToolbox (open-source mobile data collection — no expansion needed)
   ODK: Open Data Kit
 
@@ -60,15 +75,22 @@ clinical_terms:
   DAA: Direct-Acting Antivirals (HCV treatment)
   SOF: Sofosbuvir (DAA for HCV)
   LED: Ledipasvir (DAA combination for HCV)
+  PEP: Post-Exposure Prophylaxis
+  IPC: Infection Prevention and Control
 
 program_management:
+  CR: Country Representative
   HPM: Health Program Manager
+  HOC: Health Outreach Coordinator
+  HPC: Health Post Coordinator
   FC: Field Coordinator
   MO: Medical Officer
   MEO: M&E Officer
+  CMT: Country Management Team
+  SMT: Senior Management Team
   DPM: Deputy Program Manager
   PM: Program Manager
-  CD: Country Director / Country Representative
+  CD: Country Director
   TOR: Terms of Reference
   SOP: Standard Operating Procedure
   IEC: Information, Education, and Communication
@@ -84,6 +106,8 @@ reporting_platforms:
   DSA: Data Sharing Arrangement
   3W: Who does What, Where (coordination tool)
   4W: Who does What, Where, When (coordination tool)
+  SitRep: Situation Report
+  ASDR: Annual Service Delivery Result
 
 geographic:
   BGD: Bangladesh (ISO country code)
@@ -108,9 +132,15 @@ donor_terms:
   MOU: Memorandum of Understanding
   PEPFAR: President's Emergency Plan for AIDS Relief
 
+government_bangladesh:
+  NGOAB: NGO Affairs Bureau
+  MoHFW: Ministry of Health and Family Welfare
+  CiC: Camp-in-Charge
+  RRRC: Refugee Relief and Repatriation Commissioner
+
 financial:
   BDT: Bangladeshi Taka
   USD: United States Dollar
   FY: Fiscal Year
-  Q1_Q4: "Quarters 1–4 (Q1 = Jan–Mar for calendar year programs)"
+  Q1_Q4: "Quarters 1-4 (Q1 = Jan-Mar for calendar year programs)"
   COGP: Cost of Goods and Programs

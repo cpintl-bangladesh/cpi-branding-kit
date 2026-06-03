@@ -1,6 +1,7 @@
 schema: cpi-bangladesh-mission-context
 version: "1.0.0"
 maintained_by: "Mohammad Ariful Islam, HPM, ariful@cpintl.org"
+last_updated: "2026-06-03"
 
 # ════════════════════════════════════════════════════════════════════════════
 # MISSION IDENTITY
@@ -8,41 +9,90 @@ maintained_by: "Mohammad Ariful Islam, HPM, ariful@cpintl.org"
 mission_identity:
   full_name: "Community Partners International Bangladesh Mission"
   short_name: "CPI Bangladesh"
-  location: "Cox's Bazar, Bangladesh"
+  country: Bangladesh
   operation_since: 2017
-  office_address:
-    building: "Rabbani Building (4th Floor)"
-    street: "Opposite S.K. Tower, Kurushkul Bypass Road"
-    city: "Cox's Bazar"
+  country_representative: "Md. Abul Bashar"
+
+  country_office_dhaka:
+    building: "Navana Bilkis Laurent, A-2 (Level-2)"
+    street: "Plot-11/B, Road-36, Block-C.W.N (B), Gulshan-2"
+    city: "Dhaka"
+    postal_code: "1212"
     country: Bangladesh
-    phone: "+880 15 3420 6479"
-    email_general: "info@cpintl.org"
-    email_health: "healthbgd@cpintl.org"
-    website: "www.cpintl.org"
+    phone_mobile: "+880 1729-926877"
+    mobile_assignment: "Country Director"
+    email: "cpi.bangladesh@cpintl.org"
+
+  project_office_coxs_bazar:
+    building: "White House (3rd Floor)"
+    street: "Kolatoli Bypass Road (Opposite CXB Police Lines), East Dolphin Point"
+    city: "Cox's Bazar"
+    postal_code: "4700"
+    country: Bangladesh
+    phone_mobile: "+880 1534-206479"
+    mobile_assignment: "HRA Department (Official)"
+    email: "cpi.bangladesh@cpintl.org"
 
 # ════════════════════════════════════════════════════════════════════════════
 # KEY PERSONNEL
 # ════════════════════════════════════════════════════════════════════════════
 key_personnel:
+  country_representative:
+    name: "Md. Abul Bashar"
+    title: "Country Representative (CR)"
+    email: "cpi.bangladesh@cpintl.org"
+    location: "Dhaka, Bangladesh"
+    responsibilities:
+      - Primary NGOAB, RRRC, and DGHS liaison
+      - Legal and financial authority for Bangladesh mission
+      - Partnership management and MoU execution
+      - Country Management Team (CMT) oversight
+
   health_program_manager:
     name: "Mohammad Ariful Islam"
     title: "Health Program Manager (HPM)"
-    email_personal: "ariful@cpintl.org"
+    email_cpi: "ariful@cpintl.org"
+    email_ypsa: "ariful@cpi-ypsa.org"
     email_program: "healthbgd@cpintl.org"
     phone: "+8801723889843"
+    location: "Cox's Bazar, Bangladesh"
     roles:
-      - Program management (HCV, CVD/NCD, HOP)
+      - Program management (HCV, CVD/NCD, HOP, HSS)
       - Monitoring & Evaluation oversight
-      - Stakeholder coordination
-      - Research support
-      - Field operations
+      - Stakeholder and partner coordination
+      - Research support (CVD-HCV cRCT)
+      - Field operations management
       - ZarishSphere HIS development
+
+  health_outreach_coordinator:
+    name: "Md. Rakibul Hasan"
+    title: "Health Outreach Coordinator (HOC)"
+    responsibilities:
+      - Community health volunteer network management
+      - CHW supervision and training
+      - Health outreach activity coordination
+
+  hss_coordinator:
+    name: "Dr. Mahmuda"
+    title: "Health System Strengthening (HSS) Coordinator"
+    responsibilities:
+      - Clinical partnerships management
+      - Government hospital integrations
+      - Health system strengthening activities
+
+  health_post_coordinator:
+    name: "Dr. Toushidul Islam"
+    title: "Health Post Coordinator (HPC)"
+    responsibilities:
+      - Health Post Program (HPP) operations
+      - Clinical service delivery coordination
 
   field_staff_roles:
     - Medical Officers
     - M&E Officers
     - Field Coordinators
     - Community Health Workers (CHWs)
+    - Technical Assistants (TAs)
 
 # ════════════════════════════════════════════════════════════════════════════
 # OPERATIONAL CONTEXT
@@ -51,14 +101,19 @@ operational_context:
   population_served:
     primary: "Rohingya refugees (~970,000+ in Cox's Bazar)"
     secondary: "Bangladeshi host communities, Cox's Bazar District"
-  
+    tertiary: "Patuakhali host communities (WASH & Clean Energy)"
+
   camp_focus:
     - camp: "Camp 1W"
       blocks: ["Block A", "Block B"]
     - camp: "Camp 4"
       blocks: ["Block D", "Block F"]
-  
-  total_catchment_population: ~24682    # UNHCR March 2026 block-level data
+    - camp: "Camp 5"
+      blocks: ["NCD Corner operations"]
+    - camp: "Camp 17"
+      blocks: ["NCD Corner operations"]
+
+  total_catchment_population: ~24682
   total_catchment_families: ~5188
 
   camp_context:
@@ -81,7 +136,8 @@ programs:
     description: >
       CHW-based household outreach across refugee camps in Cox's Bazar.
       CHWs serve as first point of contact, providing health education,
-      basic care, and referrals.
+      doorstep screening, EPI referrals, ANC/FBD referrals, and hygiene
+      distribution. Implemented by YPSA in Camps 1W and 4.
     facility_uid: HF-418
     partner: YPSA
 
@@ -89,9 +145,12 @@ programs:
     code: HP
     full_name: "Health Post Program"
     description: >
-      Static primary health care facility serving up to 200 refugees daily.
-      Services: OPD, chronic disease management, screening, referral.
+      Static primary health care facility (UID 418) in Camp 1W, B15 Block
+      serving 34,000+ refugees and host community. Services: OPD, emergency
+      stabilization, reproductive care, MHPSS, NCD Corner, AMR diagnostics.
     daily_patients: 200
+    facility_uid: HF-418
+    partner: YPSA
 
   hcv_program:
     code: HCV
@@ -99,6 +158,7 @@ programs:
     description: >
       WHO 90-90-90 cascade of care: testing, diagnosis, treatment (DAA),
       SVR monitoring. CHW-led community mobilization and follow-up.
+      Research partnership with JHU, icddr,b, and RTMI for CVD-HCV cRCT.
     target_cascade:
       test: "90% of estimated HCV+ population"
       link_to_treatment: "90% of diagnosed"
@@ -110,18 +170,57 @@ programs:
     description: >
       Systematic screening, diagnosis, treatment, and follow-up for
       hypertension, diabetes, and other non-communicable diseases.
+      Cluster randomized controlled trial (cRCT) with JHU and icddr,b
+      evaluating CHW-led model for CVD risk reduction.
     key_conditions:
       - Hypertension
       - Diabetes mellitus type 2
       - Asthma/COPD
       - Heart failure
+    research_partners: ["JHU", "icddr,b", "RTMI"]
 
-  wash_services:
-    code: WASH
-    full_name: "WASH Services"
+  health_system_strengthening:
+    code: HSS
+    full_name: "Health System Strengthening Program"
     description: >
-      Water well construction and maintenance, sanitation facility support,
-      hygiene promotion through trained community health and hygiene workers.
+      Supporting Sadar Hospital Emergency Department with CPI-YPSA funded
+      MBBS Medical Officers, IPC staff, and diagnostic reagents. MoU Phase 10
+      (January-December 2026). Partner capacity building and NCD Corner
+      integration in Camps 5 and 17 with RTMI.
+
+  wash_clean_energy:
+    code: WASH
+    full_name: "WASH & Clean Energy Program"
+    description: >
+      Building disaster-resilient twin-pit latrines, gender-segregated
+      bathing cubicles, and solar street lighting in Camps 1W, 4, and 17
+      and Cox's Bazar Sadar host communities. In Patuakhali, partnership
+      with SDA on WCEP Phase 3: mini-piped water networks, biogas plants,
+      and community-led O&M under CPIL social enterprise model.
+    partners: ["YPSA", "SDA"]
+
+  education_program:
+    code: EDU
+    full_name: "Education Program"
+    description: >
+      Learning for Future (L4F) project in partnership with Educo across
+      Camps 1W, 4, and 17. Operating 8 Early Childhood Education (ECE)
+      centers, 4 Learning Centers (LCs), and 4 Community-Based Learning
+      Facilities (CBLFs) serving 440 learners. Life-skills sessions on
+      gender discrimination, child safeguarding, and PSEA training.
+    partner: Educo
+    learners: 440
+
+  livelihood_alternative_energy:
+    code: LIV
+    full_name: "Livelihood & Alternative Energy Program"
+    description: >
+      Household and community-scale biogas plants in Patuakhali host
+      communities. Turning organic waste into cooking fuel, reducing
+      firewood reliance and deforestation. Community-led water management
+      committees creating job opportunities in O&M, billing, and
+      infrastructure maintenance.
+    partner: SDA
 
   emergency_preparedness:
     code: EM
@@ -137,7 +236,7 @@ programs:
       National-grade HIS being designed for the Rohingya refugee response.
       FCN as universal patient identifier; DHIS2 integration under YPSA.
     architecture: "Connect+Extend federated model"
-    universal_patient_id: FCN   # Family Composition Number
+    universal_patient_id: FCN
     facility_uid: HF-418
     dhis2_credentials: YPSA
     requirements_checklist_items: 390
@@ -145,14 +244,41 @@ programs:
     status: "Design phase (2026)"
 
 # ════════════════════════════════════════════════════════════════════════════
-# LOCAL PARTNER
+# LOCAL PARTNERS
 # ════════════════════════════════════════════════════════════════════════════
-local_partner:
-  name: "YPSA (Young Power in Social Action)"
-  role: "Implementing partner for CPI Bangladesh programs"
-  dhis2_credentials: true
-  facility_uid: HF-418
-  website: "www.ypsa.org"
+local_partners:
+  ypsa:
+    name: "YPSA (Young Power in Social Action)"
+    role: "Prime implementing partner for CPI Bangladesh programs"
+    dhis2_credentials: true
+    facility_uid: HF-418
+    website: "www.ypsa.org"
+    focuses:
+      - Health Outreach Programme
+      - Health Post operations
+      - Health System Strengthening (Sadar Hospital)
+      - WASH activities in camps
+  sda:
+    name: "SDA (Society Development Agency)"
+    role: "WASH and Clean Energy implementing partner — Patuakhali"
+    focuses:
+      - WCEP Phase 3 implementation
+      - Mini-piped water networks
+      - Biogas plant construction
+  rtmi:
+    name: "RTMI (Research, Training and Management International)"
+    role: "Research partner — NCD Corner operations and cRCT"
+    focuses:
+      - NCD Corner management in Camps 5 and 17
+      - CVD-HCV cRCT implementation
+      - WHO PEN guideline compliance
+  educo:
+    name: "Educo"
+    role: "Education program partner"
+    focuses:
+      - Learning for Future (L4F) project
+      - ECE centers, Learning Centers, CBLFs
+      - Child safeguarding and PSEA training
 
 # ════════════════════════════════════════════════════════════════════════════
 # INFORMATION SYSTEMS
@@ -161,15 +287,21 @@ information_systems:
   dhis2:
     purpose: Health data management
     credentials: YPSA
-    reporting_frequency: Monthly
+    reporting_frequency: Daily (morbidity) / Monthly
   kobo_toolbox:
     purpose: Field data collection
     language_options: [English, Rohingya]
   activity_info:
-    purpose: Donor reporting platform
+    purpose: Donor and Health Sector reporting (4W)
   ewars:
     purpose: Early Warning and Response System (CDC/WHO)
     reporting_frequency: Weekly
+  cpms:
+    full_name: "Country Project Management System"
+    purpose: "Timesheet recording, asset tracking, leave planning, HR directories"
+    platform: "Google Workspace + Monday.com"
+    service_account: "bgd.cpms@cpintl.org"
+    super_admin: "Myo Min Naing (ICT Manager)"
   make_com:
     purpose: Automation workflows (Integromat)
   google_workspace:
@@ -181,33 +313,91 @@ information_systems:
     issued_by: UNHCR
 
 # ════════════════════════════════════════════════════════════════════════════
+# 5-TIER M&E REPORTING ARCHITECTURE
+# ════════════════════════════════════════════════════════════════════════════
+me_architecture:
+  tier_1_community:
+    level: "Community Field Level (CHWs)"
+    tools: ["CHW Daily Household Visit Log", "RDT Register"]
+    data_flow: "Paper forms → Weekly digitization by TAs and Field M&E Volunteers"
+  tier_2_clinic:
+    level: "Clinic/Health Post Level"
+    tools: ["General OPD Registry", "Health Post NCD Register"]
+    data_flow: "Daily M&E Officer data entry → Monthly HP Master Data"
+  tier_3_program:
+    level: "Program Management Level"
+    tools: ["Master Patient Line List", "Referral Tracker"]
+    data_flow: "M&E Officer + HPM verification on Google Drive and central sheets"
+  tier_4_sector:
+    level: "Sector and Government Level"
+    platforms: ["DHIS2", "EWARS", "ActivityInfo (4W)"]
+    data_flow: "Weekly/monthly submissions to WHO, Health Sector, DGHS"
+  tier_5_hq:
+    level: "Strategic Management/HQ Level"
+    outputs: ["Monthly SitReps", "Quarterly Narrative Reports", "Annual ASDR"]
+    data_flow: "HPM and Country Director compile for prime donors and MoHFW"
+
+# ════════════════════════════════════════════════════════════════════════════
+# ACTIVE MOUs AND AGREEMENTS
+# ════════════════════════════════════════════════════════════════════════════
+active_mous:
+  sadar_hospital:
+    partner: "250 Bed District Sadar Hospital (DSH), Cox's Bazar"
+    phase: "Phase 10 (January-December 2026)"
+    scope: "Emergency Department support: 5 MBBS Medical Doctors, IPC, laboratory"
+    focal_points: ["Dr. Md. Minhajur Rahman (HSS Coordinator)", "Dr. Sabuktagin Mahmud Shohel (RMO)"]
+  rtmi:
+    partner: "Research, Training and Management International (RTMI)"
+    duration: "18-month agreement"
+    scope: "CVD-HCV cRCT in Camps 5 and 17 — 36 sub-blocks (24 control + 12 intervention)"
+    focal_points: ["Mohammad Ariful Islam (HPM)", "Mohammad Muktadir Hossain (RTMI Head)"]
+  icddrb:
+    partner: "icddr,b"
+    agreement: "Letter of Agreement CPI/2025/ICDDRB/BG/CPI-001"
+    budget: "$208,801 USD"
+    period: "January 2025 - December 2026"
+    scope: "CHW-led model for CVD risk reduction and chronic Hepatitis C treatment evaluation"
+  friendship:
+    partner: "Friendship"
+    scope: "Sentinel screening site for Hepatitis C in Camp 5"
+    activities: ["Clinical treatment of referred patients", "DAA supply by CPI"]
+
+# ════════════════════════════════════════════════════════════════════════════
 # SECTOR COORDINATION
 # ════════════════════════════════════════════════════════════════════════════
 sector_coordination:
-  - Health Sector (Cox's Bazar)
+  - Health Sector (Cox's Bazar) — lead WHO, co-lead UNHCR
   - ISCG 3W/4W (Inter Sector Coordination Group)
   - WHO/DGHS (Government of Bangladesh health system)
   - HeRAMS (Health Resources Availability Monitoring System)
   - EWARS (CDC/WHO early warning)
   - UNHCR (refugee data, verification, DSA pathway)
+  - NGO Affairs Bureau (NGOAB) — Government of Bangladesh
+  - Ministry of Health and Family Welfare (MoHFW)
+  - CiC (Camp-in-Charge) offices — Camps 1W, 4, 17
 
 # ════════════════════════════════════════════════════════════════════════════
 # DESIGN SPECIFICS FOR BANGLADESH MATERIALS
 # ════════════════════════════════════════════════════════════════════════════
 design_specifics:
-  always_use_full_cpi_brand: true  # No sub-brand colors
+  always_use_full_cpi_brand: true
   program_name_format: "[Program Name] | CPI Bangladesh"
   examples:
     - "Health Outreach Programme | CPI Bangladesh"
     - "HCV Program | CPI Bangladesh"
     - "CVD/NCD Program | CPI Bangladesh"
+    - "WASH & Clean Energy | CPI Bangladesh"
+    - "Education Program | CPI Bangladesh"
   required_contacts_on_official_comms:
     - ariful@cpintl.org
     - healthbgd@cpintl.org
-  geographic_reference: "Cox's Bazar, Bangladesh"
+    - cpi.bangladesh@cpintl.org
+  geographic_reference: "Bangladesh"
   camp_reference_options:
     - "Camp 1W"
     - "Camp 4"
+    - "Camp 5"
+    - "Camp 17"
     - "Kutupalong Refugee Camp"
     - "Cox's Bazar refugee camps"
   co_branding_partners:
@@ -217,10 +407,14 @@ design_specifics:
       note: Follow CPI co-branding rules
     - name: YPSA
       note: Joint materials — equal visual weight, co-branding rules apply
+    - name: Educo
+      note: Joint materials — co-branding rules apply
+    - name: SDA
+      note: Joint materials — co-branding rules apply
 
   official_footer_for_documents: |
-    Community Partners International Bangladesh Mission
+    Community Partners International — Bangladesh Mission
+    Country Office: Navana Bilkis Laurent, A-2 (Level-2), Plot-11/B, Road-36, Block-C.W.N (B), Gulshan-2, Dhaka-1212, Bangladesh
+    Project Office: White House (3rd Floor), Kolatoli Bypass Road (Opposite CXB Police Lines), East Dolphin Point, Cox's Bazar 4700, Bangladesh
     Health Program Manager: Mohammad Ariful Islam | ariful@cpintl.org | +8801723889843
-    Office: healthbgd@cpintl.org | +880 15 3420 6479
-    Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-    www.cpintl.org
+    Email: cpi.bangladesh@cpintl.org | www.cpintl.org

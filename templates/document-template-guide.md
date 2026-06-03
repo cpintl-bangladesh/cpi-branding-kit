@@ -82,7 +82,7 @@ Footer Text:
 
 ### Footer:
 ```
-[Left: www.cpintl.org | info@cpintl.org]
+[Left: www.cpintl.org | cpi.bangladesh@cpintl.org]
 [Center: Empower communities. Transform lives.]
 [Right: Page X of Y]
 [Above footer: thin 0.5pt red line full width]

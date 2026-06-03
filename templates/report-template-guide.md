@@ -41,10 +41,9 @@ Reviewed by: [Supervisor Name, Title]
 
 [Horizontal rule: CPI Red, 1pt]
 
-Community Partners International Bangladesh
-Rabbani Building (4th Floor), Opposite S.K. Tower
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-Tel: +880 15 3420 6479 | healthbgd@cpintl.org | www.cpintl.org
+Community Partners International — Bangladesh Mission
+Country Office: Dhaka | Project Office: Cox's Bazar
+Email: cpi.bangladesh@cpintl.org | www.cpintl.org
 ```
 
 ### Section 1: Executive Summary (max 200 words)
@@ -195,7 +194,7 @@ NEXT STEPS:
 
 CONTACT:
 [Name] | [title] | [phone] | [email]
-CPI Bangladesh | healthbgd@cpintl.org | +880 15 3420 6479
+CPI Bangladesh | cpi.bangladesh@cpintl.org
 ```
 
 ---

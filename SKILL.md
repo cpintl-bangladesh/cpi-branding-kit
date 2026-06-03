@@ -18,7 +18,8 @@ organization: Community Partners International — Bangladesh Mission
 **Entry Point for AI Agents:** See `AI_AGENT_QUICKSTART.md`  
 **Developer:** Mohammad Ariful Islam | Health Program Manager | CPI Bangladesh Mission  
 **Contact:** ariful@cpintl.org | healthbgd@cpintl.org | +8801723889843  
-**Updated:** June 2026
+**Updated:** June 2026  
+**Last Revision:** 2026-06-03
 
 ---
 
@@ -36,7 +37,7 @@ organization: Community Partners International — Bangladesh Mission
 | Website | www.cpintl.org |
 | Email | info@cpintl.org |
 | Facebook | communitypartnersinternational |
-| Countries | Myanmar, Bangladesh, Thailand, Nepal |
+| Countries | Bangladesh, Myanmar, Thailand, Nepal |
 | People Served | 3+ million annually |
 | Local Workforce | 97% from countries of operation |
 | Program Spend | 95% of expenses go directly to programs |
@@ -155,6 +156,7 @@ CPI_BRANDING_KIT/
 ├── bangladesh_mission/
 │   ├── bangladesh-context.md              ← Programs, population, operational data
 │   ├── key-contacts.md                    ← Contact directory
+│   ├── contacts.yml                       ← Structured contacts data
 │   ├── program-indicators.yml             ← M&E indicators by program
 │   └── camp-data.yml                      ← Camp population and geographic data
 │

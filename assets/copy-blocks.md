@@ -12,10 +12,10 @@
 > Community Partners International (CPI) empowers vulnerable communities in Asia to meet their essential health, humanitarian, and sustainable development needs.
 
 ### About CPI Bangladesh (long):
-> Community Partners International has been working in Cox's Bazar, Bangladesh since 2017, supporting Rohingya refugees and Bangladeshi host communities. CPI Bangladesh provides essential health care, WASH services, and community-based humanitarian response in Cox's Bazar refugee camps, operating a health post serving up to 200 refugees daily and a network of Community Health Workers making thousands of household visits each month.
+> Community Partners International has been working in Bangladesh since 2017, supporting Rohingya refugees and Bangladeshi host communities. CPI Bangladesh provides essential health care, health system strengthening, WASH and clean energy, education, and livelihood services through a country office in Dhaka and project offices in Cox's Bazar and Patuakhali. Programs operate in refugee camps (Camps 1W, 4, 5, 17) and host communities, with a health post serving 34,000+ refugees and a network of Community Health Workers making thousands of household visits each month.
 
 ### About CPI Bangladesh (short):
-> CPI Bangladesh has operated in Cox's Bazar since 2017, delivering essential health and humanitarian services to Rohingya refugees and host communities through community health workers, static health facilities, and emergency response teams.
+> CPI Bangladesh has operated in Bangladesh since 2017, delivering essential health, WASH, education, and humanitarian services to Rohingya refugees and host communities through community health workers, static health facilities, local partnerships, and emergency response teams.
 
 ### Mission Statement:
 > Community Partners International empowers vulnerable communities in Asia affected by conflict, disasters, and poverty to meet their essential health, humanitarian, and sustainable development needs.
@@ -44,6 +44,15 @@
 
 ### WASH Program:
 > CPI Bangladesh builds and maintains water wells and water networks, toilet and washing facilities, and supports hygiene promotion through trained community health and hygiene workers — ensuring Rohingya refugees have access to safe water and sanitation in one of the world's most densely populated humanitarian settings.
+
+### Education Program:
+> CPI Bangladesh, in partnership with Educo, delivers the Learning for Future (L4F) project across Camps 1W, 4, and 17 — operating Early Childhood Education centers, Learning Centers, and Community-Based Learning Facilities serving 440 learners. The program also delivers life-skills sessions on gender equality, child safeguarding, and PSEA.
+
+### WASH & Clean Energy Program:
+> CPI Bangladesh builds disaster-resilient sanitation infrastructure, installs solar street lighting, and supports clean energy solutions in refugee camps and host communities. In partnership with YPSA and SDA, the program constructs twin-pit latrines, gender-segregated bathing cubicles, mini-piped water networks, and community biogas plants — improving safety, dignity, and environmental sustainability.
+
+### Livelihood & Alternative Energy:
+> CPI Bangladesh's livelihood program in Patuakhali turns organic waste into cooking fuel through household and community biogas plants, reducing firewood dependency and creating local jobs in water management and infrastructure maintenance under a community-led social enterprise model.
 
 ### Emergency Response:
 > CPI Bangladesh trains and equips community-based disaster response teams to respond to fires, floods, and cyclones — the most frequent emergencies in Cox's Bazar camps. Rapid response saves lives and supports community recovery in the critical hours after a disaster.
@@ -100,61 +109,66 @@
 ### Opening slide content:
 ```
 ABOUT CPI BANGLADESH
-✓ Operating in Cox's Bazar since 2017
+✓ Operating in Bangladesh since 2017
 ✓ Serving Rohingya refugees and host communities
-✓ Health Post: up to 200 patients/day
+✓ Health Post: 34,000+ refugees served
 ✓ CHW Network: thousands of household visits/month
-✓ Programs: HCV | CVD/NCD | HOP | WASH | Emergency Response
-✓ Local partner: YPSA
+✓ Programs: HCV | CVD/NCD | HOP | HSS | WASH | Education | Livelihoods
+✓ Local partners: YPSA, SDA, Educo, RTMI
 ```
 
 ### Health Sector coordination introduction:
 ```
 WHO WE ARE:
 Community Partners International (CPI) Bangladesh
-• International NGO operating since 2017 in Cox's Bazar
-• Health programs: HOP, Health Post, HCV, CVD/NCD
-• Geographic focus: [Camp 1W, Camp 4, etc.]
+• International NGO operating since 2017 in Bangladesh
+• Health programs: HOP, Health Post, HCV, CVD/NCD, HSS
+• WASH, Education, and Livelihood programs
+• Geographic focus: Camps 1W, 4, 5, 17 — Cox's Bazar
 • Coordination: Health Sector, ISCG, DHIS2/YPSA
-• Contact: healthbgd@cpintl.org | +880 15 3420 6479
+• Contact: cpi.bangladesh@cpintl.org
 ```
 
 ---
 
 ## SIGNATURE BLOCKS
 
-### Standard professional email signature (Ariful Islam):
+### Standard professional email signature (Ariful Islam — @cpintl.org):
+```
+Md. Ariful Islam
+Health Program Manager
+Community Partners International (CPI)
+
+Cell: +880 (0)1723 889 843
+cpintl.org | LinkedIn | Facebook
+```
+
+### Standard professional email signature (Ariful Islam — @cpi-ypsa.org):
 ```
 Mohammad Ariful Islam
-Health Program Manager | CPI Bangladesh Mission
-Community Partners International
+Health Program Manager
+YPSA-CPI Rohingya Response Project
 
-Mobile: +8801723889843
-Email: ariful@cpintl.org | healthbgd@cpintl.org
-Office: +880 15 3420 6479
-Web: www.cpintl.org
-
-Community Partners International Bangladesh
-Rabbani Building (4th Floor), Opposite S.K. Tower
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-
-Empower communities. Transform lives.
+Cell: +88 (0)1723 889 843
+YPSA Website: ypsa.org | CPI Website: cpintl.org
 ```
 
-### Generic CPI Bangladesh staff signature template:
+### Generic CPI Bangladesh staff signature template (@cpintl.org):
 ```
 [Full Name]
-[Job Title] | [Program/Unit]
-Community Partners International — Bangladesh Mission
+[Job Title]
+Community Partners International (CPI)
 
-Mobile: +880 [number]
-Email: [name]@cpintl.org
-Office: +880 15 3420 6479 | healthbgd@cpintl.org
-Web: www.cpintl.org
+Cell: +880 (0)[number]
+cpintl.org | LinkedIn | Facebook
+```
 
-Community Partners International Bangladesh
-Rabbani Building (4th Floor), Opposite S.K. Tower
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+### Generic CPI-YPSA staff signature template (@cpi-ypsa.org):
+```
+[Full Name]
+[Job Title]
+YPSA-CPI Rohingya Response Project
 
-Empower communities. Transform lives.
+Cell: +88 (0)[number]
+YPSA Website: ypsa.org | CPI Website: cpintl.org
 ```

@@ -22,18 +22,17 @@ organizational:
     development needs.
 
   about_bangladesh_long: |
-    Community Partners International has been working in Cox's Bazar,
-    Bangladesh since 2017, supporting Rohingya refugees and Bangladeshi host
-    communities. CPI Bangladesh provides essential health care, WASH services,
-    and community-based humanitarian response in Cox's Bazar refugee camps,
-    operating a health post serving up to 200 refugees daily and a network of
-    Community Health Workers making thousands of household visits each month.
+    Community Partners International has been working in Bangladesh since 2017,
+    supporting Rohingya refugees and Bangladeshi host communities. CPI Bangladesh
+    provides essential health care, health system strengthening, WASH and clean
+    energy, education, and livelihood services through a country office in Dhaka
+    and project offices in Cox's Bazar and Patuakhali.
 
   about_bangladesh_short: |
-    CPI Bangladesh has operated in Cox's Bazar since 2017, delivering essential
-    health and humanitarian services to Rohingya refugees and host communities
-    through community health workers, static health facilities, and emergency
-    response teams.
+    CPI Bangladesh has operated in Bangladesh since 2017, delivering essential
+    health, WASH, education, and humanitarian services to Rohingya refugees and
+    host communities through community health workers, health facilities, local
+    partnerships, and emergency response teams.
 
   mission: |
     Community Partners International empowers vulnerable communities in Asia
@@ -98,6 +97,22 @@ programs:
     to respond to fires, floods, and cyclones — the most frequent emergencies
     in Cox's Bazar camps. Rapid response saves lives and supports community
     recovery in the critical hours after a disaster.
+
+  education: |
+    CPI Bangladesh, in partnership with Educo, delivers the Learning for
+    Future (L4F) project across Camps 1W, 4, and 17 — operating Early
+    Childhood Education centers, Learning Centers, and Community-Based
+    Learning Facilities serving 440 learners.
+
+  wash_clean_energy: |
+    CPI Bangladesh builds disaster-resilient sanitation infrastructure,
+    installs solar street lighting, and supports clean energy solutions in
+    refugee camps and host communities through partnerships with YPSA and SDA.
+
+  livelihood: |
+    CPI Bangladesh's livelihood program in Patuakhali turns organic waste
+    into cooking fuel through community biogas plants, creating local jobs
+    and reducing environmental impact.
 
 # ════════════════════════════════════════════════════════════════════════════
 # CRISIS CONTEXT
@@ -189,33 +204,37 @@ report_openers:
 # ════════════════════════════════════════════════════════════════════════════
 signatures:
 
-  hpm_ariful_islam: |
+  hpm_ariful_islam_cpintl: |
+    Md. Ariful Islam
+    Health Program Manager
+    Community Partners International (CPI)
+
+    Cell: +880 (0)1723 889 843
+    cpintl.org | LinkedIn | Facebook
+
+  hpm_ariful_islam_ypsa: |
     Mohammad Ariful Islam
-    Health Program Manager | CPI Bangladesh Mission
-    Community Partners International
+    Health Program Manager
+    YPSA-CPI Rohingya Response Project
 
-    Mobile: +8801723889843
-    Email: ariful@cpintl.org | healthbgd@cpintl.org
-    Office: +880 15 3420 6479 | www.cpintl.org
+    Cell: +88 (0)1723 889 843
+    YPSA: ypsa.org | CPI: cpintl.org
 
-    Rabbani Building (4th Floor), Opposite S.K. Tower
-    Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-
-    Empower communities. Transform lives.
-
-  generic_staff: |
+  generic_staff_cpintl: |
     [Full Name]
-    [Job Title] | [Program/Unit]
-    Community Partners International — Bangladesh Mission
+    [Job Title]
+    Community Partners International (CPI)
 
-    Mobile: +880 [number]
-    Email: [name]@cpintl.org
-    Office: +880 15 3420 6479 | healthbgd@cpintl.org | www.cpintl.org
+    Cell: +880 (0)[number]
+    cpintl.org | LinkedIn | Facebook
 
-    Rabbani Building (4th Floor), Opposite S.K. Tower
-    Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+  generic_staff_ypsa: |
+    [Full Name]
+    [Job Title]
+    YPSA-CPI Rohingya Response Project
 
-    Empower communities. Transform lives.
+    Cell: +88 (0)[number]
+    YPSA: ypsa.org | CPI: cpintl.org
 
 # ════════════════════════════════════════════════════════════════════════════
 # PRESENTATION INTRO BLOCK
@@ -223,17 +242,18 @@ signatures:
 presentation_blocks:
 
   about_cpi_bangladesh_bullets: |
-    ✓ Operating in Cox's Bazar since 2017
+    ✓ Operating in Bangladesh since 2017
     ✓ Serving Rohingya refugees and host communities
-    ✓ Health Post: up to 200 patients/day
+    ✓ Health Post: 34,000+ refugees served
     ✓ CHW Network: thousands of household visits/month
-    ✓ Programs: HCV | CVD/NCD | HOP | WASH | Emergency Response
-    ✓ Local partner: YPSA | Facility UID: HF-418
+    ✓ Programs: HCV | CVD/NCD | HOP | HSS | WASH | Education | Livelihoods
+    ✓ Local partners: YPSA, SDA, Educo, RTMI | Facility UID: HF-418
 
   health_sector_intro: |
     WHO WE ARE: Community Partners International (CPI) Bangladesh
-    • International NGO operating since 2017 in Cox's Bazar
-    • Health programs: HOP, Health Post, HCV, CVD/NCD, WASH
-    • Geographic focus: Camp 1W (Blocks A&B), Camp 4 (Blocks D&F)
+    • International NGO operating since 2017 in Bangladesh
+    • Health programs: HOP, Health Post, HCV, CVD/NCD, HSS
+    • WASH, Education, and Livelihood programs
+    • Geographic focus: Camps 1W, 4, 5, 17 — Cox's Bazar
     • Coordination: Health Sector, ISCG, DHIS2/YPSA
-    • Contact: healthbgd@cpintl.org | +880 15 3420 6479
+    • Contact: cpi.bangladesh@cpintl.org

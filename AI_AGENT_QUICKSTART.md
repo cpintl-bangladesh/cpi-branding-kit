@@ -72,17 +72,20 @@ email_2: healthbgd@cpintl.org
 phone: +8801723889843
 
 office:
-  name: Community Partners International Bangladesh Mission
-  address: Rabbani Building (4th Floor), Opposite S.K. Tower, Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-  phone: +880 15 3420 6479
-  email: healthbgd@cpintl.org
+  name: Community Partners International — Bangladesh Mission
+  address: Country Office: Dhaka | Project Office: Cox's Bazar
+  phone: "+880 1729-926877 (Dhaka) | +880 1534-206479 (Cox's Bazar)"
+  email: cpi.bangladesh@cpintl.org
 
 programs:
   - Health Outreach Programme (HOP)
-  - Health Post (HP) — up to 200 patients/day
+  - Health Post (HP) — 34,000+ refugees served
   - HCV (Hepatitis C) Program — WHO 90-90-90 cascade
   - CVD/NCD Program
-  - WASH Services
+  - Health System Strengthening (HSS) — Sadar Hospital
+  - WASH & Clean Energy Program
+  - Education Program (L4F with Educo)
+  - Livelihood & Alternative Energy
   - Emergency Preparedness
 
 local_partner: YPSA (Young Power in Social Action)

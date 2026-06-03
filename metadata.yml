@@ -4,7 +4,7 @@ skill_version: "1.0.0"
 skill_category: branding
 skill_subcategory: nonprofit_communications
 created_date: "2026-05-30"
-last_updated: "2026-06-02"
+last_updated: "2026-06-03"
 
 maintainer:
   name: Mohammad Ariful Islam
@@ -20,15 +20,18 @@ organization_profile:
     - Global Health
     - Humanitarian Relief
     - WASH
+    - Education
     - Well-Being
     - Sustainable Development
   thematic_areas:
     - Health
     - Humanitarian Relief
+    - WASH & Clean Energy
+    - Education
     - Well-Being
     - Sustainable Development (sub-topic of Well-Being)
   geographies:
-    - Bangladesh (Cox's Bazar — Rohingya Response)
+    - Bangladesh (Cox's Bazar — Rohingya Response; Dhaka; Patuakhali)
     - Myanmar
     - Thailand
     - Nepal

@@ -30,10 +30,10 @@
   - 📍 Address
 - CPI Bangladesh Address block:
   ```
-  Community Partners International Bangladesh
-  Rabbani Building (4th Floor), Opposite S. K. Tower,
-  Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-  +880 15 3420 6479
+  Community Partners International — Bangladesh Mission
+  Country Office: Navana Bilkis Laurent, Gulshan-2, Dhaka-1212
+  Project Office: White House (3rd Floor), Kolatoli Bypass Road, Cox's Bazar 4700
+  Email: cpi.bangladesh@cpintl.org
   ```
 - Bottom strip: CPI USA address in very small text (6pt) + CPI logo (right-aligned)
 
@@ -44,15 +44,14 @@
 [Program/Unit — e.g., Health Outreach Programme]
 
 📱 +880 [mobile]
-📞 +880 15 3420 6479
 ✉  [name]@cpintl.org
 🌐 www.cpintl.org
-📍 Community Partners International Bangladesh
-   Rabbani Building (4th Floor), Opposite S.K. Tower,
-   Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+📍 Community Partners International — Bangladesh Mission
+   Country Office: Dhaka | Project Office: Cox's Bazar
+   Email: cpi.bangladesh@cpintl.org
 
 Community Partners International USA
-2001 Addison St, Ste 300, Berkeley, CA 94704-1165, USA
+2001 Addison Street, Suite 300, Berkeley, CA 94704, USA
 ```
 
 ---
@@ -78,9 +77,8 @@ Community Partners International USA
 
 ### Bangladesh Footer Content:
 ```
-Community Partners International Bangladesh           info@cpintl.org          www.cpintl.org
-Rabbani Building (4th Floor), Opposite S.K. Tower,   +880 15 3420 6479
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
+Community Partners International Bangladesh Mission   cpi.bangladesh@cpintl.org   www.cpintl.org
+Country Office: Dhaka | Project Office: Cox's Bazar
 ```
 
 **BODY AREA:**
@@ -93,20 +91,10 @@ Kurushkul Bypass Road, Cox's Bazar, Bangladesh
 ```
 [Full Name]
 [Job Title]
-[Program/Unit Name] | Community Partners International Bangladesh
+Community Partners International (CPI)
 
-📱 Mobile: +880 [number]
-📞 Office: +880 15 3420 6479
-✉  [name]@cpintl.org
-🌐 www.cpintl.org
-
-Community Partners International Bangladesh
-Rabbani Building (4th Floor), Opposite S.K. Tower,
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-
-[CPI Logo — PNG, max 150px wide]
-
-Empower communities. Transform lives.
+Cell: +880 (0)[number]
+[cpintl.org] [LinkedIn] [Facebook]
 ```
 
 **Font:** Arial 10pt (system font for email)  
@@ -129,9 +117,9 @@ Empower communities. Transform lives.
 ### Address Layout (all envelopes):
 ```
 [Sender Name / CPI Bangladesh]
-Rabbani Building (4th Floor), Opposite S.K. Tower
-Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-+880 15 3420 6479 | info@cpintl.org | www.cpintl.org
+Country Office: Navana Bilkis Laurent, Gulshan-2, Dhaka-1212
+Project Office: White House (3rd Floor), Kolatoli Bypass Road, Cox's Bazar 4700
+Email: cpi.bangladesh@cpintl.org | www.cpintl.org
 ```
 
 ---
@@ -165,10 +153,9 @@ Kurushkul Bypass Road, Cox's Bazar, Bangladesh
   2001 Addison St, Ste 300, Berkeley, CA 94704-1165
   +1 510 225 9676
 
-  Community Partners International Bangladesh
-  Rabbani Building (4th Floor), Opposite S.K. Tower,
-  Kurushkul Bypass Road, Cox's Bazar, Bangladesh
-  +880 15 3420 6479
+  Community Partners International — Bangladesh Mission
+  Country Office: Dhaka | Project Office: Cox's Bazar
+  Email: cpi.bangladesh@cpintl.org
 
   🌐 www.cpintl.org
   ✉  info@cpintl.org
