@@ -102,7 +102,7 @@ nav .nav-links a.active { color: var(--cpi-red); border-bottom: 2px solid var(--
 .hero {
   margin-top: 64px;
   position: relative;
-  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%), url('https://cpintl.org/wp-content/uploads/2026/05/2026-02_Homepage_Hero_Desktop_1920x840_2.jpg') center/cover no-repeat;
+  background: var(--cpi-purple);
   color: var(--white);
   padding: 80px 60px;
   min-height: 520px;
@@ -118,6 +118,7 @@ nav .nav-links a.active { color: var(--cpi-red); border-bottom: 2px solid var(--
   font-weight: 700;
   line-height: 70px;
   margin-bottom: 16px;
+  color: var(--white);
 }
 
 .hero .tagline {
@@ -131,9 +132,10 @@ nav .nav-links a.active { color: var(--cpi-red); border-bottom: 2px solid var(--
 
 .hero .subtitle {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 28px;
   margin-bottom: 40px;
+  color: var(--white);
   opacity: 0.9;
 }
 
@@ -155,7 +157,8 @@ nav .nav-links a.active { color: var(--cpi-red); border-bottom: 2px solid var(--
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  color: var(--cpi-grey-mid);
+  color: var(--white);
+  opacity: 0.75;
 }
 
 @media (max-width: 768px) {
